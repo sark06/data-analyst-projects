@@ -1,0 +1,901 @@
+order_id,order_date,customer_id,region,channel,product,category,quantity,unit_price,discount_pct,revenue,cost,profit,status
+ORD00001,2024-02-07,C1210,Waterford,Website,Speaker,Audio,3,54.99,0.1,148.47,96.39,52.08,Completed
+ORD00002,2024-08-10,C1107,Dublin,Mobile App,Laptop Stand,Accessories,3,28.99,0,86.97,42.59,44.38,Completed
+ORD00003,2024-04-24,C1161,Waterford,Website,Smart Watch,Wearables,1,149.99,0.15,127.49,65.3,62.19,Completed
+ORD00004,2024-03-09,C1074,Limerick,Mobile App,Smart Watch,Wearables,1,149.99,0,149.99,73.81,76.18,Completed
+ORD00005,2024-10-19,C1163,Cork,Marketplace,Standing Desk,Furniture,1,299.99,0,299.99,152.03,147.96,Completed
+ORD00006,2024-12-14,C1136,Limerick,Marketplace,Wireless Mouse,Accessories,2,19.99,0.15,33.98,18.13,15.85,Completed
+ORD00007,2024-12-23,C1199,Cork,Website,Fitness Band,Wearables,1,49.99,0,49.99,34.32,15.67,Completed
+ORD00008,2024-05-27,C1155,Dublin,Website,Office Chair,Furniture,1,179.99,0.05,170.99,114.5,56.49,Completed
+ORD00009,2024-08-03,C1010,Dublin,Marketplace,Keyboard,Accessories,2,74.99,0,149.98,108.38,41.6,Completed
+ORD00010,2024-02-05,C1215,Dublin,Marketplace,Speaker,Audio,2,54.99,0.15,93.48,64.24,29.24,Completed
+ORD00011,2024-12-14,C1210,Limerick,Marketplace,Wireless Mouse,Accessories,1,19.99,0.05,18.99,12.31,6.68,Completed
+ORD00012,2024-11-08,C1029,Limerick,Website,Speaker,Audio,1,54.99,0.1,49.49,28.33,21.16,Completed
+ORD00013,2024-09-11,C1020,Cork,Retail Store,Headphones,Audio,1,129.99,0,129.99,75.84,54.15,Completed
+ORD00014,2024-05-22,C1180,Limerick,Marketplace,Headphones,Audio,3,129.99,0.1,350.97,247.31,103.66,Completed
+ORD00015,2024-03-18,C1059,Cork,Website,Smart Watch,Wearables,4,149.99,0,599.96,300.93,299.03,Completed
+ORD00016,2024-08-02,C1136,Galway,Marketplace,Standing Desk,Furniture,1,299.99,0.05,284.99,137.1,147.89,Cancelled
+ORD00017,2024-12-14,C1204,Waterford,Retail Store,Office Chair,Furniture,4,179.99,0,719.96,431.06,288.9,Completed
+ORD00018,2024-02-04,C1053,Limerick,Mobile App,Smart Watch,Wearables,1,149.99,0.1,134.99,66.98,68.01,Completed
+ORD00019,2024-10-01,C1025,Galway,Website,Standing Desk,Furniture,1,299.99,0,299.99,188.2,111.79,Completed
+ORD00020,2024-06-26,C1154,Galway,Retail Store,USB-C Hub,Accessories,2,39.99,0,79.98,51.58,28.4,Completed
+ORD00021,2024-06-08,C1021,Cork,Website,Fitness Band,Wearables,4,49.99,0.1,179.96,108.86,71.1,Completed
+ORD00022,2024-04-15,C1243,Waterford,Marketplace,Headphones,Audio,1,129.99,0,129.99,79.85,50.14,Completed
+ORD00023,2024-11-25,C1221,Dublin,Marketplace,Office Chair,Furniture,3,179.99,0.15,458.97,255.88,203.09,Completed
+ORD00024,2024-09-14,C1084,Cork,Mobile App,Keyboard,Accessories,1,74.99,0,74.99,46.38,28.61,Completed
+ORD00025,2024-09-09,C1091,Dublin,Website,Smart Watch,Wearables,2,149.99,0,299.98,159.58,140.4,Completed
+ORD00026,2024-08-16,C1206,Galway,Marketplace,Fitness Band,Wearables,1,49.99,0.15,42.49,30.96,11.53,Completed
+ORD00027,2024-09-04,C1159,Waterford,Website,Wireless Mouse,Accessories,1,19.99,0,19.99,11.35,8.64,Completed
+ORD00028,2024-03-02,C1232,Limerick,Mobile App,Speaker,Audio,2,54.99,0,109.98,76.66,33.32,Completed
+ORD00029,2024-07-21,C1118,Limerick,Website,Keyboard,Accessories,1,74.99,0.05,71.24,35.8,35.44,Completed
+ORD00030,2024-08-26,C1206,Cork,Retail Store,Keyboard,Accessories,4,74.99,0,299.96,155.77,144.19,Completed
+ORD00031,2024-01-08,C1204,Dublin,Mobile App,Speaker,Audio,1,54.99,0.15,46.74,24.03,22.71,Completed
+ORD00032,2024-04-18,C1074,Waterford,Mobile App,USB-C Hub,Accessories,3,39.99,0,119.97,58.46,61.51,Completed
+ORD00033,2024-02-01,C1232,Galway,Retail Store,Speaker,Audio,1,54.99,0.1,49.49,34.49,15.0,Completed
+ORD00034,2024-03-18,C1134,Waterford,Website,Office Chair,Furniture,1,179.99,0.15,152.99,78.64,74.35,Completed
+ORD00035,2024-08-30,C1158,Dublin,Website,Keyboard,Accessories,2,74.99,0,149.98,78.71,71.27,Completed
+ORD00036,2024-02-24,C1226,Waterford,Website,Office Chair,Furniture,1,179.99,0.1,161.99,110.79,51.2,Completed
+ORD00037,2024-10-14,C1007,Dublin,Retail Store,Headphones,Audio,1,129.99,0,129.99,79.55,50.44,Completed
+ORD00038,2024-08-19,C1130,Waterford,Retail Store,Office Chair,Furniture,2,179.99,0,359.98,237.63,122.35,Completed
+ORD00039,2024-04-13,C1215,Limerick,Mobile App,USB-C Hub,Accessories,2,39.99,0.05,75.98,54.7,21.28,Completed
+ORD00040,2024-08-07,C1018,Cork,Marketplace,Smart Watch,Wearables,1,149.99,0,149.99,98.17,51.82,Completed
+ORD00041,2024-03-11,C1247,Limerick,Mobile App,Keyboard,Accessories,3,74.99,0.05,213.72,110.53,103.19,Completed
+ORD00042,2024-12-07,C1213,Cork,Mobile App,Wireless Mouse,Accessories,1,19.99,0.1,17.99,9.4,8.59,Completed
+ORD00043,2024-06-12,C1023,Galway,Website,Office Chair,Furniture,1,179.99,0.1,161.99,86.0,75.99,Completed
+ORD00044,2024-09-21,C1159,Galway,Website,Fitness Band,Wearables,1,49.99,0,49.99,28.99,21.0,Completed
+ORD00045,2024-05-19,C1010,Cork,Marketplace,USB-C Hub,Accessories,4,39.99,0,159.96,80.28,79.68,Completed
+ORD00046,2024-10-01,C1235,Waterford,Retail Store,Smart Watch,Wearables,3,149.99,0.05,427.47,250.3,177.17,Completed
+ORD00047,2024-02-07,C1068,Dublin,Website,Wireless Mouse,Accessories,1,19.99,0,19.99,11.81,8.18,Completed
+ORD00048,2024-03-03,C1116,Dublin,Marketplace,Wireless Mouse,Accessories,2,19.99,0,39.98,19.88,20.1,Cancelled
+ORD00049,2024-01-23,C1134,Cork,Website,Smart Watch,Wearables,3,149.99,0.05,427.47,274.28,153.19,Cancelled
+ORD00050,2024-11-17,C1078,Waterford,Mobile App,Headphones,Audio,1,129.99,0,129.99,93.9,36.09,Completed
+ORD00051,2024-01-10,C1064,Dublin,Website,Office Chair,Furniture,2,179.99,0.05,341.98,195.0,146.98,Completed
+ORD00052,2024-05-05,C1239,Limerick,Website,Office Chair,Furniture,2,179.99,0,359.98,220.92,139.06,Completed
+ORD00053,2024-07-20,C1248,Waterford,Marketplace,Smart Watch,Wearables,2,149.99,0.15,254.98,177.72,77.26,Completed
+ORD00054,2024-06-26,C1013,Cork,Website,USB-C Hub,Accessories,1,39.99,0,39.99,23.4,16.59,Completed
+ORD00055,2024-07-14,C1222,Waterford,Marketplace,Headphones,Audio,1,129.99,0,129.99,65.25,64.74,Completed
+ORD00056,2024-08-16,C1000,Galway,Marketplace,Headphones,Audio,1,129.99,0,129.99,67.72,62.27,Cancelled
+ORD00057,2024-06-07,C1055,Galway,Mobile App,Office Chair,Furniture,1,179.99,0,179.99,131.59,48.4,Completed
+ORD00058,2024-04-12,C1063,Waterford,Website,Smart Watch,Wearables,1,149.99,0.05,142.49,87.02,55.47,Completed
+ORD00059,2024-01-12,C1076,Galway,Mobile App,Wireless Mouse,Accessories,1,19.99,0.15,16.99,8.34,8.65,Completed
+ORD00060,2024-11-01,C1099,Galway,Retail Store,Office Chair,Furniture,3,179.99,0,539.97,351.5,188.47,Completed
+ORD00061,2024-09-19,C1160,Limerick,Mobile App,Standing Desk,Furniture,2,299.99,0,599.98,416.66,183.32,Returned
+ORD00062,2024-10-26,C1204,Cork,Website,Office Chair,Furniture,2,179.99,0,359.98,250.14,109.84,Completed
+ORD00063,2024-08-19,C1142,Dublin,Website,Keyboard,Accessories,2,74.99,0,149.98,86.68,63.3,Completed
+ORD00064,2024-02-05,C1191,Waterford,Website,USB-C Hub,Accessories,1,39.99,0,39.99,23.95,16.04,Completed
+ORD00065,2024-02-08,C1216,Galway,Mobile App,Wireless Mouse,Accessories,2,19.99,0.1,35.98,19.63,16.35,Completed
+ORD00066,2024-07-14,C1019,Limerick,Marketplace,USB-C Hub,Accessories,1,39.99,0.1,35.99,21.9,14.09,Completed
+ORD00067,2024-03-16,C1084,Galway,Marketplace,Standing Desk,Furniture,2,299.99,0,599.98,300.08,299.9,Completed
+ORD00068,2024-12-10,C1025,Cork,Retail Store,Keyboard,Accessories,1,74.99,0,74.99,45.47,29.52,Completed
+ORD00069,2024-03-01,C1228,Waterford,Mobile App,Office Chair,Furniture,1,179.99,0.1,161.99,97.4,64.59,Completed
+ORD00070,2024-02-09,C1209,Waterford,Retail Store,Wireless Mouse,Accessories,3,19.99,0,59.97,33.3,26.67,Cancelled
+ORD00071,2024-02-16,C1036,Waterford,Marketplace,Smart Watch,Wearables,1,149.99,0,149.99,74.9,75.09,Cancelled
+ORD00072,2024-02-27,C1180,Galway,Mobile App,Keyboard,Accessories,2,74.99,0.15,127.48,70.46,57.02,Completed
+ORD00073,2024-09-08,C1174,Limerick,Retail Store,Fitness Band,Wearables,1,49.99,0,49.99,24.04,25.95,Completed
+ORD00074,2024-06-18,C1000,Galway,Marketplace,Keyboard,Accessories,1,74.99,0.1,67.49,37.94,29.55,Completed
+ORD00075,2024-05-28,C1064,Galway,Website,Wireless Mouse,Accessories,3,19.99,0,59.97,39.9,20.07,Completed
+ORD00076,2024-01-25,C1071,Dublin,Website,Standing Desk,Furniture,1,299.99,0.1,269.99,182.64,87.35,Completed
+ORD00077,2024-05-16,C1111,Waterford,Marketplace,Headphones,Audio,2,129.99,0,259.98,141.64,118.34,Completed
+ORD00078,2024-11-19,C1102,Waterford,Mobile App,Speaker,Audio,2,54.99,0.1,98.98,70.27,28.71,Completed
+ORD00079,2024-03-11,C1164,Galway,Retail Store,Laptop Stand,Accessories,3,28.99,0.1,78.27,46.74,31.53,Completed
+ORD00080,2024-05-24,C1076,Galway,Marketplace,Office Chair,Furniture,1,179.99,0.1,161.99,95.23,66.76,Completed
+ORD00081,2024-03-02,C1042,Cork,Website,USB-C Hub,Accessories,1,39.99,0.15,33.99,22.23,11.76,Completed
+ORD00082,2024-08-18,C1109,Cork,Mobile App,Fitness Band,Wearables,2,49.99,0.1,89.98,64.39,25.59,Completed
+ORD00083,2024-07-07,C1066,Waterford,Mobile App,Keyboard,Accessories,1,74.99,0,74.99,42.22,32.77,Returned
+ORD00084,2024-05-18,C1086,Dublin,Retail Store,Smart Watch,Wearables,1,149.99,0.15,127.49,68.16,59.33,Completed
+ORD00085,2024-04-20,C1023,Galway,Mobile App,Speaker,Audio,1,54.99,0.15,46.74,28.87,17.87,Completed
+ORD00086,2024-01-12,C1032,Dublin,Retail Store,Fitness Band,Wearables,1,49.99,0.05,47.49,33.27,14.22,Completed
+ORD00087,2024-07-19,C1238,Waterford,Retail Store,Fitness Band,Wearables,4,49.99,0.1,179.96,86.39,93.57,Cancelled
+ORD00088,2024-09-24,C1248,Dublin,Retail Store,USB-C Hub,Accessories,2,39.99,0,79.98,41.6,38.38,Completed
+ORD00089,2024-01-20,C1165,Galway,Mobile App,Laptop Stand,Accessories,1,28.99,0,28.99,15.67,13.32,Completed
+ORD00090,2024-06-02,C1134,Waterford,Mobile App,Office Chair,Furniture,2,179.99,0,359.98,182.1,177.88,Completed
+ORD00091,2024-06-03,C1117,Galway,Marketplace,USB-C Hub,Accessories,2,39.99,0,79.98,38.61,41.37,Completed
+ORD00092,2024-01-15,C1245,Limerick,Marketplace,USB-C Hub,Accessories,1,39.99,0,39.99,24.88,15.11,Completed
+ORD00093,2024-04-26,C1170,Limerick,Marketplace,USB-C Hub,Accessories,1,39.99,0.1,35.99,18.03,17.96,Completed
+ORD00094,2024-07-21,C1050,Dublin,Marketplace,Laptop Stand,Accessories,2,28.99,0.1,52.18,29.96,22.22,Completed
+ORD00095,2024-06-08,C1196,Cork,Mobile App,Office Chair,Furniture,1,179.99,0.1,161.99,118.6,43.39,Completed
+ORD00096,2024-11-15,C1126,Waterford,Mobile App,Headphones,Audio,2,129.99,0.05,246.98,125.55,121.43,Returned
+ORD00097,2024-03-15,C1236,Limerick,Website,Fitness Band,Wearables,1,49.99,0,49.99,36.33,13.66,Completed
+ORD00098,2024-04-04,C1100,Limerick,Marketplace,Standing Desk,Furniture,1,299.99,0,299.99,199.36,100.63,Completed
+ORD00099,2024-11-30,C1239,Waterford,Retail Store,Wireless Mouse,Accessories,3,19.99,0.05,56.97,30.17,26.8,Completed
+ORD00100,2024-02-25,C1000,Dublin,Marketplace,Smart Watch,Wearables,3,149.99,0.05,427.47,254.36,173.11,Completed
+ORD00101,2024-04-16,C1097,Galway,Marketplace,Smart Watch,Wearables,4,149.99,0,599.96,375.51,224.45,Completed
+ORD00102,2024-10-04,C1235,Limerick,Mobile App,Smart Watch,Wearables,1,149.99,0.1,134.99,71.66,63.33,Completed
+ORD00103,2024-11-16,C1196,Limerick,Website,Fitness Band,Wearables,1,49.99,0.1,44.99,24.5,20.49,Completed
+ORD00104,2024-02-02,C1230,Waterford,Marketplace,Fitness Band,Wearables,1,49.99,0,49.99,27.34,22.65,Completed
+ORD00105,2024-12-19,C1081,Galway,Marketplace,Speaker,Audio,4,54.99,0.15,186.97,91.86,95.11,Completed
+ORD00106,2024-04-29,C1027,Limerick,Retail Store,Standing Desk,Furniture,3,299.99,0,899.97,437.66,462.31,Cancelled
+ORD00107,2024-03-08,C1237,Limerick,Mobile App,Smart Watch,Wearables,2,149.99,0.1,269.98,186.79,83.19,Completed
+ORD00108,2024-06-16,C1220,Galway,Retail Store,Headphones,Audio,3,129.99,0,389.97,248.76,141.21,Completed
+ORD00109,2024-03-22,C1063,Limerick,Website,Standing Desk,Furniture,1,299.99,0,299.99,174.55,125.44,Completed
+ORD00110,2024-08-06,C1226,Dublin,Website,Fitness Band,Wearables,2,49.99,0.05,94.98,49.56,45.42,Completed
+ORD00111,2024-12-29,C1248,Limerick,Mobile App,Wireless Mouse,Accessories,1,19.99,0.1,17.99,10.97,7.02,Completed
+ORD00112,2024-12-06,C1194,Dublin,Marketplace,Smart Watch,Wearables,1,149.99,0,149.99,101.16,48.83,Completed
+ORD00113,2024-04-11,C1112,Cork,Mobile App,Standing Desk,Furniture,1,299.99,0.05,284.99,191.48,93.51,Completed
+ORD00114,2024-02-03,C1101,Galway,Mobile App,Keyboard,Accessories,1,74.99,0.15,63.74,33.71,30.03,Completed
+ORD00115,2024-01-19,C1026,Dublin,Retail Store,USB-C Hub,Accessories,2,39.99,0,79.98,51.98,28.0,Returned
+ORD00116,2024-05-30,C1059,Dublin,Website,USB-C Hub,Accessories,3,39.99,0.05,113.97,55.9,58.07,Completed
+ORD00117,2024-04-01,C1114,Waterford,Marketplace,Standing Desk,Furniture,1,299.99,0,299.99,173.03,126.96,Completed
+ORD00118,2024-06-28,C1055,Dublin,Marketplace,Laptop Stand,Accessories,1,28.99,0.15,24.64,16.37,8.27,Completed
+ORD00119,2024-11-29,C1233,Cork,Website,Laptop Stand,Accessories,1,28.99,0.05,27.54,13.49,14.05,Completed
+ORD00120,2024-02-09,C1052,Dublin,Retail Store,Smart Watch,Wearables,2,149.99,0,299.98,192.43,107.55,Completed
+ORD00121,2024-03-20,C1163,Waterford,Website,Wireless Mouse,Accessories,1,19.99,0.1,17.99,11.74,6.25,Completed
+ORD00122,2024-12-07,C1078,Limerick,Website,Smart Watch,Wearables,2,149.99,0.1,269.98,198.96,71.02,Completed
+ORD00123,2024-07-05,C1164,Cork,Retail Store,Standing Desk,Furniture,3,299.99,0.1,809.97,476.49,333.48,Completed
+ORD00124,2024-08-04,C1029,Dublin,Retail Store,USB-C Hub,Accessories,3,39.99,0.1,107.97,77.14,30.83,Completed
+ORD00125,2024-01-27,C1141,Cork,Retail Store,Speaker,Audio,1,54.99,0,54.99,28.25,26.74,Completed
+ORD00126,2024-06-27,C1072,Cork,Mobile App,Standing Desk,Furniture,3,299.99,0.15,764.97,401.33,363.64,Returned
+ORD00127,2024-01-23,C1249,Limerick,Marketplace,Wireless Mouse,Accessories,1,19.99,0,19.99,11.16,8.83,Completed
+ORD00128,2024-03-23,C1163,Cork,Retail Store,Smart Watch,Wearables,1,149.99,0.15,127.49,84.01,43.48,Completed
+ORD00129,2024-01-22,C1102,Waterford,Mobile App,USB-C Hub,Accessories,3,39.99,0,119.97,75.22,44.75,Completed
+ORD00130,2024-10-14,C1215,Dublin,Marketplace,Wireless Mouse,Accessories,1,19.99,0,19.99,9.81,10.18,Completed
+ORD00131,2024-06-06,C1149,Cork,Retail Store,Standing Desk,Furniture,1,299.99,0.05,284.99,184.89,100.1,Completed
+ORD00132,2024-01-02,C1158,Limerick,Retail Store,Speaker,Audio,1,54.99,0.1,49.49,26.06,23.43,Completed
+ORD00133,2024-08-30,C1102,Dublin,Website,Standing Desk,Furniture,2,299.99,0.1,539.98,376.64,163.34,Completed
+ORD00134,2024-12-02,C1010,Dublin,Mobile App,Smart Watch,Wearables,1,149.99,0.1,134.99,82.5,52.49,Completed
+ORD00135,2024-09-15,C1229,Limerick,Mobile App,Speaker,Audio,2,54.99,0.15,93.48,46.81,46.67,Completed
+ORD00136,2024-09-08,C1073,Cork,Mobile App,Wireless Mouse,Accessories,4,19.99,0,79.96,42.41,37.55,Completed
+ORD00137,2024-11-10,C1070,Limerick,Mobile App,Speaker,Audio,2,54.99,0.05,104.48,54.46,50.02,Completed
+ORD00138,2024-05-01,C1081,Galway,Website,Fitness Band,Wearables,1,49.99,0.05,47.49,30.4,17.09,Completed
+ORD00139,2024-07-11,C1043,Galway,Website,Smart Watch,Wearables,1,149.99,0.05,142.49,93.58,48.91,Completed
+ORD00140,2024-08-19,C1142,Waterford,Website,Laptop Stand,Accessories,2,28.99,0.05,55.08,40.27,14.81,Completed
+ORD00141,2024-07-09,C1067,Limerick,Marketplace,Office Chair,Furniture,2,179.99,0.1,323.98,217.67,106.31,Completed
+ORD00142,2024-03-31,C1157,Dublin,Marketplace,Speaker,Audio,1,54.99,0,54.99,32.72,22.27,Completed
+ORD00143,2024-06-09,C1187,Dublin,Website,Headphones,Audio,1,129.99,0.15,110.49,79.71,30.78,Completed
+ORD00144,2024-07-05,C1229,Dublin,Mobile App,Headphones,Audio,2,129.99,0.1,233.98,137.72,96.26,Completed
+ORD00145,2024-10-17,C1090,Galway,Website,Standing Desk,Furniture,2,299.99,0,599.98,296.48,303.5,Completed
+ORD00146,2024-03-09,C1052,Galway,Retail Store,Office Chair,Furniture,1,179.99,0.15,152.99,85.41,67.58,Completed
+ORD00147,2024-08-18,C1024,Dublin,Mobile App,Laptop Stand,Accessories,3,28.99,0,86.97,57.74,29.23,Completed
+ORD00148,2024-01-29,C1165,Waterford,Marketplace,Headphones,Audio,1,129.99,0.05,123.49,90.33,33.16,Completed
+ORD00149,2024-05-07,C1042,Dublin,Website,Standing Desk,Furniture,1,299.99,0.15,254.99,171.03,83.96,Completed
+ORD00150,2024-02-23,C1003,Waterford,Mobile App,Laptop Stand,Accessories,1,28.99,0,28.99,15.12,13.87,Completed
+ORD00151,2024-07-31,C1208,Waterford,Mobile App,USB-C Hub,Accessories,1,39.99,0.15,33.99,22.04,11.95,Completed
+ORD00152,2024-09-01,C1183,Waterford,Website,Wireless Mouse,Accessories,1,19.99,0,19.99,14.76,5.23,Completed
+ORD00153,2024-12-01,C1115,Cork,Mobile App,Smart Watch,Wearables,2,149.99,0.1,269.98,135.24,134.74,Cancelled
+ORD00154,2024-12-21,C1241,Galway,Website,Headphones,Audio,1,129.99,0,129.99,66.56,63.43,Completed
+ORD00155,2024-05-31,C1164,Cork,Website,Office Chair,Furniture,2,179.99,0.15,305.98,224.19,81.79,Returned
+ORD00156,2024-04-13,C1241,Cork,Marketplace,Laptop Stand,Accessories,1,28.99,0,28.99,20.26,8.73,Completed
+ORD00157,2024-11-18,C1235,Waterford,Retail Store,Smart Watch,Wearables,1,149.99,0,149.99,86.79,63.2,Completed
+ORD00158,2024-04-29,C1146,Galway,Mobile App,Office Chair,Furniture,2,179.99,0,359.98,213.71,146.27,Completed
+ORD00159,2024-01-14,C1028,Dublin,Mobile App,Standing Desk,Furniture,1,299.99,0,299.99,155.27,144.72,Completed
+ORD00160,2024-12-20,C1164,Dublin,Website,Keyboard,Accessories,2,74.99,0,149.98,73.61,76.37,Completed
+ORD00161,2024-09-30,C1228,Dublin,Retail Store,Wireless Mouse,Accessories,3,19.99,0.05,56.97,30.3,26.67,Completed
+ORD00162,2024-11-20,C1022,Galway,Retail Store,USB-C Hub,Accessories,1,39.99,0,39.99,19.55,20.44,Completed
+ORD00163,2024-06-21,C1108,Galway,Website,Wireless Mouse,Accessories,2,19.99,0,39.98,22.25,17.73,Completed
+ORD00164,2024-11-04,C1128,Limerick,Marketplace,Headphones,Audio,1,129.99,0.05,123.49,88.5,34.99,Completed
+ORD00165,2024-02-20,C1088,Limerick,Website,Laptop Stand,Accessories,2,28.99,0,57.98,34.41,23.57,Completed
+ORD00166,2024-05-27,C1043,Limerick,Website,USB-C Hub,Accessories,2,39.99,0,79.98,50.34,29.64,Completed
+ORD00167,2024-09-08,C1024,Limerick,Mobile App,Headphones,Audio,2,129.99,0,259.98,125.09,134.89,Cancelled
+ORD00168,2024-03-22,C1072,Cork,Mobile App,Standing Desk,Furniture,1,299.99,0.15,254.99,139.67,115.32,Completed
+ORD00169,2024-12-22,C1143,Dublin,Marketplace,Wireless Mouse,Accessories,3,19.99,0,59.97,36.43,23.54,Completed
+ORD00170,2024-11-26,C1006,Galway,Mobile App,Smart Watch,Wearables,3,149.99,0,449.97,265.37,184.6,Completed
+ORD00171,2024-11-18,C1059,Limerick,Mobile App,Smart Watch,Wearables,3,149.99,0.15,382.47,200.6,181.87,Completed
+ORD00172,2024-09-24,C1039,Limerick,Marketplace,Standing Desk,Furniture,2,299.99,0.05,569.98,359.78,210.2,Completed
+ORD00173,2024-03-05,C1085,Limerick,Mobile App,Fitness Band,Wearables,2,49.99,0.05,94.98,59.89,35.09,Completed
+ORD00174,2024-03-20,C1249,Cork,Marketplace,Headphones,Audio,1,129.99,0.15,110.49,57.48,53.01,Completed
+ORD00175,2024-05-12,C1249,Dublin,Mobile App,Speaker,Audio,1,54.99,0.05,52.24,38.06,14.18,Cancelled
+ORD00176,2024-06-03,C1187,Galway,Retail Store,Wireless Mouse,Accessories,1,19.99,0,19.99,14.71,5.28,Completed
+ORD00177,2024-07-17,C1118,Dublin,Website,Wireless Mouse,Accessories,2,19.99,0,39.98,22.11,17.87,Completed
+ORD00178,2024-05-31,C1118,Dublin,Mobile App,Smart Watch,Wearables,2,149.99,0.15,254.98,187.42,67.56,Completed
+ORD00179,2024-08-08,C1179,Waterford,Retail Store,Smart Watch,Wearables,1,149.99,0,149.99,107.4,42.59,Completed
+ORD00180,2024-08-20,C1110,Galway,Marketplace,Standing Desk,Furniture,3,299.99,0,899.97,582.1,317.87,Completed
+ORD00181,2024-12-30,C1161,Cork,Marketplace,Wireless Mouse,Accessories,3,19.99,0,59.97,40.98,18.99,Completed
+ORD00182,2024-09-22,C1172,Cork,Marketplace,Fitness Band,Wearables,1,49.99,0.15,42.49,29.88,12.61,Completed
+ORD00183,2024-10-05,C1055,Cork,Mobile App,Smart Watch,Wearables,3,149.99,0,449.97,220.45,229.52,Completed
+ORD00184,2024-08-31,C1131,Dublin,Marketplace,Wireless Mouse,Accessories,3,19.99,0.1,53.97,33.5,20.47,Completed
+ORD00185,2024-12-16,C1047,Limerick,Website,Smart Watch,Wearables,2,149.99,0.1,269.98,144.34,125.64,Completed
+ORD00186,2024-07-14,C1102,Dublin,Website,Standing Desk,Furniture,1,299.99,0,299.99,163.69,136.3,Completed
+ORD00187,2024-02-25,C1057,Galway,Retail Store,Smart Watch,Wearables,2,149.99,0.05,284.98,179.78,105.2,Returned
+ORD00188,2024-03-25,C1033,Dublin,Mobile App,Office Chair,Furniture,4,179.99,0.1,647.96,388.87,259.09,Completed
+ORD00189,2024-11-23,C1212,Limerick,Retail Store,Office Chair,Furniture,2,179.99,0,359.98,205.84,154.14,Cancelled
+ORD00190,2024-04-27,C1068,Limerick,Marketplace,Office Chair,Furniture,2,179.99,0.1,323.98,185.39,138.59,Cancelled
+ORD00191,2024-12-01,C1077,Galway,Retail Store,Keyboard,Accessories,1,74.99,0.05,71.24,40.83,30.41,Completed
+ORD00192,2024-06-04,C1218,Limerick,Website,Standing Desk,Furniture,2,299.99,0.05,569.98,296.23,273.75,Completed
+ORD00193,2024-06-25,C1162,Waterford,Website,Standing Desk,Furniture,3,299.99,0,899.97,556.15,343.82,Completed
+ORD00194,2024-02-21,C1148,Cork,Mobile App,USB-C Hub,Accessories,4,39.99,0.05,151.96,82.82,69.14,Completed
+ORD00195,2024-07-25,C1202,Waterford,Mobile App,Fitness Band,Wearables,1,49.99,0,49.99,26.71,23.28,Completed
+ORD00196,2024-10-07,C1201,Galway,Mobile App,Standing Desk,Furniture,4,299.99,0,1199.96,784.53,415.43,Completed
+ORD00197,2024-02-29,C1142,Dublin,Marketplace,USB-C Hub,Accessories,1,39.99,0.1,35.99,23.56,12.43,Completed
+ORD00198,2024-08-27,C1231,Cork,Retail Store,Keyboard,Accessories,1,74.99,0.15,63.74,31.56,32.18,Completed
+ORD00199,2024-06-13,C1119,Waterford,Retail Store,Keyboard,Accessories,1,74.99,0,74.99,39.12,35.87,Completed
+ORD00200,2024-12-12,C1019,Cork,Marketplace,Fitness Band,Wearables,1,49.99,0.1,44.99,33.29,11.7,Completed
+ORD00201,2024-06-18,C1207,Dublin,Retail Store,Laptop Stand,Accessories,1,28.99,0,28.99,19.06,9.93,Completed
+ORD00202,2024-06-22,C1024,Galway,Marketplace,Keyboard,Accessories,1,74.99,0.1,67.49,43.37,24.12,Completed
+ORD00203,2024-06-24,C1108,Galway,Website,Office Chair,Furniture,2,179.99,0,359.98,199.39,160.59,Completed
+ORD00204,2024-09-14,C1069,Waterford,Marketplace,Headphones,Audio,1,129.99,0.1,116.99,68.44,48.55,Cancelled
+ORD00205,2024-06-02,C1032,Waterford,Website,Fitness Band,Wearables,2,49.99,0.05,94.98,50.34,44.64,Completed
+ORD00206,2024-10-06,C1146,Dublin,Retail Store,Laptop Stand,Accessories,1,28.99,0.15,24.64,17.5,7.14,Completed
+ORD00207,2024-12-02,C1015,Waterford,Retail Store,Laptop Stand,Accessories,1,28.99,0.1,26.09,16.65,9.44,Completed
+ORD00208,2024-12-07,C1162,Limerick,Mobile App,Standing Desk,Furniture,3,299.99,0,899.97,481.71,418.26,Completed
+ORD00209,2024-12-01,C1003,Galway,Mobile App,Keyboard,Accessories,3,74.99,0.1,202.47,137.96,64.51,Completed
+ORD00210,2024-01-18,C1081,Dublin,Retail Store,Office Chair,Furniture,2,179.99,0.05,341.98,180.58,161.4,Completed
+ORD00211,2024-09-24,C1010,Dublin,Retail Store,Standing Desk,Furniture,3,299.99,0,899.97,548.46,351.51,Completed
+ORD00212,2024-10-31,C1151,Cork,Retail Store,Smart Watch,Wearables,1,149.99,0,149.99,98.51,51.48,Completed
+ORD00213,2024-03-18,C1160,Dublin,Retail Store,Office Chair,Furniture,1,179.99,0.1,161.99,86.7,75.29,Completed
+ORD00214,2024-03-03,C1033,Limerick,Website,Wireless Mouse,Accessories,4,19.99,0,79.96,42.92,37.04,Completed
+ORD00215,2024-07-06,C1198,Cork,Website,Standing Desk,Furniture,1,299.99,0,299.99,215.97,84.02,Completed
+ORD00216,2024-05-10,C1233,Dublin,Website,Office Chair,Furniture,2,179.99,0.1,323.98,211.91,112.07,Completed
+ORD00217,2024-06-08,C1079,Waterford,Mobile App,Laptop Stand,Accessories,3,28.99,0.15,73.92,37.01,36.91,Cancelled
+ORD00218,2024-10-21,C1186,Limerick,Retail Store,Fitness Band,Wearables,2,49.99,0.05,94.98,54.67,40.31,Completed
+ORD00219,2024-11-26,C1041,Limerick,Retail Store,Keyboard,Accessories,4,74.99,0,299.96,172.31,127.65,Completed
+ORD00220,2024-05-23,C1015,Waterford,Marketplace,Fitness Band,Wearables,3,49.99,0.15,127.47,72.25,55.22,Completed
+ORD00221,2024-10-26,C1109,Cork,Retail Store,Laptop Stand,Accessories,3,28.99,0.15,73.92,51.48,22.44,Completed
+ORD00222,2024-05-25,C1176,Dublin,Marketplace,Smart Watch,Wearables,2,149.99,0,299.98,206.97,93.01,Completed
+ORD00223,2024-03-13,C1207,Waterford,Mobile App,Smart Watch,Wearables,1,149.99,0,149.99,83.25,66.74,Completed
+ORD00224,2024-02-13,C1138,Waterford,Retail Store,Office Chair,Furniture,2,179.99,0.1,323.98,184.73,139.25,Completed
+ORD00225,2024-01-30,C1173,Limerick,Retail Store,USB-C Hub,Accessories,2,39.99,0,79.98,44.83,35.15,Completed
+ORD00226,2024-08-23,C1138,Dublin,Marketplace,Headphones,Audio,2,129.99,0,259.98,178.3,81.68,Completed
+ORD00227,2024-09-24,C1082,Limerick,Mobile App,USB-C Hub,Accessories,1,39.99,0.15,33.99,24.24,9.75,Completed
+ORD00228,2024-10-15,C1091,Limerick,Mobile App,USB-C Hub,Accessories,1,39.99,0.05,37.99,21.82,16.17,Completed
+ORD00229,2024-08-25,C1201,Dublin,Mobile App,Fitness Band,Wearables,1,49.99,0,49.99,28.83,21.16,Completed
+ORD00230,2024-02-18,C1008,Cork,Retail Store,Laptop Stand,Accessories,1,28.99,0.15,24.64,15.72,8.92,Completed
+ORD00231,2024-08-16,C1196,Waterford,Mobile App,USB-C Hub,Accessories,1,39.99,0.05,37.99,22.44,15.55,Completed
+ORD00232,2024-01-15,C1013,Dublin,Marketplace,Laptop Stand,Accessories,1,28.99,0,28.99,16.77,12.22,Completed
+ORD00233,2024-11-23,C1101,Dublin,Website,Fitness Band,Wearables,1,49.99,0,49.99,35.21,14.78,Completed
+ORD00234,2024-12-08,C1129,Limerick,Mobile App,Standing Desk,Furniture,1,299.99,0,299.99,218.59,81.4,Completed
+ORD00235,2024-04-23,C1044,Dublin,Marketplace,Keyboard,Accessories,1,74.99,0,74.99,55.33,19.66,Returned
+ORD00236,2024-01-25,C1066,Waterford,Retail Store,Laptop Stand,Accessories,3,28.99,0,86.97,60.68,26.29,Completed
+ORD00237,2024-12-12,C1191,Galway,Retail Store,Keyboard,Accessories,1,74.99,0,74.99,54.31,20.68,Completed
+ORD00238,2024-03-04,C1095,Limerick,Retail Store,Wireless Mouse,Accessories,1,19.99,0.05,18.99,10.38,8.61,Completed
+ORD00239,2024-04-09,C1204,Dublin,Mobile App,USB-C Hub,Accessories,2,39.99,0,79.98,48.12,31.86,Returned
+ORD00240,2024-03-12,C1199,Limerick,Website,USB-C Hub,Accessories,1,39.99,0.15,33.99,23.98,10.01,Returned
+ORD00241,2024-06-22,C1082,Cork,Retail Store,Smart Watch,Wearables,3,149.99,0,449.97,268.91,181.06,Completed
+ORD00242,2024-04-02,C1182,Limerick,Mobile App,Speaker,Audio,1,54.99,0,54.99,36.92,18.07,Completed
+ORD00243,2024-01-14,C1069,Waterford,Marketplace,Keyboard,Accessories,1,74.99,0.1,67.49,36.73,30.76,Completed
+ORD00244,2024-09-04,C1029,Cork,Website,Keyboard,Accessories,1,74.99,0,74.99,42.2,32.79,Completed
+ORD00245,2024-04-13,C1248,Galway,Retail Store,USB-C Hub,Accessories,2,39.99,0.05,75.98,38.82,37.16,Cancelled
+ORD00246,2024-07-31,C1229,Cork,Website,USB-C Hub,Accessories,3,39.99,0,119.97,69.76,50.21,Completed
+ORD00247,2024-09-16,C1087,Waterford,Mobile App,Headphones,Audio,1,129.99,0,129.99,77.34,52.65,Completed
+ORD00248,2024-07-28,C1055,Galway,Mobile App,Office Chair,Furniture,1,179.99,0.05,170.99,101.43,69.56,Completed
+ORD00249,2024-04-10,C1153,Dublin,Website,Keyboard,Accessories,1,74.99,0,74.99,49.87,25.12,Returned
+ORD00250,2024-11-09,C1171,Cork,Marketplace,Fitness Band,Wearables,2,49.99,0,99.98,53.35,46.63,Completed
+ORD00251,2024-01-29,C1132,Galway,Marketplace,Wireless Mouse,Accessories,2,19.99,0.15,33.98,19.92,14.06,Completed
+ORD00252,2024-09-01,C1034,Galway,Mobile App,Fitness Band,Wearables,1,49.99,0.1,44.99,32.24,12.75,Completed
+ORD00253,2024-01-03,C1091,Waterford,Retail Store,Speaker,Audio,1,54.99,0.05,52.24,32.88,19.36,Cancelled
+ORD00254,2024-06-13,C1199,Limerick,Website,Wireless Mouse,Accessories,1,19.99,0,19.99,13.84,6.15,Completed
+ORD00255,2024-01-14,C1135,Waterford,Mobile App,Wireless Mouse,Accessories,4,19.99,0.1,71.96,42.89,29.07,Completed
+ORD00256,2024-06-08,C1064,Waterford,Website,Wireless Mouse,Accessories,1,19.99,0,19.99,10.47,9.52,Completed
+ORD00257,2024-08-25,C1133,Cork,Retail Store,USB-C Hub,Accessories,1,39.99,0.15,33.99,21.94,12.05,Completed
+ORD00258,2024-08-26,C1126,Waterford,Marketplace,Wireless Mouse,Accessories,2,19.99,0,39.98,22.03,17.95,Completed
+ORD00259,2024-04-26,C1220,Cork,Mobile App,Wireless Mouse,Accessories,1,19.99,0,19.99,12.41,7.58,Completed
+ORD00260,2024-01-10,C1240,Limerick,Retail Store,Fitness Band,Wearables,2,49.99,0,99.98,72.64,27.34,Completed
+ORD00261,2024-01-27,C1198,Galway,Marketplace,Standing Desk,Furniture,1,299.99,0.1,269.99,197.72,72.27,Completed
+ORD00262,2024-06-13,C1208,Limerick,Website,Speaker,Audio,2,54.99,0.15,93.48,64.42,29.06,Completed
+ORD00263,2024-08-04,C1169,Dublin,Marketplace,Keyboard,Accessories,4,74.99,0.05,284.96,155.25,129.71,Completed
+ORD00264,2024-12-08,C1005,Cork,Mobile App,Keyboard,Accessories,1,74.99,0.1,67.49,35.92,31.57,Completed
+ORD00265,2024-01-21,C1008,Waterford,Marketplace,Smart Watch,Wearables,2,149.99,0.1,269.98,174.04,95.94,Returned
+ORD00266,2024-01-19,C1159,Dublin,Marketplace,Standing Desk,Furniture,1,299.99,0.15,254.99,175.85,79.14,Completed
+ORD00267,2024-06-05,C1088,Cork,Website,Laptop Stand,Accessories,1,28.99,0,28.99,16.08,12.91,Completed
+ORD00268,2024-09-30,C1238,Cork,Retail Store,Office Chair,Furniture,3,179.99,0,539.97,324.67,215.3,Completed
+ORD00269,2024-05-20,C1062,Dublin,Marketplace,Keyboard,Accessories,3,74.99,0.1,202.47,127.58,74.89,Completed
+ORD00270,2024-04-13,C1140,Galway,Retail Store,Standing Desk,Furniture,2,299.99,0,599.98,389.44,210.54,Returned
+ORD00271,2024-01-16,C1062,Galway,Mobile App,Headphones,Audio,2,129.99,0.1,233.98,162.12,71.86,Completed
+ORD00272,2024-06-29,C1041,Cork,Marketplace,Office Chair,Furniture,1,179.99,0.15,152.99,89.21,63.78,Completed
+ORD00273,2024-01-12,C1040,Waterford,Website,Fitness Band,Wearables,1,49.99,0,49.99,27.84,22.15,Completed
+ORD00274,2024-08-13,C1090,Dublin,Mobile App,Speaker,Audio,1,54.99,0,54.99,33.79,21.2,Cancelled
+ORD00275,2024-04-13,C1157,Waterford,Marketplace,Keyboard,Accessories,1,74.99,0.05,71.24,36.79,34.45,Completed
+ORD00276,2024-11-18,C1181,Cork,Retail Store,Office Chair,Furniture,1,179.99,0.1,161.99,89.07,72.92,Completed
+ORD00277,2024-09-11,C1101,Waterford,Mobile App,Laptop Stand,Accessories,1,28.99,0.15,24.64,15.58,9.06,Completed
+ORD00278,2024-08-19,C1177,Limerick,Marketplace,Headphones,Audio,3,129.99,0.15,331.47,168.67,162.8,Completed
+ORD00279,2024-07-15,C1165,Galway,Website,Headphones,Audio,1,129.99,0.15,110.49,68.99,41.5,Completed
+ORD00280,2024-06-04,C1205,Cork,Retail Store,Fitness Band,Wearables,1,49.99,0.05,47.49,25.07,22.42,Completed
+ORD00281,2024-11-07,C1214,Cork,Marketplace,Standing Desk,Furniture,1,299.99,0.05,284.99,160.79,124.2,Completed
+ORD00282,2024-05-11,C1144,Limerick,Marketplace,Smart Watch,Wearables,3,149.99,0,449.97,218.98,230.99,Returned
+ORD00283,2024-09-21,C1186,Limerick,Retail Store,Headphones,Audio,1,129.99,0.1,116.99,71.89,45.1,Completed
+ORD00284,2024-01-06,C1173,Dublin,Mobile App,Laptop Stand,Accessories,2,28.99,0.05,55.08,32.93,22.15,Completed
+ORD00285,2024-03-19,C1225,Cork,Retail Store,Speaker,Audio,1,54.99,0.15,46.74,33.72,13.02,Completed
+ORD00286,2024-09-28,C1191,Dublin,Mobile App,Fitness Band,Wearables,2,49.99,0.15,84.98,48.38,36.6,Completed
+ORD00287,2024-02-26,C1167,Galway,Marketplace,Speaker,Audio,4,54.99,0.05,208.96,128.15,80.81,Completed
+ORD00288,2024-09-25,C1074,Waterford,Mobile App,Office Chair,Furniture,3,179.99,0.1,485.97,313.01,172.96,Completed
+ORD00289,2024-11-04,C1027,Galway,Website,USB-C Hub,Accessories,1,39.99,0,39.99,25.75,14.24,Completed
+ORD00290,2024-10-10,C1001,Galway,Retail Store,Laptop Stand,Accessories,2,28.99,0.05,55.08,36.62,18.46,Completed
+ORD00291,2024-09-11,C1196,Waterford,Marketplace,Standing Desk,Furniture,1,299.99,0,299.99,159.33,140.66,Completed
+ORD00292,2024-07-29,C1154,Dublin,Mobile App,Office Chair,Furniture,1,179.99,0,179.99,113.28,66.71,Completed
+ORD00293,2024-09-24,C1125,Limerick,Retail Store,Office Chair,Furniture,1,179.99,0,179.99,89.96,90.03,Completed
+ORD00294,2024-05-01,C1090,Galway,Mobile App,Laptop Stand,Accessories,2,28.99,0.15,49.28,27.79,21.49,Completed
+ORD00295,2024-04-08,C1115,Waterford,Retail Store,Wireless Mouse,Accessories,3,19.99,0.15,50.97,25.3,25.67,Completed
+ORD00296,2024-01-23,C1112,Dublin,Mobile App,USB-C Hub,Accessories,3,39.99,0.15,101.97,69.2,32.77,Completed
+ORD00297,2024-06-10,C1001,Limerick,Marketplace,Laptop Stand,Accessories,1,28.99,0.15,24.64,17.3,7.34,Completed
+ORD00298,2024-02-04,C1062,Limerick,Mobile App,Headphones,Audio,4,129.99,0.1,467.96,343.8,124.16,Completed
+ORD00299,2024-05-04,C1022,Cork,Mobile App,Smart Watch,Wearables,3,149.99,0.1,404.97,196.75,208.22,Completed
+ORD00300,2024-07-04,C1029,Galway,Retail Store,Keyboard,Accessories,1,74.99,0.05,71.24,41.53,29.71,Completed
+ORD00301,2024-06-28,C1141,Cork,Retail Store,Wireless Mouse,Accessories,4,19.99,0.1,71.96,49.99,21.97,Completed
+ORD00302,2024-12-06,C1006,Galway,Mobile App,Headphones,Audio,1,129.99,0.1,116.99,57.22,59.77,Completed
+ORD00303,2024-03-06,C1142,Limerick,Retail Store,Keyboard,Accessories,1,74.99,0.05,71.24,44.29,26.95,Completed
+ORD00304,2024-07-26,C1096,Waterford,Mobile App,USB-C Hub,Accessories,1,39.99,0.05,37.99,20.37,17.62,Completed
+ORD00305,2024-12-11,C1033,Galway,Retail Store,Fitness Band,Wearables,1,49.99,0,49.99,35.15,14.84,Completed
+ORD00306,2024-04-18,C1032,Dublin,Website,Speaker,Audio,1,54.99,0.1,49.49,31.58,17.91,Completed
+ORD00307,2024-10-17,C1037,Galway,Website,Headphones,Audio,2,129.99,0.1,233.98,114.06,119.92,Completed
+ORD00308,2024-12-05,C1228,Dublin,Website,Wireless Mouse,Accessories,2,19.99,0,39.98,22.53,17.45,Completed
+ORD00309,2024-06-08,C1022,Cork,Marketplace,Speaker,Audio,2,54.99,0.05,104.48,55.39,49.09,Completed
+ORD00310,2024-08-25,C1198,Cork,Marketplace,Smart Watch,Wearables,1,149.99,0.1,134.99,94.43,40.56,Completed
+ORD00311,2024-01-13,C1168,Limerick,Mobile App,Speaker,Audio,2,54.99,0.05,104.48,74.52,29.96,Cancelled
+ORD00312,2024-02-28,C1069,Waterford,Mobile App,Smart Watch,Wearables,1,149.99,0,149.99,79.08,70.91,Completed
+ORD00313,2024-04-11,C1193,Galway,Mobile App,Laptop Stand,Accessories,1,28.99,0.15,24.64,12.87,11.77,Completed
+ORD00314,2024-04-26,C1145,Limerick,Marketplace,Laptop Stand,Accessories,2,28.99,0,57.98,36.34,21.64,Returned
+ORD00315,2024-12-01,C1073,Dublin,Website,Standing Desk,Furniture,1,299.99,0,299.99,152.72,147.27,Cancelled
+ORD00316,2024-06-25,C1191,Dublin,Retail Store,Wireless Mouse,Accessories,1,19.99,0.05,18.99,10.15,8.84,Completed
+ORD00317,2024-05-23,C1134,Dublin,Marketplace,Smart Watch,Wearables,4,149.99,0.15,509.97,354.67,155.3,Returned
+ORD00318,2024-12-18,C1212,Limerick,Website,Smart Watch,Wearables,1,149.99,0.05,142.49,94.02,48.47,Completed
+ORD00319,2024-03-06,C1125,Cork,Website,USB-C Hub,Accessories,1,39.99,0.15,33.99,23.8,10.19,Cancelled
+ORD00320,2024-11-22,C1060,Waterford,Marketplace,Office Chair,Furniture,1,179.99,0.15,152.99,79.95,73.04,Completed
+ORD00321,2024-04-13,C1162,Galway,Mobile App,Laptop Stand,Accessories,1,28.99,0.05,27.54,16.17,11.37,Completed
+ORD00322,2024-01-04,C1131,Limerick,Mobile App,Fitness Band,Wearables,2,49.99,0,99.98,66.33,33.65,Returned
+ORD00323,2024-03-13,C1150,Waterford,Mobile App,Speaker,Audio,2,54.99,0,109.98,78.09,31.89,Completed
+ORD00324,2024-03-20,C1153,Limerick,Retail Store,Wireless Mouse,Accessories,1,19.99,0,19.99,13.11,6.88,Completed
+ORD00325,2024-04-15,C1011,Dublin,Marketplace,Wireless Mouse,Accessories,2,19.99,0,39.98,22.94,17.04,Completed
+ORD00326,2024-03-23,C1083,Limerick,Retail Store,Wireless Mouse,Accessories,2,19.99,0.1,35.98,26.28,9.7,Completed
+ORD00327,2024-08-27,C1250,Limerick,Website,Headphones,Audio,1,129.99,0,129.99,63.94,66.05,Completed
+ORD00328,2024-11-26,C1125,Limerick,Retail Store,Speaker,Audio,4,54.99,0.15,186.97,102.6,84.37,Completed
+ORD00329,2024-11-25,C1073,Waterford,Marketplace,Office Chair,Furniture,1,179.99,0.05,170.99,122.96,48.03,Completed
+ORD00330,2024-07-21,C1214,Cork,Marketplace,Wireless Mouse,Accessories,1,19.99,0,19.99,9.73,10.26,Completed
+ORD00331,2024-06-07,C1190,Waterford,Marketplace,Office Chair,Furniture,3,179.99,0,539.97,273.53,266.44,Completed
+ORD00332,2024-07-08,C1214,Galway,Mobile App,Speaker,Audio,1,54.99,0.05,52.24,26.93,25.31,Completed
+ORD00333,2024-04-20,C1126,Limerick,Retail Store,Wireless Mouse,Accessories,2,19.99,0.1,35.98,25.74,10.24,Completed
+ORD00334,2024-04-26,C1041,Cork,Retail Store,Headphones,Audio,2,129.99,0,259.98,134.38,125.6,Completed
+ORD00335,2024-09-02,C1048,Cork,Marketplace,Smart Watch,Wearables,1,149.99,0,149.99,105.17,44.82,Completed
+ORD00336,2024-05-25,C1018,Dublin,Retail Store,Standing Desk,Furniture,3,299.99,0.15,764.97,451.8,313.17,Returned
+ORD00337,2024-03-25,C1096,Galway,Website,Wireless Mouse,Accessories,1,19.99,0,19.99,14.29,5.7,Completed
+ORD00338,2024-02-13,C1138,Galway,Retail Store,Standing Desk,Furniture,2,299.99,0.15,509.98,270.7,239.28,Completed
+ORD00339,2024-11-07,C1158,Dublin,Website,Office Chair,Furniture,3,179.99,0,539.97,395.98,143.99,Completed
+ORD00340,2024-08-03,C1243,Galway,Retail Store,Speaker,Audio,2,54.99,0.05,104.48,65.5,38.98,Completed
+ORD00341,2024-11-20,C1007,Cork,Mobile App,Keyboard,Accessories,1,74.99,0.05,71.24,44.02,27.22,Completed
+ORD00342,2024-07-09,C1142,Waterford,Retail Store,Fitness Band,Wearables,2,49.99,0,99.98,65.16,34.82,Completed
+ORD00343,2024-04-26,C1046,Cork,Website,USB-C Hub,Accessories,2,39.99,0.1,71.98,39.44,32.54,Completed
+ORD00344,2024-05-08,C1181,Limerick,Mobile App,Headphones,Audio,2,129.99,0,259.98,160.67,99.31,Completed
+ORD00345,2024-10-28,C1145,Dublin,Retail Store,USB-C Hub,Accessories,1,39.99,0,39.99,26.84,13.15,Completed
+ORD00346,2024-02-28,C1160,Waterford,Website,Fitness Band,Wearables,1,49.99,0.15,42.49,26.48,16.01,Completed
+ORD00347,2024-02-17,C1035,Galway,Website,Smart Watch,Wearables,1,149.99,0,149.99,93.95,56.04,Completed
+ORD00348,2024-04-19,C1117,Galway,Website,Laptop Stand,Accessories,1,28.99,0,28.99,19.21,9.78,Completed
+ORD00349,2024-04-13,C1144,Dublin,Marketplace,Smart Watch,Wearables,3,149.99,0,449.97,288.66,161.31,Completed
+ORD00350,2024-03-03,C1061,Galway,Marketplace,Speaker,Audio,2,54.99,0,109.98,76.4,33.58,Completed
+ORD00351,2024-10-08,C1083,Waterford,Website,Laptop Stand,Accessories,2,28.99,0.05,55.08,27.87,27.21,Completed
+ORD00352,2024-01-11,C1214,Waterford,Retail Store,USB-C Hub,Accessories,1,39.99,0,39.99,26.41,13.58,Completed
+ORD00353,2024-04-04,C1038,Waterford,Marketplace,Laptop Stand,Accessories,1,28.99,0,28.99,19.95,9.04,Completed
+ORD00354,2024-10-02,C1176,Galway,Retail Store,Smart Watch,Wearables,3,149.99,0.15,382.47,270.64,111.83,Completed
+ORD00355,2024-01-17,C1204,Dublin,Website,Speaker,Audio,4,54.99,0.1,197.96,120.85,77.11,Completed
+ORD00356,2024-12-20,C1216,Limerick,Retail Store,Standing Desk,Furniture,1,299.99,0.1,269.99,197.51,72.48,Completed
+ORD00357,2024-04-20,C1079,Cork,Website,Standing Desk,Furniture,1,299.99,0.05,284.99,161.19,123.8,Completed
+ORD00358,2024-07-17,C1239,Galway,Marketplace,Speaker,Audio,2,54.99,0.05,104.48,65.83,38.65,Completed
+ORD00359,2024-08-23,C1224,Waterford,Website,Standing Desk,Furniture,1,299.99,0,299.99,145.6,154.39,Completed
+ORD00360,2024-05-14,C1091,Waterford,Mobile App,Keyboard,Accessories,1,74.99,0.05,71.24,35.37,35.87,Cancelled
+ORD00361,2024-08-06,C1162,Waterford,Website,Laptop Stand,Accessories,3,28.99,0,86.97,61.47,25.5,Completed
+ORD00362,2024-03-13,C1174,Dublin,Marketplace,Headphones,Audio,2,129.99,0,259.98,183.79,76.19,Cancelled
+ORD00363,2024-05-05,C1089,Waterford,Retail Store,Speaker,Audio,2,54.99,0.15,93.48,65.61,27.87,Completed
+ORD00364,2024-05-04,C1207,Cork,Marketplace,Speaker,Audio,2,54.99,0.1,98.98,60.47,38.51,Completed
+ORD00365,2024-07-21,C1145,Galway,Mobile App,USB-C Hub,Accessories,1,39.99,0.1,35.99,21.06,14.93,Completed
+ORD00366,2024-10-19,C1141,Galway,Website,Keyboard,Accessories,1,74.99,0.05,71.24,38.87,32.37,Returned
+ORD00367,2024-10-24,C1090,Limerick,Marketplace,Standing Desk,Furniture,3,299.99,0.15,764.97,402.74,362.23,Cancelled
+ORD00368,2024-06-12,C1230,Cork,Marketplace,Smart Watch,Wearables,2,149.99,0,299.98,209.4,90.58,Returned
+ORD00369,2024-05-01,C1180,Dublin,Mobile App,Office Chair,Furniture,1,179.99,0,179.99,115.71,64.28,Completed
+ORD00370,2024-09-13,C1165,Dublin,Mobile App,Fitness Band,Wearables,1,49.99,0.15,42.49,23.52,18.97,Completed
+ORD00371,2024-02-07,C1207,Waterford,Marketplace,Laptop Stand,Accessories,4,28.99,0.15,98.57,48.56,50.01,Completed
+ORD00372,2024-01-08,C1163,Galway,Website,Laptop Stand,Accessories,1,28.99,0.15,24.64,15.94,8.7,Completed
+ORD00373,2024-07-26,C1156,Galway,Mobile App,Speaker,Audio,3,54.99,0,164.97,107.02,57.95,Completed
+ORD00374,2024-06-20,C1198,Limerick,Retail Store,Smart Watch,Wearables,2,149.99,0,299.98,192.84,107.14,Completed
+ORD00375,2024-10-15,C1167,Galway,Website,Fitness Band,Wearables,3,49.99,0,149.97,108.06,41.91,Completed
+ORD00376,2024-03-14,C1135,Dublin,Marketplace,Speaker,Audio,1,54.99,0,54.99,28.63,26.36,Completed
+ORD00377,2024-03-19,C1168,Waterford,Marketplace,Smart Watch,Wearables,1,149.99,0.15,127.49,89.9,37.59,Completed
+ORD00378,2024-11-27,C1079,Waterford,Retail Store,Standing Desk,Furniture,1,299.99,0.1,269.99,183.18,86.81,Completed
+ORD00379,2024-01-05,C1142,Limerick,Website,Speaker,Audio,1,54.99,0.05,52.24,26.87,25.37,Completed
+ORD00380,2024-02-16,C1239,Dublin,Mobile App,Speaker,Audio,1,54.99,0,54.99,32.13,22.86,Completed
+ORD00381,2024-05-12,C1240,Waterford,Marketplace,Office Chair,Furniture,1,179.99,0.15,152.99,104.36,48.63,Completed
+ORD00382,2024-06-28,C1199,Cork,Retail Store,Keyboard,Accessories,3,74.99,0,224.97,138.9,86.07,Cancelled
+ORD00383,2024-07-18,C1117,Cork,Marketplace,Fitness Band,Wearables,1,49.99,0.05,47.49,33.92,13.57,Completed
+ORD00384,2024-11-26,C1233,Limerick,Marketplace,Laptop Stand,Accessories,1,28.99,0,28.99,14.41,14.58,Completed
+ORD00385,2024-11-17,C1220,Cork,Website,Standing Desk,Furniture,1,299.99,0.1,269.99,195.93,74.06,Completed
+ORD00386,2024-04-14,C1083,Limerick,Marketplace,Headphones,Audio,2,129.99,0,259.98,140.43,119.55,Completed
+ORD00387,2024-09-01,C1220,Galway,Mobile App,Fitness Band,Wearables,1,49.99,0.15,42.49,29.13,13.36,Completed
+ORD00388,2024-05-07,C1041,Galway,Retail Store,Headphones,Audio,1,129.99,0,129.99,78.81,51.18,Completed
+ORD00389,2024-07-03,C1011,Limerick,Mobile App,Laptop Stand,Accessories,3,28.99,0,86.97,61.0,25.97,Completed
+ORD00390,2024-02-27,C1038,Dublin,Mobile App,Keyboard,Accessories,4,74.99,0.05,284.96,187.54,97.42,Returned
+ORD00391,2024-03-27,C1118,Limerick,Website,Keyboard,Accessories,1,74.99,0.05,71.24,36.0,35.24,Completed
+ORD00392,2024-04-13,C1202,Dublin,Website,Smart Watch,Wearables,3,149.99,0,449.97,284.46,165.51,Completed
+ORD00393,2024-01-11,C1012,Galway,Website,Standing Desk,Furniture,1,299.99,0.1,269.99,178.62,91.37,Completed
+ORD00394,2024-01-02,C1045,Cork,Mobile App,Wireless Mouse,Accessories,4,19.99,0,79.96,49.3,30.66,Completed
+ORD00395,2024-09-11,C1245,Dublin,Marketplace,Office Chair,Furniture,1,179.99,0,179.99,111.19,68.8,Cancelled
+ORD00396,2024-01-08,C1067,Galway,Website,USB-C Hub,Accessories,2,39.99,0.05,75.98,50.37,25.61,Cancelled
+ORD00397,2024-07-04,C1068,Dublin,Marketplace,USB-C Hub,Accessories,1,39.99,0.1,35.99,24.66,11.33,Completed
+ORD00398,2024-07-29,C1223,Galway,Retail Store,Fitness Band,Wearables,1,49.99,0.15,42.49,24.05,18.44,Completed
+ORD00399,2024-07-16,C1225,Limerick,Mobile App,Office Chair,Furniture,1,179.99,0,179.99,104.51,75.48,Returned
+ORD00400,2024-05-10,C1177,Waterford,Retail Store,Laptop Stand,Accessories,1,28.99,0.15,24.64,17.76,6.88,Cancelled
+ORD00401,2024-01-18,C1232,Dublin,Retail Store,USB-C Hub,Accessories,2,39.99,0,79.98,55.92,24.06,Completed
+ORD00402,2024-06-10,C1116,Waterford,Website,Speaker,Audio,2,54.99,0.1,98.98,61.64,37.34,Completed
+ORD00403,2024-07-13,C1060,Limerick,Marketplace,Fitness Band,Wearables,1,49.99,0.15,42.49,26.43,16.06,Completed
+ORD00404,2024-12-12,C1211,Galway,Website,Smart Watch,Wearables,4,149.99,0.05,569.96,364.39,205.57,Completed
+ORD00405,2024-05-14,C1232,Limerick,Marketplace,Office Chair,Furniture,2,179.99,0.15,305.98,207.76,98.22,Completed
+ORD00406,2024-09-27,C1093,Waterford,Mobile App,Fitness Band,Wearables,2,49.99,0,99.98,49.7,50.28,Completed
+ORD00407,2024-12-04,C1117,Cork,Website,Speaker,Audio,1,54.99,0,54.99,28.57,26.42,Completed
+ORD00408,2024-03-19,C1179,Galway,Retail Store,Speaker,Audio,3,54.99,0.1,148.47,76.01,72.46,Completed
+ORD00409,2024-08-19,C1169,Dublin,Marketplace,Speaker,Audio,2,54.99,0.15,93.48,57.54,35.94,Completed
+ORD00410,2024-03-30,C1194,Waterford,Mobile App,Fitness Band,Wearables,2,49.99,0.1,89.98,58.04,31.94,Completed
+ORD00411,2024-11-14,C1094,Waterford,Marketplace,Keyboard,Accessories,1,74.99,0.15,63.74,41.54,22.2,Completed
+ORD00412,2024-05-12,C1014,Waterford,Mobile App,Headphones,Audio,1,129.99,0,129.99,62.42,67.57,Completed
+ORD00413,2024-05-15,C1213,Limerick,Website,Office Chair,Furniture,1,179.99,0.05,170.99,93.44,77.55,Completed
+ORD00414,2024-05-28,C1158,Galway,Website,Fitness Band,Wearables,3,49.99,0,149.97,76.99,72.98,Completed
+ORD00415,2024-08-08,C1165,Waterford,Marketplace,Smart Watch,Wearables,1,149.99,0.05,142.49,104.32,38.17,Completed
+ORD00416,2024-04-08,C1250,Waterford,Marketplace,Smart Watch,Wearables,3,149.99,0,449.97,324.18,125.79,Completed
+ORD00417,2024-08-16,C1097,Limerick,Retail Store,USB-C Hub,Accessories,1,39.99,0,39.99,20.03,19.96,Completed
+ORD00418,2024-08-24,C1179,Limerick,Retail Store,Laptop Stand,Accessories,1,28.99,0.15,24.64,14.79,9.85,Cancelled
+ORD00419,2024-03-10,C1131,Dublin,Mobile App,Keyboard,Accessories,3,74.99,0.1,202.47,118.12,84.35,Completed
+ORD00420,2024-07-17,C1197,Limerick,Website,Smart Watch,Wearables,1,149.99,0.05,142.49,88.91,53.58,Completed
+ORD00421,2024-02-15,C1217,Cork,Retail Store,Wireless Mouse,Accessories,2,19.99,0,39.98,20.25,19.73,Completed
+ORD00422,2024-10-08,C1176,Limerick,Mobile App,USB-C Hub,Accessories,2,39.99,0.1,71.98,50.7,21.28,Cancelled
+ORD00423,2024-04-07,C1132,Dublin,Mobile App,Laptop Stand,Accessories,3,28.99,0,86.97,48.99,37.98,Cancelled
+ORD00424,2024-05-10,C1169,Galway,Retail Store,Headphones,Audio,1,129.99,0,129.99,72.98,57.01,Completed
+ORD00425,2024-07-13,C1205,Limerick,Marketplace,Smart Watch,Wearables,2,149.99,0.05,284.98,159.35,125.63,Completed
+ORD00426,2024-08-25,C1168,Limerick,Mobile App,Keyboard,Accessories,1,74.99,0.15,63.74,41.4,22.34,Completed
+ORD00427,2024-06-09,C1002,Waterford,Website,Speaker,Audio,1,54.99,0.15,46.74,30.5,16.24,Completed
+ORD00428,2024-08-12,C1074,Cork,Mobile App,Standing Desk,Furniture,3,299.99,0,899.97,496.0,403.97,Completed
+ORD00429,2024-08-15,C1052,Cork,Website,Standing Desk,Furniture,2,299.99,0.1,539.98,390.44,149.54,Completed
+ORD00430,2024-09-11,C1046,Dublin,Mobile App,Wireless Mouse,Accessories,1,19.99,0,19.99,13.83,6.16,Completed
+ORD00431,2024-03-15,C1199,Cork,Website,Headphones,Audio,2,129.99,0.15,220.98,154.23,66.75,Completed
+ORD00432,2024-12-03,C1213,Galway,Retail Store,USB-C Hub,Accessories,2,39.99,0,79.98,47.01,32.97,Completed
+ORD00433,2024-08-16,C1075,Cork,Marketplace,Keyboard,Accessories,3,74.99,0,224.97,110.43,114.54,Completed
+ORD00434,2024-04-19,C1038,Cork,Retail Store,Keyboard,Accessories,1,74.99,0.05,71.24,40.2,31.04,Cancelled
+ORD00435,2024-10-06,C1177,Dublin,Mobile App,Speaker,Audio,1,54.99,0.05,52.24,28.11,24.13,Completed
+ORD00436,2024-06-29,C1031,Cork,Website,Keyboard,Accessories,1,74.99,0.1,67.49,34.4,33.09,Completed
+ORD00437,2024-02-17,C1051,Limerick,Marketplace,Speaker,Audio,1,54.99,0.1,49.49,35.2,14.29,Completed
+ORD00438,2024-08-28,C1069,Cork,Marketplace,Standing Desk,Furniture,2,299.99,0,599.98,319.4,280.58,Completed
+ORD00439,2024-03-18,C1168,Galway,Website,Standing Desk,Furniture,1,299.99,0,299.99,170.85,129.14,Completed
+ORD00440,2024-07-05,C1045,Dublin,Marketplace,Speaker,Audio,1,54.99,0,54.99,31.11,23.88,Completed
+ORD00441,2024-03-23,C1152,Limerick,Retail Store,Office Chair,Furniture,1,179.99,0.15,152.99,77.93,75.06,Completed
+ORD00442,2024-12-22,C1033,Limerick,Marketplace,Laptop Stand,Accessories,1,28.99,0,28.99,17.03,11.96,Completed
+ORD00443,2024-11-26,C1223,Limerick,Marketplace,Keyboard,Accessories,1,74.99,0,74.99,42.46,32.53,Completed
+ORD00444,2024-09-11,C1069,Waterford,Website,Wireless Mouse,Accessories,1,19.99,0,19.99,10.2,9.79,Completed
+ORD00445,2024-05-11,C1093,Cork,Marketplace,USB-C Hub,Accessories,1,39.99,0.15,33.99,16.69,17.3,Completed
+ORD00446,2024-09-30,C1128,Cork,Website,USB-C Hub,Accessories,4,39.99,0,159.96,107.0,52.96,Completed
+ORD00447,2024-04-27,C1022,Cork,Mobile App,Laptop Stand,Accessories,1,28.99,0.15,24.64,13.18,11.46,Completed
+ORD00448,2024-05-29,C1145,Dublin,Website,Laptop Stand,Accessories,1,28.99,0.15,24.64,15.15,9.49,Completed
+ORD00449,2024-09-19,C1181,Dublin,Mobile App,USB-C Hub,Accessories,1,39.99,0.15,33.99,23.16,10.83,Completed
+ORD00450,2024-12-20,C1044,Galway,Marketplace,Speaker,Audio,4,54.99,0,219.96,117.87,102.09,Completed
+ORD00451,2024-07-29,C1201,Limerick,Website,Fitness Band,Wearables,2,49.99,0,99.98,48.27,51.71,Completed
+ORD00452,2024-03-18,C1204,Galway,Mobile App,USB-C Hub,Accessories,1,39.99,0.15,33.99,22.31,11.68,Completed
+ORD00453,2024-09-02,C1009,Limerick,Marketplace,USB-C Hub,Accessories,2,39.99,0,79.98,59.13,20.85,Returned
+ORD00454,2024-01-26,C1216,Galway,Retail Store,Standing Desk,Furniture,2,299.99,0,599.98,423.18,176.8,Completed
+ORD00455,2024-09-11,C1034,Galway,Marketplace,Speaker,Audio,2,54.99,0.1,98.98,64.82,34.16,Returned
+ORD00456,2024-07-16,C1211,Waterford,Marketplace,Fitness Band,Wearables,3,49.99,0.15,127.47,66.64,60.83,Completed
+ORD00457,2024-05-09,C1192,Cork,Mobile App,Standing Desk,Furniture,1,299.99,0,299.99,149.3,150.69,Completed
+ORD00458,2024-12-16,C1227,Dublin,Retail Store,Fitness Band,Wearables,2,49.99,0.1,89.98,56.64,33.34,Completed
+ORD00459,2024-07-26,C1242,Dublin,Mobile App,Smart Watch,Wearables,2,149.99,0.05,284.98,197.98,87.0,Completed
+ORD00460,2024-01-03,C1076,Limerick,Website,Speaker,Audio,2,54.99,0.1,98.98,67.92,31.06,Cancelled
+ORD00461,2024-03-15,C1085,Waterford,Mobile App,Fitness Band,Wearables,1,49.99,0.15,42.49,23.7,18.79,Completed
+ORD00462,2024-06-20,C1022,Galway,Mobile App,Smart Watch,Wearables,3,149.99,0.15,382.47,186.82,195.65,Completed
+ORD00463,2024-03-02,C1055,Dublin,Retail Store,Fitness Band,Wearables,1,49.99,0.15,42.49,29.31,13.18,Completed
+ORD00464,2024-07-04,C1042,Cork,Marketplace,Keyboard,Accessories,1,74.99,0.05,71.24,51.93,19.31,Returned
+ORD00465,2024-06-12,C1244,Waterford,Mobile App,Standing Desk,Furniture,3,299.99,0.1,809.97,453.77,356.2,Completed
+ORD00466,2024-03-30,C1026,Cork,Retail Store,Keyboard,Accessories,1,74.99,0,74.99,36.0,38.99,Completed
+ORD00467,2024-09-20,C1170,Limerick,Mobile App,Headphones,Audio,2,129.99,0,259.98,191.34,68.64,Returned
+ORD00468,2024-06-18,C1113,Galway,Marketplace,Headphones,Audio,2,129.99,0,259.98,159.55,100.43,Completed
+ORD00469,2024-09-12,C1126,Galway,Website,Smart Watch,Wearables,3,149.99,0,449.97,322.12,127.85,Completed
+ORD00470,2024-09-19,C1228,Cork,Retail Store,Wireless Mouse,Accessories,2,19.99,0.1,35.98,20.18,15.8,Completed
+ORD00471,2024-05-18,C1036,Cork,Website,Speaker,Audio,1,54.99,0,54.99,40.02,14.97,Cancelled
+ORD00472,2024-05-03,C1074,Waterford,Website,Keyboard,Accessories,2,74.99,0.05,142.48,91.63,50.85,Completed
+ORD00473,2024-12-29,C1092,Galway,Marketplace,Smart Watch,Wearables,2,149.99,0.1,269.98,164.2,105.78,Completed
+ORD00474,2024-06-26,C1228,Cork,Mobile App,Standing Desk,Furniture,1,299.99,0,299.99,205.9,94.09,Completed
+ORD00475,2024-06-08,C1232,Dublin,Marketplace,Laptop Stand,Accessories,1,28.99,0.15,24.64,12.92,11.72,Cancelled
+ORD00476,2024-08-31,C1050,Waterford,Marketplace,Speaker,Audio,4,54.99,0,219.96,121.16,98.8,Returned
+ORD00477,2024-06-12,C1098,Limerick,Marketplace,Smart Watch,Wearables,1,149.99,0.05,142.49,81.8,60.69,Completed
+ORD00478,2024-06-10,C1011,Cork,Marketplace,Standing Desk,Furniture,1,299.99,0.1,269.99,174.32,95.67,Completed
+ORD00479,2024-05-20,C1100,Galway,Retail Store,Fitness Band,Wearables,2,49.99,0.1,89.98,60.8,29.18,Completed
+ORD00480,2024-01-07,C1010,Waterford,Marketplace,Headphones,Audio,3,129.99,0,389.97,213.52,176.45,Completed
+ORD00481,2024-10-07,C1024,Waterford,Retail Store,Speaker,Audio,1,54.99,0,54.99,39.06,15.93,Completed
+ORD00482,2024-11-20,C1190,Dublin,Retail Store,Wireless Mouse,Accessories,3,19.99,0,59.97,38.84,21.13,Completed
+ORD00483,2024-06-28,C1221,Cork,Mobile App,Speaker,Audio,1,54.99,0.1,49.49,34.12,15.37,Completed
+ORD00484,2024-06-22,C1174,Dublin,Retail Store,Office Chair,Furniture,1,179.99,0.05,170.99,88.01,82.98,Completed
+ORD00485,2024-07-25,C1054,Waterford,Marketplace,Laptop Stand,Accessories,3,28.99,0,86.97,54.81,32.16,Completed
+ORD00486,2024-05-24,C1230,Dublin,Retail Store,Keyboard,Accessories,1,74.99,0,74.99,45.76,29.23,Completed
+ORD00487,2024-05-20,C1182,Dublin,Marketplace,Keyboard,Accessories,2,74.99,0.1,134.98,86.28,48.7,Completed
+ORD00488,2024-02-10,C1092,Dublin,Website,USB-C Hub,Accessories,1,39.99,0.05,37.99,24.91,13.08,Completed
+ORD00489,2024-03-12,C1114,Galway,Website,Speaker,Audio,1,54.99,0.1,49.49,31.85,17.64,Cancelled
+ORD00490,2024-08-27,C1028,Limerick,Mobile App,Standing Desk,Furniture,2,299.99,0,599.98,294.17,305.81,Completed
+ORD00491,2024-04-21,C1142,Cork,Marketplace,Speaker,Audio,4,54.99,0.15,186.97,117.38,69.59,Completed
+ORD00492,2024-03-29,C1007,Waterford,Marketplace,Standing Desk,Furniture,1,299.99,0,299.99,161.39,138.6,Completed
+ORD00493,2024-10-26,C1028,Limerick,Retail Store,Wireless Mouse,Accessories,4,19.99,0.05,75.96,50.77,25.19,Completed
+ORD00494,2024-09-29,C1084,Galway,Website,Standing Desk,Furniture,1,299.99,0,299.99,206.72,93.27,Completed
+ORD00495,2024-12-28,C1158,Limerick,Mobile App,Standing Desk,Furniture,1,299.99,0.1,269.99,197.63,72.36,Completed
+ORD00496,2024-04-09,C1019,Waterford,Website,USB-C Hub,Accessories,1,39.99,0,39.99,22.13,17.86,Completed
+ORD00497,2024-04-13,C1143,Galway,Website,USB-C Hub,Accessories,2,39.99,0,79.98,54.47,25.51,Returned
+ORD00498,2024-08-01,C1003,Waterford,Marketplace,Standing Desk,Furniture,2,299.99,0,599.98,343.2,256.78,Completed
+ORD00499,2024-06-05,C1026,Dublin,Mobile App,Keyboard,Accessories,2,74.99,0.05,142.48,105.12,37.36,Completed
+ORD00500,2024-06-24,C1027,Cork,Marketplace,Smart Watch,Wearables,3,149.99,0.1,404.97,275.75,129.22,Completed
+ORD00501,2024-06-12,C1121,Cork,Website,Fitness Band,Wearables,1,49.99,0,49.99,35.85,14.14,Completed
+ORD00502,2024-12-02,C1005,Cork,Marketplace,Headphones,Audio,1,129.99,0,129.99,74.35,55.64,Returned
+ORD00503,2024-08-11,C1034,Cork,Website,Office Chair,Furniture,1,179.99,0.1,161.99,84.53,77.46,Completed
+ORD00504,2024-02-14,C1118,Dublin,Mobile App,Standing Desk,Furniture,1,299.99,0,299.99,144.71,155.28,Returned
+ORD00505,2024-10-13,C1226,Limerick,Retail Store,Office Chair,Furniture,3,179.99,0.05,512.97,291.37,221.6,Completed
+ORD00506,2024-07-14,C1225,Dublin,Website,USB-C Hub,Accessories,1,39.99,0,39.99,28.61,11.38,Completed
+ORD00507,2024-10-26,C1235,Limerick,Website,Keyboard,Accessories,3,74.99,0.1,202.47,121.21,81.26,Completed
+ORD00508,2024-12-10,C1220,Cork,Retail Store,Laptop Stand,Accessories,3,28.99,0,86.97,50.8,36.17,Completed
+ORD00509,2024-11-02,C1097,Dublin,Mobile App,Fitness Band,Wearables,2,49.99,0,99.98,71.62,28.36,Completed
+ORD00510,2024-04-24,C1162,Dublin,Mobile App,USB-C Hub,Accessories,1,39.99,0.15,33.99,23.28,10.71,Completed
+ORD00511,2024-07-24,C1061,Cork,Website,USB-C Hub,Accessories,2,39.99,0,79.98,48.09,31.89,Returned
+ORD00512,2024-08-27,C1004,Limerick,Website,Standing Desk,Furniture,3,299.99,0.05,854.97,419.57,435.4,Completed
+ORD00513,2024-09-19,C1082,Dublin,Retail Store,Wireless Mouse,Accessories,1,19.99,0.15,16.99,8.87,8.12,Returned
+ORD00514,2024-02-13,C1128,Waterford,Website,Laptop Stand,Accessories,1,28.99,0,28.99,18.11,10.88,Completed
+ORD00515,2024-01-04,C1143,Cork,Website,Office Chair,Furniture,2,179.99,0.1,323.98,188.95,135.03,Completed
+ORD00516,2024-12-28,C1166,Cork,Retail Store,Office Chair,Furniture,2,179.99,0.1,323.98,173.1,150.88,Cancelled
+ORD00517,2024-12-12,C1024,Dublin,Mobile App,Standing Desk,Furniture,4,299.99,0.15,1019.97,627.4,392.57,Completed
+ORD00518,2024-05-31,C1037,Limerick,Marketplace,Wireless Mouse,Accessories,1,19.99,0.05,18.99,10.61,8.38,Completed
+ORD00519,2024-12-20,C1196,Waterford,Mobile App,Laptop Stand,Accessories,1,28.99,0,28.99,14.77,14.22,Completed
+ORD00520,2024-04-17,C1234,Dublin,Website,Fitness Band,Wearables,4,49.99,0.15,169.97,106.97,63.0,Completed
+ORD00521,2024-08-08,C1205,Dublin,Mobile App,Laptop Stand,Accessories,2,28.99,0,57.98,40.64,17.34,Completed
+ORD00522,2024-06-02,C1216,Galway,Website,Headphones,Audio,1,129.99,0,129.99,70.93,59.06,Completed
+ORD00523,2024-11-30,C1167,Limerick,Marketplace,Wireless Mouse,Accessories,1,19.99,0,19.99,14.69,5.3,Completed
+ORD00524,2024-04-28,C1139,Galway,Marketplace,USB-C Hub,Accessories,1,39.99,0.15,33.99,16.5,17.49,Completed
+ORD00525,2024-02-23,C1009,Galway,Retail Store,USB-C Hub,Accessories,3,39.99,0,119.97,74.18,45.79,Completed
+ORD00526,2024-03-23,C1054,Waterford,Website,Speaker,Audio,1,54.99,0,54.99,40.2,14.79,Completed
+ORD00527,2024-09-22,C1176,Dublin,Mobile App,Office Chair,Furniture,1,179.99,0.1,161.99,116.98,45.01,Completed
+ORD00528,2024-03-31,C1156,Limerick,Mobile App,Laptop Stand,Accessories,2,28.99,0.1,52.18,34.76,17.42,Completed
+ORD00529,2024-01-15,C1023,Cork,Marketplace,Headphones,Audio,2,129.99,0,259.98,147.89,112.09,Completed
+ORD00530,2024-12-21,C1100,Galway,Website,Standing Desk,Furniture,1,299.99,0,299.99,190.63,109.36,Completed
+ORD00531,2024-03-13,C1142,Dublin,Retail Store,Wireless Mouse,Accessories,1,19.99,0,19.99,11.47,8.52,Completed
+ORD00532,2024-08-18,C1045,Dublin,Marketplace,Office Chair,Furniture,2,179.99,0.05,341.98,246.02,95.96,Completed
+ORD00533,2024-02-18,C1220,Limerick,Marketplace,Smart Watch,Wearables,2,149.99,0,299.98,178.69,121.29,Completed
+ORD00534,2024-04-16,C1205,Galway,Marketplace,USB-C Hub,Accessories,1,39.99,0,39.99,20.3,19.69,Completed
+ORD00535,2024-03-21,C1200,Waterford,Marketplace,Laptop Stand,Accessories,3,28.99,0,86.97,62.21,24.76,Completed
+ORD00536,2024-01-30,C1098,Galway,Website,Keyboard,Accessories,1,74.99,0.1,67.49,34.1,33.39,Completed
+ORD00537,2024-03-07,C1239,Galway,Marketplace,USB-C Hub,Accessories,1,39.99,0.05,37.99,18.38,19.61,Completed
+ORD00538,2024-03-26,C1133,Dublin,Mobile App,Keyboard,Accessories,1,74.99,0.05,71.24,41.06,30.18,Returned
+ORD00539,2024-01-16,C1057,Cork,Mobile App,Keyboard,Accessories,1,74.99,0.1,67.49,48.75,18.74,Completed
+ORD00540,2024-01-04,C1012,Dublin,Retail Store,Speaker,Audio,1,54.99,0.1,49.49,27.14,22.35,Completed
+ORD00541,2024-02-29,C1028,Limerick,Retail Store,USB-C Hub,Accessories,1,39.99,0.1,35.99,21.38,14.61,Completed
+ORD00542,2024-08-06,C1112,Dublin,Website,Wireless Mouse,Accessories,1,19.99,0,19.99,14.32,5.67,Completed
+ORD00543,2024-06-22,C1142,Dublin,Website,Headphones,Audio,1,129.99,0.1,116.99,63.43,53.56,Completed
+ORD00544,2024-07-11,C1028,Dublin,Retail Store,Fitness Band,Wearables,2,49.99,0.15,84.98,54.29,30.69,Completed
+ORD00545,2024-04-18,C1025,Dublin,Retail Store,USB-C Hub,Accessories,1,39.99,0.15,33.99,23.96,10.03,Completed
+ORD00546,2024-08-19,C1161,Galway,Website,Fitness Band,Wearables,2,49.99,0,99.98,49.93,50.05,Completed
+ORD00547,2024-04-02,C1130,Dublin,Website,Speaker,Audio,1,54.99,0.1,49.49,29.95,19.54,Completed
+ORD00548,2024-12-06,C1154,Cork,Marketplace,Laptop Stand,Accessories,1,28.99,0,28.99,19.74,9.25,Completed
+ORD00549,2024-11-29,C1046,Cork,Website,Speaker,Audio,2,54.99,0.05,104.48,67.98,36.5,Completed
+ORD00550,2024-03-12,C1214,Cork,Marketplace,Wireless Mouse,Accessories,1,19.99,0,19.99,11.08,8.91,Completed
+ORD00551,2024-12-13,C1042,Dublin,Marketplace,Standing Desk,Furniture,1,299.99,0,299.99,175.35,124.64,Returned
+ORD00552,2024-09-08,C1172,Cork,Mobile App,USB-C Hub,Accessories,1,39.99,0.05,37.99,23.29,14.7,Completed
+ORD00553,2024-06-13,C1008,Limerick,Mobile App,Fitness Band,Wearables,1,49.99,0.1,44.99,24.76,20.23,Completed
+ORD00554,2024-01-01,C1039,Waterford,Marketplace,Laptop Stand,Accessories,2,28.99,0,57.98,31.42,26.56,Completed
+ORD00555,2024-05-03,C1143,Dublin,Marketplace,Fitness Band,Wearables,2,49.99,0.1,89.98,46.41,43.57,Cancelled
+ORD00556,2024-06-13,C1226,Dublin,Mobile App,Keyboard,Accessories,3,74.99,0.15,191.22,98.51,92.71,Completed
+ORD00557,2024-05-09,C1227,Waterford,Mobile App,Keyboard,Accessories,1,74.99,0.1,67.49,46.26,21.23,Completed
+ORD00558,2024-08-11,C1234,Dublin,Website,Headphones,Audio,4,129.99,0.1,467.96,236.16,231.8,Returned
+ORD00559,2024-08-03,C1018,Waterford,Retail Store,Wireless Mouse,Accessories,1,19.99,0,19.99,14.12,5.87,Completed
+ORD00560,2024-12-02,C1135,Waterford,Marketplace,Office Chair,Furniture,2,179.99,0.1,323.98,176.04,147.94,Returned
+ORD00561,2024-05-09,C1146,Limerick,Mobile App,Office Chair,Furniture,1,179.99,0,179.99,114.11,65.88,Completed
+ORD00562,2024-09-25,C1065,Dublin,Website,Headphones,Audio,2,129.99,0.1,233.98,134.59,99.39,Completed
+ORD00563,2024-01-05,C1113,Limerick,Marketplace,Fitness Band,Wearables,1,49.99,0.05,47.49,32.67,14.82,Completed
+ORD00564,2024-04-29,C1250,Limerick,Website,Keyboard,Accessories,1,74.99,0.05,71.24,48.75,22.49,Cancelled
+ORD00565,2024-04-29,C1094,Galway,Retail Store,USB-C Hub,Accessories,1,39.99,0.1,35.99,26.27,9.72,Completed
+ORD00566,2024-05-16,C1028,Dublin,Mobile App,Speaker,Audio,1,54.99,0,54.99,35.54,19.45,Returned
+ORD00567,2024-08-20,C1241,Galway,Marketplace,Standing Desk,Furniture,1,299.99,0,299.99,180.62,119.37,Completed
+ORD00568,2024-12-12,C1173,Cork,Retail Store,Smart Watch,Wearables,1,149.99,0.1,134.99,89.12,45.87,Completed
+ORD00569,2024-12-26,C1151,Cork,Marketplace,Headphones,Audio,3,129.99,0,389.97,251.53,138.44,Completed
+ORD00570,2024-11-03,C1116,Waterford,Website,Headphones,Audio,2,129.99,0,259.98,180.32,79.66,Completed
+ORD00571,2024-05-19,C1007,Dublin,Website,Laptop Stand,Accessories,2,28.99,0.1,52.18,34.89,17.29,Completed
+ORD00572,2024-03-30,C1067,Cork,Website,Wireless Mouse,Accessories,2,19.99,0,39.98,20.99,18.99,Completed
+ORD00573,2024-06-20,C1018,Waterford,Marketplace,Wireless Mouse,Accessories,3,19.99,0,59.97,31.1,28.87,Completed
+ORD00574,2024-02-12,C1067,Cork,Marketplace,Smart Watch,Wearables,2,149.99,0.05,284.98,161.47,123.51,Completed
+ORD00575,2024-06-17,C1087,Waterford,Retail Store,Standing Desk,Furniture,1,299.99,0.05,284.99,146.56,138.43,Completed
+ORD00576,2024-03-19,C1214,Limerick,Retail Store,Standing Desk,Furniture,3,299.99,0.15,764.97,527.33,237.64,Completed
+ORD00577,2024-02-18,C1016,Waterford,Mobile App,Laptop Stand,Accessories,1,28.99,0,28.99,19.96,9.03,Completed
+ORD00578,2024-12-05,C1120,Waterford,Retail Store,Fitness Band,Wearables,2,49.99,0,99.98,64.17,35.81,Completed
+ORD00579,2024-11-20,C1117,Cork,Marketplace,USB-C Hub,Accessories,3,39.99,0,119.97,60.95,59.02,Completed
+ORD00580,2024-01-13,C1056,Waterford,Marketplace,Office Chair,Furniture,1,179.99,0,179.99,87.84,92.15,Completed
+ORD00581,2024-06-08,C1169,Galway,Mobile App,Fitness Band,Wearables,2,49.99,0,99.98,53.31,46.67,Completed
+ORD00582,2024-12-14,C1245,Galway,Retail Store,USB-C Hub,Accessories,1,39.99,0.05,37.99,26.4,11.59,Completed
+ORD00583,2024-05-30,C1012,Galway,Mobile App,Headphones,Audio,1,129.99,0.15,110.49,62.1,48.39,Completed
+ORD00584,2024-09-16,C1183,Waterford,Marketplace,USB-C Hub,Accessories,1,39.99,0,39.99,22.53,17.46,Completed
+ORD00585,2024-02-05,C1159,Limerick,Retail Store,Fitness Band,Wearables,1,49.99,0,49.99,25.38,24.61,Completed
+ORD00586,2024-06-11,C1218,Limerick,Retail Store,Headphones,Audio,2,129.99,0.15,220.98,118.82,102.16,Completed
+ORD00587,2024-02-23,C1196,Limerick,Website,Speaker,Audio,1,54.99,0.05,52.24,33.48,18.76,Completed
+ORD00588,2024-08-26,C1175,Waterford,Website,Headphones,Audio,1,129.99,0.15,110.49,56.74,53.75,Completed
+ORD00589,2024-02-13,C1037,Limerick,Website,Wireless Mouse,Accessories,3,19.99,0.05,56.97,33.82,23.15,Completed
+ORD00590,2024-12-24,C1018,Galway,Mobile App,Laptop Stand,Accessories,1,28.99,0,28.99,17.91,11.08,Completed
+ORD00591,2024-07-17,C1195,Limerick,Marketplace,Standing Desk,Furniture,3,299.99,0,899.97,488.06,411.91,Completed
+ORD00592,2024-05-12,C1241,Limerick,Retail Store,USB-C Hub,Accessories,1,39.99,0.15,33.99,17.35,16.64,Completed
+ORD00593,2024-07-20,C1183,Cork,Mobile App,Keyboard,Accessories,2,74.99,0.05,142.48,96.5,45.98,Completed
+ORD00594,2024-05-06,C1007,Galway,Retail Store,Fitness Band,Wearables,1,49.99,0.15,42.49,24.14,18.35,Completed
+ORD00595,2024-03-29,C1186,Galway,Mobile App,Keyboard,Accessories,4,74.99,0.15,254.97,143.68,111.29,Completed
+ORD00596,2024-01-06,C1201,Galway,Website,Laptop Stand,Accessories,3,28.99,0,86.97,54.75,32.22,Returned
+ORD00597,2024-05-16,C1243,Galway,Marketplace,Speaker,Audio,1,54.99,0.05,52.24,36.2,16.04,Completed
+ORD00598,2024-04-26,C1003,Limerick,Mobile App,Speaker,Audio,1,54.99,0.05,52.24,26.57,25.67,Completed
+ORD00599,2024-06-06,C1064,Waterford,Marketplace,Laptop Stand,Accessories,4,28.99,0,115.96,78.42,37.54,Completed
+ORD00600,2024-12-09,C1210,Dublin,Marketplace,Headphones,Audio,1,129.99,0.15,110.49,73.53,36.96,Returned
+ORD00601,2024-12-12,C1138,Dublin,Retail Store,Keyboard,Accessories,3,74.99,0,224.97,158.12,66.85,Returned
+ORD00602,2024-07-03,C1063,Dublin,Website,Fitness Band,Wearables,2,49.99,0,99.98,66.95,33.03,Completed
+ORD00603,2024-02-06,C1157,Dublin,Retail Store,Laptop Stand,Accessories,3,28.99,0,86.97,46.88,40.09,Completed
+ORD00604,2024-09-01,C1244,Limerick,Marketplace,USB-C Hub,Accessories,3,39.99,0.1,107.97,60.56,47.41,Completed
+ORD00605,2024-06-08,C1189,Galway,Website,Standing Desk,Furniture,1,299.99,0.05,284.99,191.16,93.83,Completed
+ORD00606,2024-12-06,C1058,Cork,Mobile App,Office Chair,Furniture,1,179.99,0.1,161.99,95.29,66.7,Completed
+ORD00607,2024-10-18,C1008,Limerick,Retail Store,Speaker,Audio,3,54.99,0,164.97,107.27,57.7,Completed
+ORD00608,2024-05-28,C1210,Waterford,Marketplace,Keyboard,Accessories,1,74.99,0,74.99,39.58,35.41,Completed
+ORD00609,2024-08-09,C1040,Limerick,Website,Standing Desk,Furniture,2,299.99,0,599.98,345.2,254.78,Returned
+ORD00610,2024-04-05,C1125,Waterford,Website,USB-C Hub,Accessories,1,39.99,0.05,37.99,23.33,14.66,Completed
+ORD00611,2024-10-14,C1230,Cork,Mobile App,Keyboard,Accessories,2,74.99,0.1,134.98,99.88,35.1,Completed
+ORD00612,2024-07-04,C1013,Dublin,Mobile App,Office Chair,Furniture,3,179.99,0,539.97,381.11,158.86,Completed
+ORD00613,2024-03-20,C1143,Cork,Mobile App,Office Chair,Furniture,3,179.99,0,539.97,330.9,209.07,Completed
+ORD00614,2024-12-18,C1066,Waterford,Marketplace,Fitness Band,Wearables,2,49.99,0.1,89.98,46.38,43.6,Completed
+ORD00615,2024-01-03,C1205,Galway,Mobile App,USB-C Hub,Accessories,1,39.99,0.1,35.99,17.78,18.21,Completed
+ORD00616,2024-03-30,C1059,Waterford,Mobile App,USB-C Hub,Accessories,1,39.99,0,39.99,24.57,15.42,Returned
+ORD00617,2024-12-30,C1152,Cork,Marketplace,USB-C Hub,Accessories,4,39.99,0,159.96,107.94,52.02,Completed
+ORD00618,2024-01-01,C1113,Dublin,Website,Smart Watch,Wearables,3,149.99,0,449.97,273.12,176.85,Returned
+ORD00619,2024-03-28,C1163,Cork,Marketplace,Office Chair,Furniture,2,179.99,0,359.98,202.73,157.25,Completed
+ORD00620,2024-07-28,C1091,Waterford,Retail Store,USB-C Hub,Accessories,4,39.99,0,159.96,83.49,76.47,Completed
+ORD00621,2024-04-08,C1150,Galway,Website,Keyboard,Accessories,2,74.99,0.1,134.98,67.77,67.21,Completed
+ORD00622,2024-10-30,C1124,Limerick,Marketplace,Keyboard,Accessories,1,74.99,0.1,67.49,45.88,21.61,Completed
+ORD00623,2024-03-27,C1059,Dublin,Marketplace,USB-C Hub,Accessories,1,39.99,0.15,33.99,17.59,16.4,Completed
+ORD00624,2024-06-20,C1090,Limerick,Mobile App,Wireless Mouse,Accessories,1,19.99,0.05,18.99,12.74,6.25,Completed
+ORD00625,2024-09-01,C1090,Waterford,Retail Store,Standing Desk,Furniture,1,299.99,0,299.99,210.25,89.74,Cancelled
+ORD00626,2024-01-03,C1243,Cork,Marketplace,Standing Desk,Furniture,1,299.99,0.15,254.99,165.65,89.34,Completed
+ORD00627,2024-04-22,C1087,Cork,Retail Store,Smart Watch,Wearables,2,149.99,0.15,254.98,160.27,94.71,Completed
+ORD00628,2024-09-02,C1112,Limerick,Marketplace,Headphones,Audio,1,129.99,0,129.99,83.23,46.76,Completed
+ORD00629,2024-06-15,C1163,Limerick,Website,Laptop Stand,Accessories,1,28.99,0.15,24.64,16.9,7.74,Completed
+ORD00630,2024-05-13,C1004,Galway,Retail Store,Smart Watch,Wearables,2,149.99,0.15,254.98,174.5,80.48,Completed
+ORD00631,2024-09-10,C1041,Limerick,Website,Office Chair,Furniture,1,179.99,0.05,170.99,94.88,76.11,Completed
+ORD00632,2024-04-26,C1056,Dublin,Retail Store,USB-C Hub,Accessories,1,39.99,0,39.99,20.72,19.27,Completed
+ORD00633,2024-02-15,C1197,Cork,Retail Store,Wireless Mouse,Accessories,3,19.99,0.15,50.97,31.77,19.2,Completed
+ORD00634,2024-11-18,C1223,Cork,Mobile App,Laptop Stand,Accessories,2,28.99,0.1,52.18,30.77,21.41,Cancelled
+ORD00635,2024-01-12,C1083,Cork,Website,Laptop Stand,Accessories,1,28.99,0,28.99,14.85,14.14,Completed
+ORD00636,2024-04-11,C1092,Dublin,Retail Store,Wireless Mouse,Accessories,1,19.99,0.15,16.99,9.74,7.25,Completed
+ORD00637,2024-01-13,C1172,Cork,Mobile App,Smart Watch,Wearables,1,149.99,0,149.99,90.83,59.16,Completed
+ORD00638,2024-11-14,C1174,Dublin,Retail Store,Keyboard,Accessories,2,74.99,0,149.98,89.36,60.62,Completed
+ORD00639,2024-11-03,C1162,Galway,Retail Store,Standing Desk,Furniture,1,299.99,0.1,269.99,191.47,78.52,Completed
+ORD00640,2024-09-11,C1044,Limerick,Mobile App,Keyboard,Accessories,3,74.99,0.15,191.22,117.47,73.75,Completed
+ORD00641,2024-07-04,C1106,Cork,Retail Store,Laptop Stand,Accessories,1,28.99,0.15,24.64,17.84,6.8,Completed
+ORD00642,2024-11-10,C1041,Galway,Retail Store,Smart Watch,Wearables,1,149.99,0.1,134.99,98.33,36.66,Completed
+ORD00643,2024-10-23,C1176,Galway,Marketplace,USB-C Hub,Accessories,2,39.99,0.15,67.98,47.15,20.83,Completed
+ORD00644,2024-10-20,C1219,Waterford,Retail Store,Office Chair,Furniture,1,179.99,0.15,152.99,86.83,66.16,Cancelled
+ORD00645,2024-02-12,C1146,Limerick,Marketplace,Wireless Mouse,Accessories,1,19.99,0,19.99,10.37,9.62,Completed
+ORD00646,2024-03-09,C1026,Limerick,Marketplace,Smart Watch,Wearables,2,149.99,0,299.98,150.8,149.18,Completed
+ORD00647,2024-05-11,C1020,Limerick,Marketplace,Standing Desk,Furniture,3,299.99,0.1,809.97,574.65,235.32,Completed
+ORD00648,2024-12-01,C1066,Galway,Marketplace,Fitness Band,Wearables,3,49.99,0.05,142.47,76.33,66.14,Completed
+ORD00649,2024-10-19,C1177,Galway,Retail Store,Office Chair,Furniture,3,179.99,0.15,458.97,271.23,187.74,Completed
+ORD00650,2024-01-24,C1191,Cork,Marketplace,Speaker,Audio,1,54.99,0.1,49.49,36.09,13.4,Completed
+ORD00651,2024-07-11,C1219,Cork,Marketplace,Office Chair,Furniture,2,179.99,0,359.98,205.7,154.28,Completed
+ORD00652,2024-01-18,C1055,Limerick,Retail Store,Laptop Stand,Accessories,1,28.99,0,28.99,14.57,14.42,Completed
+ORD00653,2024-11-07,C1047,Cork,Website,Wireless Mouse,Accessories,2,19.99,0.05,37.98,26.52,11.46,Completed
+ORD00654,2024-04-24,C1121,Cork,Marketplace,Office Chair,Furniture,1,179.99,0,179.99,94.06,85.93,Completed
+ORD00655,2024-02-02,C1161,Limerick,Retail Store,Laptop Stand,Accessories,1,28.99,0.15,24.64,13.76,10.88,Completed
+ORD00656,2024-07-15,C1059,Limerick,Retail Store,Smart Watch,Wearables,3,149.99,0.05,427.47,280.98,146.49,Completed
+ORD00657,2024-03-02,C1141,Galway,Retail Store,USB-C Hub,Accessories,3,39.99,0,119.97,73.83,46.14,Returned
+ORD00658,2024-05-17,C1144,Galway,Website,Keyboard,Accessories,3,74.99,0.1,202.47,123.15,79.32,Completed
+ORD00659,2024-07-07,C1097,Dublin,Mobile App,Standing Desk,Furniture,1,299.99,0.05,284.99,202.45,82.54,Completed
+ORD00660,2024-04-01,C1080,Dublin,Marketplace,Headphones,Audio,4,129.99,0.1,467.96,294.92,173.04,Completed
+ORD00661,2024-10-15,C1199,Galway,Retail Store,Wireless Mouse,Accessories,4,19.99,0.1,71.96,46.32,25.64,Returned
+ORD00662,2024-11-05,C1048,Galway,Marketplace,USB-C Hub,Accessories,1,39.99,0,39.99,22.94,17.05,Cancelled
+ORD00663,2024-01-06,C1053,Waterford,Website,USB-C Hub,Accessories,2,39.99,0.15,67.98,33.77,34.21,Completed
+ORD00664,2024-12-16,C1073,Dublin,Mobile App,Office Chair,Furniture,2,179.99,0,359.98,235.41,124.57,Completed
+ORD00665,2024-05-23,C1080,Waterford,Website,Laptop Stand,Accessories,1,28.99,0.1,26.09,13.12,12.97,Completed
+ORD00666,2024-04-02,C1003,Waterford,Mobile App,Speaker,Audio,3,54.99,0.15,140.22,86.73,53.49,Cancelled
+ORD00667,2024-09-20,C1244,Galway,Retail Store,USB-C Hub,Accessories,1,39.99,0,39.99,21.98,18.01,Completed
+ORD00668,2024-05-18,C1131,Cork,Retail Store,Laptop Stand,Accessories,1,28.99,0.1,26.09,13.27,12.82,Completed
+ORD00669,2024-11-15,C1136,Limerick,Mobile App,Laptop Stand,Accessories,4,28.99,0,115.96,85.62,30.34,Completed
+ORD00670,2024-07-08,C1065,Waterford,Mobile App,Speaker,Audio,2,54.99,0.05,104.48,75.12,29.36,Completed
+ORD00671,2024-03-04,C1040,Galway,Website,Keyboard,Accessories,1,74.99,0.15,63.74,43.8,19.94,Completed
+ORD00672,2024-04-30,C1108,Cork,Mobile App,Smart Watch,Wearables,1,149.99,0,149.99,100.36,49.63,Returned
+ORD00673,2024-02-17,C1213,Limerick,Retail Store,Laptop Stand,Accessories,1,28.99,0.05,27.54,14.95,12.59,Completed
+ORD00674,2024-01-26,C1115,Waterford,Mobile App,Fitness Band,Wearables,2,49.99,0,99.98,73.35,26.63,Returned
+ORD00675,2024-02-12,C1198,Galway,Website,Standing Desk,Furniture,3,299.99,0,899.97,448.25,451.72,Completed
+ORD00676,2024-08-16,C1062,Cork,Mobile App,Wireless Mouse,Accessories,1,19.99,0.05,18.99,9.48,9.51,Completed
+ORD00677,2024-08-07,C1237,Cork,Website,Speaker,Audio,3,54.99,0,164.97,109.48,55.49,Completed
+ORD00678,2024-01-21,C1085,Dublin,Website,Keyboard,Accessories,2,74.99,0,149.98,83.1,66.88,Completed
+ORD00679,2024-04-17,C1110,Galway,Retail Store,USB-C Hub,Accessories,1,39.99,0,39.99,21.58,18.41,Completed
+ORD00680,2024-02-21,C1050,Limerick,Website,Fitness Band,Wearables,1,49.99,0,49.99,32.6,17.39,Completed
+ORD00681,2024-12-04,C1171,Galway,Mobile App,Headphones,Audio,4,129.99,0.05,493.96,268.97,224.99,Completed
+ORD00682,2024-02-13,C1018,Dublin,Mobile App,Smart Watch,Wearables,2,149.99,0.1,269.98,134.44,135.54,Cancelled
+ORD00683,2024-02-20,C1171,Limerick,Retail Store,Wireless Mouse,Accessories,1,19.99,0.1,17.99,9.82,8.17,Completed
+ORD00684,2024-02-04,C1123,Limerick,Mobile App,Standing Desk,Furniture,2,299.99,0.1,539.98,277.01,262.97,Completed
+ORD00685,2024-01-24,C1202,Dublin,Website,Laptop Stand,Accessories,2,28.99,0.15,49.28,36.28,13.0,Completed
+ORD00686,2024-05-17,C1089,Cork,Marketplace,USB-C Hub,Accessories,1,39.99,0.15,33.99,24.7,9.29,Completed
+ORD00687,2024-01-02,C1033,Dublin,Retail Store,Headphones,Audio,1,129.99,0.1,116.99,69.48,47.51,Completed
+ORD00688,2024-02-28,C1206,Limerick,Website,Keyboard,Accessories,2,74.99,0.05,142.48,94.95,47.53,Completed
+ORD00689,2024-06-05,C1151,Galway,Retail Store,Laptop Stand,Accessories,1,28.99,0.05,27.54,13.82,13.72,Cancelled
+ORD00690,2024-09-04,C1186,Galway,Mobile App,Standing Desk,Furniture,1,299.99,0.05,284.99,175.23,109.76,Completed
+ORD00691,2024-12-03,C1128,Cork,Website,Office Chair,Furniture,2,179.99,0,359.98,230.77,129.21,Completed
+ORD00692,2024-03-01,C1197,Limerick,Marketplace,Standing Desk,Furniture,1,299.99,0.15,254.99,141.83,113.16,Completed
+ORD00693,2024-10-05,C1074,Galway,Retail Store,USB-C Hub,Accessories,2,39.99,0.15,67.98,42.22,25.76,Completed
+ORD00694,2024-12-15,C1054,Limerick,Marketplace,Laptop Stand,Accessories,2,28.99,0.1,52.18,29.4,22.78,Completed
+ORD00695,2024-04-16,C1211,Cork,Retail Store,Fitness Band,Wearables,1,49.99,0.05,47.49,31.85,15.64,Completed
+ORD00696,2024-02-01,C1087,Galway,Retail Store,Headphones,Audio,2,129.99,0,259.98,143.23,116.75,Completed
+ORD00697,2024-04-27,C1087,Galway,Retail Store,Standing Desk,Furniture,1,299.99,0.05,284.99,196.4,88.59,Completed
+ORD00698,2024-09-06,C1011,Cork,Marketplace,Keyboard,Accessories,1,74.99,0.05,71.24,37.84,33.4,Completed
+ORD00699,2024-11-24,C1046,Cork,Marketplace,Fitness Band,Wearables,1,49.99,0,49.99,28.08,21.91,Completed
+ORD00700,2024-08-06,C1108,Cork,Mobile App,USB-C Hub,Accessories,1,39.99,0,39.99,28.46,11.53,Completed
+ORD00701,2024-08-13,C1130,Limerick,Marketplace,Speaker,Audio,1,54.99,0,54.99,39.3,15.69,Cancelled
+ORD00702,2024-07-09,C1029,Galway,Marketplace,Smart Watch,Wearables,1,149.99,0.1,134.99,92.24,42.75,Completed
+ORD00703,2024-10-23,C1172,Waterford,Mobile App,Laptop Stand,Accessories,2,28.99,0,57.98,30.95,27.03,Completed
+ORD00704,2024-10-27,C1197,Waterford,Marketplace,USB-C Hub,Accessories,2,39.99,0,79.98,43.24,36.74,Completed
+ORD00705,2024-08-23,C1031,Cork,Mobile App,Standing Desk,Furniture,1,299.99,0.15,254.99,128.36,126.63,Completed
+ORD00706,2024-02-29,C1084,Limerick,Mobile App,Smart Watch,Wearables,3,149.99,0,449.97,321.55,128.42,Completed
+ORD00707,2024-11-20,C1009,Waterford,Marketplace,Smart Watch,Wearables,1,149.99,0.15,127.49,69.17,58.32,Completed
+ORD00708,2024-07-13,C1118,Cork,Mobile App,Fitness Band,Wearables,1,49.99,0,49.99,24.7,25.29,Completed
+ORD00709,2024-02-23,C1250,Galway,Retail Store,Fitness Band,Wearables,1,49.99,0.1,44.99,23.46,21.53,Returned
+ORD00710,2024-02-04,C1023,Dublin,Mobile App,Wireless Mouse,Accessories,1,19.99,0,19.99,13.2,6.79,Completed
+ORD00711,2024-12-25,C1089,Waterford,Marketplace,Smart Watch,Wearables,1,149.99,0.1,134.99,74.95,60.04,Cancelled
+ORD00712,2024-07-09,C1074,Waterford,Mobile App,Keyboard,Accessories,1,74.99,0.15,63.74,38.78,24.96,Completed
+ORD00713,2024-10-13,C1144,Galway,Marketplace,Smart Watch,Wearables,1,149.99,0.05,142.49,90.7,51.79,Completed
+ORD00714,2024-07-06,C1168,Waterford,Marketplace,Standing Desk,Furniture,4,299.99,0.05,1139.96,797.14,342.82,Completed
+ORD00715,2024-07-03,C1056,Limerick,Website,Wireless Mouse,Accessories,1,19.99,0.1,17.99,8.74,9.25,Completed
+ORD00716,2024-05-12,C1059,Cork,Retail Store,USB-C Hub,Accessories,2,39.99,0.1,71.98,41.3,30.68,Completed
+ORD00717,2024-04-22,C1227,Galway,Retail Store,Speaker,Audio,2,54.99,0,109.98,53.61,56.37,Completed
+ORD00718,2024-02-04,C1165,Cork,Mobile App,Fitness Band,Wearables,1,49.99,0,49.99,31.03,18.96,Completed
+ORD00719,2024-12-03,C1130,Galway,Marketplace,Office Chair,Furniture,1,179.99,0.15,152.99,104.08,48.91,Completed
+ORD00720,2024-05-20,C1079,Galway,Mobile App,Keyboard,Accessories,2,74.99,0.15,127.48,64.88,62.6,Completed
+ORD00721,2024-12-09,C1113,Galway,Mobile App,Standing Desk,Furniture,2,299.99,0.15,509.98,355.31,154.67,Completed
+ORD00722,2024-01-31,C1167,Dublin,Website,Speaker,Audio,1,54.99,0.15,46.74,34.22,12.52,Completed
+ORD00723,2024-05-16,C1206,Dublin,Mobile App,Laptop Stand,Accessories,2,28.99,0.15,49.28,32.98,16.3,Returned
+ORD00724,2024-08-13,C1022,Limerick,Mobile App,Office Chair,Furniture,1,179.99,0.15,152.99,108.85,44.14,Completed
+ORD00725,2024-03-08,C1086,Galway,Website,USB-C Hub,Accessories,1,39.99,0.05,37.99,24.19,13.8,Returned
+ORD00726,2024-12-25,C1074,Galway,Marketplace,Laptop Stand,Accessories,2,28.99,0,57.98,28.59,29.39,Returned
+ORD00727,2024-05-23,C1141,Dublin,Website,Wireless Mouse,Accessories,3,19.99,0.1,53.97,34.37,19.6,Completed
+ORD00728,2024-11-03,C1220,Cork,Retail Store,USB-C Hub,Accessories,1,39.99,0.15,33.99,20.59,13.4,Completed
+ORD00729,2024-04-22,C1071,Galway,Mobile App,Fitness Band,Wearables,1,49.99,0.1,44.99,31.3,13.69,Completed
+ORD00730,2024-08-13,C1244,Galway,Retail Store,Headphones,Audio,1,129.99,0,129.99,65.61,64.38,Completed
+ORD00731,2024-12-28,C1091,Limerick,Mobile App,Office Chair,Furniture,1,179.99,0.15,152.99,103.41,49.58,Completed
+ORD00732,2024-03-19,C1108,Cork,Retail Store,Fitness Band,Wearables,2,49.99,0.1,89.98,46.85,43.13,Cancelled
+ORD00733,2024-05-07,C1090,Waterford,Website,USB-C Hub,Accessories,2,39.99,0,79.98,51.98,28.0,Completed
+ORD00734,2024-10-30,C1148,Cork,Marketplace,Speaker,Audio,2,54.99,0.1,98.98,54.77,44.21,Completed
+ORD00735,2024-03-11,C1141,Waterford,Mobile App,Laptop Stand,Accessories,3,28.99,0.05,82.62,45.11,37.51,Completed
+ORD00736,2024-12-13,C1111,Limerick,Retail Store,Keyboard,Accessories,1,74.99,0,74.99,51.33,23.66,Completed
+ORD00737,2024-03-29,C1130,Cork,Marketplace,Smart Watch,Wearables,1,149.99,0,149.99,78.08,71.91,Completed
+ORD00738,2024-10-22,C1215,Cork,Mobile App,Smart Watch,Wearables,1,149.99,0,149.99,75.89,74.1,Completed
+ORD00739,2024-02-20,C1004,Cork,Retail Store,Office Chair,Furniture,1,179.99,0.15,152.99,92.77,60.22,Completed
+ORD00740,2024-06-05,C1161,Waterford,Mobile App,Standing Desk,Furniture,1,299.99,0.1,269.99,144.87,125.12,Returned
+ORD00741,2024-02-03,C1164,Cork,Marketplace,Keyboard,Accessories,2,74.99,0.05,142.48,72.25,70.23,Completed
+ORD00742,2024-10-20,C1222,Dublin,Mobile App,Office Chair,Furniture,2,179.99,0,359.98,178.4,181.58,Completed
+ORD00743,2024-04-03,C1064,Dublin,Marketplace,Wireless Mouse,Accessories,1,19.99,0,19.99,10.96,9.03,Returned
+ORD00744,2024-04-24,C1221,Dublin,Website,USB-C Hub,Accessories,1,39.99,0.1,35.99,18.34,17.65,Completed
+ORD00745,2024-04-25,C1053,Galway,Website,Wireless Mouse,Accessories,1,19.99,0.1,17.99,12.29,5.7,Completed
+ORD00746,2024-06-08,C1106,Dublin,Retail Store,Smart Watch,Wearables,1,149.99,0.15,127.49,74.2,53.29,Completed
+ORD00747,2024-07-27,C1231,Limerick,Mobile App,Standing Desk,Furniture,2,299.99,0.1,539.98,297.73,242.25,Completed
+ORD00748,2024-10-12,C1130,Dublin,Website,Office Chair,Furniture,1,179.99,0.15,152.99,109.33,43.66,Completed
+ORD00749,2024-09-06,C1161,Cork,Mobile App,Smart Watch,Wearables,4,149.99,0,599.96,328.36,271.6,Completed
+ORD00750,2024-04-14,C1036,Limerick,Website,Keyboard,Accessories,3,74.99,0.1,202.47,134.7,67.77,Completed
+ORD00751,2024-04-28,C1086,Dublin,Mobile App,Laptop Stand,Accessories,1,28.99,0.05,27.54,16.94,10.6,Completed
+ORD00752,2024-10-06,C1176,Cork,Website,Wireless Mouse,Accessories,1,19.99,0.05,18.99,10.62,8.37,Completed
+ORD00753,2024-07-07,C1180,Cork,Retail Store,Wireless Mouse,Accessories,4,19.99,0.05,75.96,36.96,39.0,Completed
+ORD00754,2024-06-02,C1124,Limerick,Retail Store,Smart Watch,Wearables,3,149.99,0,449.97,277.15,172.82,Completed
+ORD00755,2024-11-26,C1182,Limerick,Retail Store,USB-C Hub,Accessories,1,39.99,0,39.99,22.54,17.45,Completed
+ORD00756,2024-11-29,C1114,Galway,Mobile App,Office Chair,Furniture,1,179.99,0,179.99,113.83,66.16,Completed
+ORD00757,2024-11-04,C1132,Cork,Retail Store,Smart Watch,Wearables,2,149.99,0.05,284.98,163.57,121.41,Completed
+ORD00758,2024-01-09,C1106,Dublin,Website,Headphones,Audio,3,129.99,0,389.97,199.64,190.33,Completed
+ORD00759,2024-02-02,C1026,Dublin,Retail Store,Headphones,Audio,3,129.99,0.1,350.97,233.29,117.68,Completed
+ORD00760,2024-08-30,C1022,Dublin,Website,Laptop Stand,Accessories,2,28.99,0.05,55.08,28.25,26.83,Completed
+ORD00761,2024-11-05,C1132,Dublin,Mobile App,USB-C Hub,Accessories,2,39.99,0,79.98,49.88,30.1,Completed
+ORD00762,2024-01-25,C1144,Dublin,Retail Store,Smart Watch,Wearables,1,149.99,0.15,127.49,69.18,58.31,Completed
+ORD00763,2024-10-19,C1177,Cork,Marketplace,Laptop Stand,Accessories,3,28.99,0,86.97,51.42,35.55,Completed
+ORD00764,2024-08-21,C1149,Galway,Marketplace,Headphones,Audio,1,129.99,0.1,116.99,56.81,60.18,Completed
+ORD00765,2024-04-27,C1094,Dublin,Marketplace,Office Chair,Furniture,1,179.99,0.15,152.99,93.16,59.83,Completed
+ORD00766,2024-07-30,C1233,Waterford,Marketplace,Office Chair,Furniture,1,179.99,0.05,170.99,98.7,72.29,Completed
+ORD00767,2024-05-11,C1242,Waterford,Mobile App,Standing Desk,Furniture,3,299.99,0.1,809.97,587.43,222.54,Completed
+ORD00768,2024-05-11,C1221,Cork,Marketplace,Office Chair,Furniture,2,179.99,0.15,305.98,148.08,157.9,Completed
+ORD00769,2024-11-29,C1024,Galway,Website,Standing Desk,Furniture,3,299.99,0.1,809.97,486.2,323.77,Completed
+ORD00770,2024-07-19,C1100,Limerick,Mobile App,Office Chair,Furniture,2,179.99,0,359.98,256.65,103.33,Completed
+ORD00771,2024-10-18,C1102,Waterford,Retail Store,Office Chair,Furniture,2,179.99,0.05,341.98,199.93,142.05,Completed
+ORD00772,2024-08-26,C1009,Dublin,Mobile App,Keyboard,Accessories,4,74.99,0.05,284.96,210.32,74.64,Completed
+ORD00773,2024-05-17,C1228,Limerick,Retail Store,Wireless Mouse,Accessories,2,19.99,0,39.98,27.85,12.13,Completed
+ORD00774,2024-12-08,C1045,Cork,Website,Standing Desk,Furniture,1,299.99,0,299.99,209.88,90.11,Completed
+ORD00775,2024-02-22,C1134,Cork,Mobile App,Standing Desk,Furniture,1,299.99,0.1,269.99,153.22,116.77,Completed
+ORD00776,2024-05-27,C1077,Dublin,Marketplace,USB-C Hub,Accessories,4,39.99,0.05,151.96,111.28,40.68,Completed
+ORD00777,2024-01-07,C1112,Limerick,Website,Laptop Stand,Accessories,3,28.99,0,86.97,50.34,36.63,Completed
+ORD00778,2024-02-20,C1118,Limerick,Website,USB-C Hub,Accessories,1,39.99,0,39.99,19.45,20.54,Completed
+ORD00779,2024-01-17,C1226,Dublin,Website,Headphones,Audio,1,129.99,0,129.99,74.98,55.01,Completed
+ORD00780,2024-07-23,C1039,Waterford,Retail Store,Standing Desk,Furniture,2,299.99,0.1,539.98,336.38,203.6,Completed
+ORD00781,2024-10-20,C1201,Galway,Retail Store,Smart Watch,Wearables,1,149.99,0,149.99,99.62,50.37,Returned
+ORD00782,2024-09-13,C1095,Waterford,Website,Headphones,Audio,2,129.99,0.05,246.98,121.59,125.39,Completed
+ORD00783,2024-08-08,C1199,Waterford,Retail Store,Headphones,Audio,2,129.99,0.05,246.98,161.09,85.89,Completed
+ORD00784,2024-12-18,C1158,Cork,Website,Fitness Band,Wearables,2,49.99,0.05,94.98,68.31,26.67,Completed
+ORD00785,2024-06-20,C1048,Galway,Retail Store,Keyboard,Accessories,1,74.99,0,74.99,45.61,29.38,Completed
+ORD00786,2024-01-30,C1044,Limerick,Website,Laptop Stand,Accessories,2,28.99,0,57.98,40.09,17.89,Completed
+ORD00787,2024-09-15,C1244,Dublin,Retail Store,Laptop Stand,Accessories,1,28.99,0.1,26.09,17.57,8.52,Completed
+ORD00788,2024-06-22,C1078,Limerick,Retail Store,Keyboard,Accessories,2,74.99,0.15,127.48,74.81,52.67,Completed
+ORD00789,2024-08-08,C1051,Cork,Marketplace,Office Chair,Furniture,1,179.99,0,179.99,114.79,65.2,Cancelled
+ORD00790,2024-09-07,C1178,Limerick,Marketplace,Laptop Stand,Accessories,1,28.99,0,28.99,20.35,8.64,Completed
+ORD00791,2024-07-15,C1160,Galway,Retail Store,Standing Desk,Furniture,1,299.99,0.05,284.99,137.72,147.27,Completed
+ORD00792,2024-09-08,C1025,Limerick,Website,Wireless Mouse,Accessories,1,19.99,0.15,16.99,9.81,7.18,Completed
+ORD00793,2024-11-02,C1120,Galway,Website,Smart Watch,Wearables,2,149.99,0.15,254.98,124.04,130.94,Completed
+ORD00794,2024-01-02,C1211,Limerick,Mobile App,Smart Watch,Wearables,2,149.99,0.05,284.98,186.31,98.67,Completed
+ORD00795,2024-11-04,C1157,Dublin,Marketplace,Fitness Band,Wearables,1,49.99,0.05,47.49,30.56,16.93,Completed
+ORD00796,2024-10-16,C1204,Dublin,Retail Store,USB-C Hub,Accessories,3,39.99,0.15,101.97,59.54,42.43,Completed
+ORD00797,2024-11-15,C1187,Limerick,Marketplace,Office Chair,Furniture,2,179.99,0.15,305.98,223.94,82.04,Completed
+ORD00798,2024-01-08,C1037,Galway,Website,Office Chair,Furniture,1,179.99,0.05,170.99,124.17,46.82,Completed
+ORD00799,2024-05-01,C1187,Limerick,Mobile App,USB-C Hub,Accessories,1,39.99,0,39.99,27.52,12.47,Completed
+ORD00800,2024-03-13,C1244,Dublin,Mobile App,Office Chair,Furniture,4,179.99,0.05,683.96,437.58,246.38,Completed
+ORD00801,2024-03-30,C1216,Waterford,Marketplace,Smart Watch,Wearables,4,149.99,0,599.96,413.3,186.66,Returned
+ORD00802,2024-03-03,C1041,Dublin,Retail Store,Laptop Stand,Accessories,1,28.99,0.1,26.09,12.88,13.21,Completed
+ORD00803,2024-03-09,C1238,Galway,Website,Wireless Mouse,Accessories,1,19.99,0,19.99,10.4,9.59,Completed
+ORD00804,2024-03-14,C1124,Dublin,Mobile App,Wireless Mouse,Accessories,3,19.99,0.1,53.97,33.02,20.95,Returned
+ORD00805,2024-01-28,C1222,Galway,Website,Keyboard,Accessories,2,74.99,0,149.98,107.18,42.8,Returned
+ORD00806,2024-06-16,C1250,Cork,Mobile App,Keyboard,Accessories,2,74.99,0.15,127.48,88.78,38.7,Completed
+ORD00807,2024-05-08,C1154,Waterford,Mobile App,Smart Watch,Wearables,2,149.99,0.15,254.98,152.09,102.89,Completed
+ORD00808,2024-01-11,C1172,Dublin,Mobile App,Speaker,Audio,3,54.99,0,164.97,108.98,55.99,Completed
+ORD00809,2024-12-13,C1119,Waterford,Mobile App,Laptop Stand,Accessories,1,28.99,0,28.99,19.5,9.49,Completed
+ORD00810,2024-02-07,C1238,Dublin,Website,Wireless Mouse,Accessories,1,19.99,0,19.99,10.44,9.55,Returned
+ORD00811,2024-01-27,C1223,Limerick,Retail Store,Smart Watch,Wearables,1,149.99,0,149.99,89.69,60.3,Completed
+ORD00812,2024-08-11,C1182,Galway,Retail Store,Smart Watch,Wearables,1,149.99,0,149.99,94.91,55.08,Completed
+ORD00813,2024-05-24,C1074,Dublin,Mobile App,Keyboard,Accessories,3,74.99,0,224.97,125.12,99.85,Completed
+ORD00814,2024-11-14,C1235,Dublin,Website,Fitness Band,Wearables,1,49.99,0.1,44.99,25.15,19.84,Completed
+ORD00815,2024-05-12,C1101,Dublin,Mobile App,Standing Desk,Furniture,1,299.99,0.1,269.99,147.59,122.4,Completed
+ORD00816,2024-09-03,C1225,Limerick,Marketplace,Keyboard,Accessories,1,74.99,0,74.99,55.31,19.68,Completed
+ORD00817,2024-12-03,C1039,Galway,Retail Store,Wireless Mouse,Accessories,2,19.99,0,39.98,28.79,11.19,Completed
+ORD00818,2024-10-28,C1122,Waterford,Mobile App,Headphones,Audio,1,129.99,0.1,116.99,64.91,52.08,Completed
+ORD00819,2024-01-13,C1070,Waterford,Retail Store,Headphones,Audio,2,129.99,0,259.98,152.73,107.25,Completed
+ORD00820,2024-07-29,C1186,Cork,Website,USB-C Hub,Accessories,1,39.99,0,39.99,24.07,15.92,Completed
+ORD00821,2024-10-22,C1169,Limerick,Retail Store,USB-C Hub,Accessories,1,39.99,0,39.99,23.51,16.48,Completed
+ORD00822,2024-10-25,C1191,Limerick,Retail Store,Wireless Mouse,Accessories,1,19.99,0.05,18.99,11.68,7.31,Completed
+ORD00823,2024-11-16,C1151,Waterford,Retail Store,Standing Desk,Furniture,1,299.99,0,299.99,162.7,137.29,Completed
+ORD00824,2024-01-20,C1250,Limerick,Mobile App,Smart Watch,Wearables,1,149.99,0.1,134.99,90.46,44.53,Completed
+ORD00825,2024-04-20,C1060,Limerick,Marketplace,Keyboard,Accessories,1,74.99,0.05,71.24,48.69,22.55,Completed
+ORD00826,2024-02-03,C1044,Cork,Website,Office Chair,Furniture,1,179.99,0,179.99,88.39,91.6,Completed
+ORD00827,2024-03-13,C1141,Galway,Retail Store,Office Chair,Furniture,2,179.99,0.05,341.98,196.29,145.69,Completed
+ORD00828,2024-07-25,C1160,Galway,Marketplace,Laptop Stand,Accessories,1,28.99,0.05,27.54,13.46,14.08,Completed
+ORD00829,2024-08-20,C1242,Galway,Mobile App,USB-C Hub,Accessories,1,39.99,0.1,35.99,18.97,17.02,Completed
+ORD00830,2024-07-04,C1172,Galway,Mobile App,Smart Watch,Wearables,2,149.99,0,299.98,158.86,141.12,Completed
+ORD00831,2024-06-12,C1003,Dublin,Retail Store,Wireless Mouse,Accessories,2,19.99,0.1,35.98,19.43,16.55,Completed
+ORD00832,2024-04-28,C1146,Cork,Marketplace,Smart Watch,Wearables,2,149.99,0.05,284.98,159.13,125.85,Completed
+ORD00833,2024-12-22,C1235,Limerick,Website,Speaker,Audio,2,54.99,0.1,98.98,62.26,36.72,Cancelled
+ORD00834,2024-12-20,C1099,Galway,Retail Store,Laptop Stand,Accessories,2,28.99,0,57.98,36.71,21.27,Completed
+ORD00835,2024-01-19,C1120,Cork,Marketplace,Office Chair,Furniture,2,179.99,0,359.98,218.59,141.39,Completed
+ORD00836,2024-03-11,C1162,Limerick,Mobile App,Laptop Stand,Accessories,2,28.99,0.05,55.08,35.97,19.11,Completed
+ORD00837,2024-07-22,C1087,Dublin,Website,Fitness Band,Wearables,2,49.99,0,99.98,73.67,26.31,Completed
+ORD00838,2024-05-26,C1029,Galway,Mobile App,USB-C Hub,Accessories,2,39.99,0,79.98,47.0,32.98,Cancelled
+ORD00839,2024-11-24,C1226,Limerick,Marketplace,Headphones,Audio,1,129.99,0.15,110.49,64.91,45.58,Completed
+ORD00840,2024-04-27,C1082,Cork,Retail Store,Office Chair,Furniture,1,179.99,0,179.99,96.8,83.19,Completed
+ORD00841,2024-09-19,C1230,Galway,Mobile App,Speaker,Audio,1,54.99,0.05,52.24,28.9,23.34,Completed
+ORD00842,2024-04-02,C1109,Galway,Website,Wireless Mouse,Accessories,2,19.99,0.05,37.98,19.41,18.57,Completed
+ORD00843,2024-01-22,C1087,Limerick,Marketplace,Fitness Band,Wearables,1,49.99,0.05,47.49,29.29,18.2,Completed
+ORD00844,2024-05-12,C1155,Dublin,Mobile App,Fitness Band,Wearables,1,49.99,0,49.99,27.17,22.82,Returned
+ORD00845,2024-10-01,C1174,Limerick,Marketplace,USB-C Hub,Accessories,1,39.99,0.15,33.99,18.42,15.57,Completed
+ORD00846,2024-04-28,C1108,Waterford,Retail Store,Speaker,Audio,2,54.99,0,109.98,71.81,38.17,Completed
+ORD00847,2024-09-05,C1038,Waterford,Mobile App,Speaker,Audio,1,54.99,0.05,52.24,29.82,22.42,Cancelled
+ORD00848,2024-03-05,C1077,Cork,Marketplace,Wireless Mouse,Accessories,1,19.99,0,19.99,14.07,5.92,Completed
+ORD00849,2024-06-25,C1005,Limerick,Retail Store,Fitness Band,Wearables,1,49.99,0.1,44.99,24.02,20.97,Completed
+ORD00850,2024-08-23,C1198,Cork,Website,Office Chair,Furniture,1,179.99,0,179.99,118.65,61.34,Completed
+ORD00851,2024-06-11,C1092,Dublin,Retail Store,Keyboard,Accessories,1,74.99,0.15,63.74,42.58,21.16,Completed
+ORD00852,2024-08-24,C1120,Galway,Marketplace,Office Chair,Furniture,1,179.99,0.1,161.99,111.68,50.31,Completed
+ORD00853,2024-02-10,C1052,Galway,Retail Store,Office Chair,Furniture,3,179.99,0,539.97,327.87,212.1,Completed
+ORD00854,2024-01-23,C1155,Cork,Website,Wireless Mouse,Accessories,4,19.99,0,79.96,49.37,30.59,Completed
+ORD00855,2024-05-09,C1070,Dublin,Retail Store,Fitness Band,Wearables,1,49.99,0.15,42.49,27.69,14.8,Returned
+ORD00856,2024-04-16,C1189,Cork,Mobile App,Headphones,Audio,1,129.99,0.05,123.49,63.66,59.83,Completed
+ORD00857,2024-01-02,C1111,Limerick,Website,Standing Desk,Furniture,1,299.99,0.1,269.99,158.61,111.38,Completed
+ORD00858,2024-01-22,C1103,Cork,Retail Store,Wireless Mouse,Accessories,1,19.99,0.15,16.99,11.87,5.12,Completed
+ORD00859,2024-03-08,C1128,Limerick,Marketplace,Keyboard,Accessories,1,74.99,0.15,63.74,37.29,26.45,Completed
+ORD00860,2024-09-18,C1136,Waterford,Mobile App,USB-C Hub,Accessories,1,39.99,0.05,37.99,23.86,14.13,Cancelled
+ORD00861,2024-06-09,C1058,Dublin,Website,USB-C Hub,Accessories,1,39.99,0,39.99,22.61,17.38,Completed
+ORD00862,2024-12-02,C1178,Cork,Retail Store,Laptop Stand,Accessories,1,28.99,0.1,26.09,15.81,10.28,Completed
+ORD00863,2024-08-28,C1042,Dublin,Marketplace,USB-C Hub,Accessories,1,39.99,0.15,33.99,20.41,13.58,Completed
+ORD00864,2024-08-13,C1027,Dublin,Marketplace,USB-C Hub,Accessories,2,39.99,0,79.98,53.61,26.37,Completed
+ORD00865,2024-11-27,C1012,Galway,Website,Office Chair,Furniture,2,179.99,0,359.98,258.99,100.99,Completed
+ORD00866,2024-11-17,C1107,Dublin,Retail Store,Smart Watch,Wearables,2,149.99,0,299.98,169.7,130.28,Completed
+ORD00867,2024-05-13,C1095,Galway,Website,Office Chair,Furniture,1,179.99,0.1,161.99,83.96,78.03,Completed
+ORD00868,2024-03-30,C1151,Dublin,Marketplace,Speaker,Audio,2,54.99,0.1,98.98,60.27,38.71,Completed
+ORD00869,2024-05-26,C1222,Limerick,Marketplace,Standing Desk,Furniture,1,299.99,0,299.99,217.23,82.76,Returned
+ORD00870,2024-12-23,C1223,Limerick,Retail Store,USB-C Hub,Accessories,3,39.99,0,119.97,71.57,48.4,Completed
+ORD00871,2024-10-30,C1209,Limerick,Mobile App,USB-C Hub,Accessories,1,39.99,0.05,37.99,19.36,18.63,Cancelled
+ORD00872,2024-08-15,C1170,Waterford,Retail Store,Smart Watch,Wearables,2,149.99,0,299.98,200.5,99.48,Completed
+ORD00873,2024-07-28,C1063,Waterford,Website,Standing Desk,Furniture,1,299.99,0.15,254.99,122.92,132.07,Completed
+ORD00874,2024-02-16,C1112,Waterford,Mobile App,Fitness Band,Wearables,1,49.99,0.15,42.49,30.26,12.23,Completed
+ORD00875,2024-11-06,C1004,Dublin,Marketplace,Office Chair,Furniture,1,179.99,0,179.99,101.72,78.27,Completed
+ORD00876,2024-01-18,C1114,Dublin,Marketplace,Standing Desk,Furniture,1,299.99,0.15,254.99,145.11,109.88,Completed
+ORD00877,2024-09-20,C1068,Galway,Marketplace,Keyboard,Accessories,3,74.99,0.15,191.22,122.53,68.69,Completed
+ORD00878,2024-11-07,C1042,Waterford,Mobile App,Keyboard,Accessories,1,74.99,0.1,67.49,36.13,31.36,Completed
+ORD00879,2024-06-05,C1103,Limerick,Retail Store,USB-C Hub,Accessories,2,39.99,0,79.98,46.61,33.37,Completed
+ORD00880,2024-11-26,C1064,Cork,Marketplace,Speaker,Audio,3,54.99,0.1,148.47,103.16,45.31,Completed
+ORD00881,2024-07-03,C1178,Limerick,Mobile App,Smart Watch,Wearables,4,149.99,0,599.96,308.03,291.93,Completed
+ORD00882,2024-12-10,C1181,Limerick,Mobile App,Speaker,Audio,4,54.99,0.15,186.97,102.64,84.33,Completed
+ORD00883,2024-10-08,C1127,Galway,Mobile App,Headphones,Audio,1,129.99,0,129.99,90.21,39.78,Cancelled
+ORD00884,2024-10-16,C1167,Dublin,Website,Headphones,Audio,2,129.99,0,259.98,171.98,88.0,Completed
+ORD00885,2024-11-18,C1149,Limerick,Mobile App,Standing Desk,Furniture,1,299.99,0.15,254.99,127.58,127.41,Completed
+ORD00886,2024-06-05,C1065,Dublin,Retail Store,Office Chair,Furniture,2,179.99,0.05,341.98,204.55,137.43,Completed
+ORD00887,2024-02-21,C1191,Cork,Marketplace,Speaker,Audio,2,54.99,0.15,93.48,52.09,41.39,Completed
+ORD00888,2024-01-23,C1021,Waterford,Retail Store,Headphones,Audio,2,129.99,0,259.98,191.36,68.62,Completed
+ORD00889,2024-05-06,C1160,Cork,Marketplace,Keyboard,Accessories,2,74.99,0.05,142.48,102.87,39.61,Completed
+ORD00890,2024-09-20,C1131,Limerick,Mobile App,Wireless Mouse,Accessories,2,19.99,0,39.98,21.7,18.28,Completed
+ORD00891,2024-07-09,C1212,Dublin,Website,Smart Watch,Wearables,3,149.99,0.1,404.97,211.8,193.17,Completed
+ORD00892,2024-03-06,C1077,Galway,Website,Keyboard,Accessories,1,74.99,0,74.99,51.24,23.75,Completed
+ORD00893,2024-10-04,C1168,Galway,Marketplace,Keyboard,Accessories,2,74.99,0.1,134.98,87.56,47.42,Completed
+ORD00894,2024-06-04,C1098,Cork,Marketplace,Fitness Band,Wearables,1,49.99,0.1,44.99,23.71,21.28,Completed
+ORD00895,2024-11-06,C1238,Limerick,Website,Smart Watch,Wearables,1,149.99,0,149.99,92.64,57.35,Completed
+ORD00896,2024-10-17,C1065,Waterford,Website,Office Chair,Furniture,2,179.99,0.15,305.98,215.9,90.08,Completed
+ORD00897,2024-02-20,C1025,Cork,Retail Store,Speaker,Audio,1,54.99,0.1,49.49,24.0,25.49,Completed
+ORD00898,2024-05-20,C1177,Dublin,Marketplace,Headphones,Audio,1,129.99,0,129.99,87.68,42.31,Completed
+ORD00899,2024-01-23,C1086,Galway,Marketplace,Keyboard,Accessories,3,74.99,0.1,202.47,121.43,81.04,Completed
+ORD00900,2024-12-21,C1135,Limerick,Marketplace,Wireless Mouse,Accessories,2,19.99,0,39.98,22.86,17.12,Completed
