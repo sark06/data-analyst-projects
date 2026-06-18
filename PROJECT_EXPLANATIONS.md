@@ -1,4 +1,4 @@
-# Interview Project Stories
+# # Data Analyst Project Explanations
 
 ## Retail KPI Dashboard
 I cleaned retail order data and created KPI tables by month, category, region, and channel. I tracked revenue, profit, orders, customers, units sold, average order value, profit margin, and return rate.
