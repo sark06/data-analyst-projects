@@ -1,0 +1,11 @@
+{
+  "raw_rows": 812,
+  "duplicate_transaction_ids": 12,
+  "missing_email": 21,
+  "missing_amount": 25,
+  "clean_rows": 775,
+  "rows_removed": 37,
+  "successful_transactions": 475,
+  "failed_transactions": 151,
+  "refunded_transactions": 149
+}

@@ -1,0 +1,776 @@
+transaction_id,transaction_date,customer_email,country,payment_method,amount,currency,status,month,amount_eur_estimate
+T00001,2024-02-06,user0@example.com,Germany,Card,252.1,EUR,failed,2024-02,252.1
+T00002,2024-10-10,user1@example.com,Spain,PayPal,22.45,GBP,refunded,2024-10,26.266499999999997
+T00003,2024-12-14,user2@example.com,UK,Apple Pay,244.62,USD,success,2024-12,225.05040000000002
+T00004,2024-05-01,,UK,Apple Pay,419.15,USD,success,2024-05,385.618
+T00005,2024-10-21,user4@example.com,France,Apple Pay,74.53,EUR,success,2024-10,74.53
+T00006,2024-06-04,user5@example.com,Spain,Apple Pay,432.46,EUR,success,2024-06,432.46
+T00007,2024-03-07,user6@example.com,Spain,Bank Transfer,199.1,EUR,failed,2024-03,199.1
+T00008,2024-09-01,,France,Bank Transfer,250.59,USD,success,2024-09,230.5428
+T00009,2024-02-09,user8@example.com,Ireland,Apple Pay,293.64,EUR,success,2024-02,293.64
+T00010,2024-10-02,user9@example.com,Spain,Apple Pay,121.19,USD,success,2024-10,111.4948
+T00011,2024-04-21,user10@example.com,France,Card,240.99,GBP,success,2024-04,281.9583
+T00012,2024-12-07,user11@example.com,UK,PayPal,231.82,EUR,success,2024-12,231.82
+T00014,2024-10-20,user13@example.com,UK,Apple Pay,178.38,GBP,failed,2024-10,208.70459999999997
+T00015,2024-11-11,user14@example.com,Germany,PayPal,386.34,USD,success,2024-11,355.4328
+T00016,2024-03-30,user15@example.com,UK,Bank Transfer,384.84,EUR,refunded,2024-03,384.84
+T00017,2024-06-29,,Germany,Apple Pay,443.15,USD,success,2024-06,407.698
+T00018,2024-06-17,user17@example.com,Germany,PayPal,425.9,EUR,success,2024-06,425.9
+T00019,2024-10-04,user18@example.com,Germany,PayPal,267.31,USD,success,2024-10,245.92520000000002
+T00020,2024-05-12,user19@example.com,Germany,Bank Transfer,5.96,USD,success,2024-05,5.4832
+T00021,2024-11-24,user20@example.com,Germany,Card,38.39,USD,refunded,2024-11,35.3188
+T00022,2024-05-11,user21@example.com,Ireland,Bank Transfer,420.55,GBP,success,2024-05,492.0435
+T00023,2024-10-24,user22@example.com,Ireland,PayPal,425.14,USD,refunded,2024-10,391.1288
+T00024,2024-02-06,user23@example.com,Spain,Bank Transfer,295.36,EUR,success,2024-02,295.36
+T00025,2024-08-22,user24@example.com,France,PayPal,68.89,EUR,refunded,2024-08,68.89
+T00026,2024-08-30,user25@example.com,Germany,Apple Pay,365.0,USD,refunded,2024-08,335.8
+T00027,2024-01-13,user26@example.com,Spain,Card,260.43,EUR,failed,2024-01,260.43
+T00028,2024-05-31,user27@example.com,France,PayPal,157.9,EUR,success,2024-05,157.9
+T00029,2024-08-14,user28@example.com,Spain,PayPal,371.79,EUR,success,2024-08,371.79
+T00030,2024-08-08,,Germany,PayPal,271.51,EUR,refunded,2024-08,271.51
+T00031,2024-11-23,user30@example.com,UK,Card,52.11,EUR,success,2024-11,52.11
+T00032,2024-08-10,user31@example.com,Germany,Apple Pay,48.97,EUR,failed,2024-08,48.97
+T00033,2024-08-17,user32@example.com,UK,Card,214.59,EUR,failed,2024-08,214.59
+T00034,2024-05-03,user33@example.com,Germany,PayPal,254.7,EUR,refunded,2024-05,254.7
+T00035,2024-07-12,user34@example.com,UK,Apple Pay,305.87,GBP,success,2024-07,357.86789999999996
+T00036,2024-11-03,user35@example.com,Spain,PayPal,418.72,EUR,success,2024-11,418.72
+T00037,2024-05-06,user36@example.com,France,Apple Pay,104.12,USD,failed,2024-05,95.7904
+T00038,2024-04-14,user37@example.com,UK,Bank Transfer,199.29,EUR,success,2024-04,199.29
+T00039,2024-08-24,user38@example.com,France,Card,36.63,GBP,success,2024-08,42.8571
+T00040,2024-09-26,user39@example.com,UK,PayPal,262.94,EUR,failed,2024-09,262.94
+T00041,2024-04-08,user40@example.com,Spain,Bank Transfer,149.78,EUR,success,2024-04,149.78
+T00042,2024-09-13,user41@example.com,Ireland,Card,423.95,EUR,success,2024-09,423.95
+T00043,2024-07-18,user42@example.com,Spain,Apple Pay,276.25,GBP,success,2024-07,323.2125
+T00044,2024-11-14,user43@example.com,France,PayPal,445.78,USD,success,2024-11,410.1176
+T00045,2024-08-25,user44@example.com,Germany,Bank Transfer,75.17,USD,failed,2024-08,69.1564
+T00046,2024-02-04,user45@example.com,Ireland,Apple Pay,13.81,EUR,refunded,2024-02,13.81
+T00047,2024-02-16,user46@example.com,Ireland,Bank Transfer,190.79,EUR,failed,2024-02,190.79
+T00048,2024-09-21,user47@example.com,UK,Apple Pay,46.32,EUR,success,2024-09,46.32
+T00049,2024-09-22,user48@example.com,France,PayPal,310.39,USD,success,2024-09,285.5588
+T00050,2024-06-15,user49@example.com,Germany,Apple Pay,41.53,EUR,success,2024-06,41.53
+T00051,2024-09-11,user50@example.com,UK,Bank Transfer,198.53,USD,success,2024-09,182.6476
+T00052,2024-08-18,user51@example.com,UK,Bank Transfer,346.4,EUR,success,2024-08,346.4
+T00053,2024-10-17,user52@example.com,France,Card,333.05,EUR,success,2024-10,333.05
+T00054,2024-02-14,user53@example.com,Spain,Card,52.05,EUR,success,2024-02,52.05
+T00055,2024-04-26,user54@example.com,Spain,Apple Pay,326.29,GBP,success,2024-04,381.7593
+T00056,2024-11-19,user55@example.com,France,PayPal,124.69,GBP,success,2024-11,145.88729999999998
+T00057,2024-04-21,user56@example.com,Spain,PayPal,433.27,GBP,success,2024-04,506.92589999999996
+T00058,2024-10-26,user57@example.com,Spain,Bank Transfer,409.77,EUR,refunded,2024-10,409.77
+T00059,2024-04-23,user58@example.com,UK,Card,357.63,EUR,failed,2024-04,357.63
+T00060,2024-04-15,user59@example.com,France,Card,76.34,EUR,success,2024-04,76.34
+T00061,2024-06-16,user60@example.com,Germany,PayPal,386.06,EUR,refunded,2024-06,386.06
+T00062,2024-01-02,user61@example.com,UK,Card,377.59,GBP,failed,2024-01,441.78029999999995
+T00063,2024-03-10,user62@example.com,Ireland,Apple Pay,297.33,USD,success,2024-03,273.54359999999997
+T00064,2024-04-07,user63@example.com,Spain,Apple Pay,7.32,USD,success,2024-04,6.734400000000001
+T00065,2024-06-01,user64@example.com,Ireland,Card,297.76,EUR,failed,2024-06,297.76
+T00066,2024-07-14,user65@example.com,Germany,PayPal,159.08,EUR,failed,2024-07,159.08
+T00067,2024-07-14,user66@example.com,France,Card,260.51,GBP,refunded,2024-07,304.7967
+T00068,2024-11-23,user67@example.com,UK,PayPal,87.02,GBP,refunded,2024-11,101.81339999999999
+T00069,2024-07-19,user68@example.com,Ireland,Apple Pay,428.98,EUR,success,2024-07,428.98
+T00070,2024-10-29,user69@example.com,Spain,Card,296.98,EUR,success,2024-10,296.98
+T00071,2024-02-23,user70@example.com,Germany,PayPal,260.68,USD,failed,2024-02,239.8256
+T00072,2024-07-21,user71@example.com,Spain,Apple Pay,240.7,USD,refunded,2024-07,221.444
+T00073,2024-12-14,user72@example.com,Spain,Card,448.87,EUR,success,2024-12,448.87
+T00074,2024-04-28,user73@example.com,France,Apple Pay,101.31,EUR,success,2024-04,101.31
+T00075,2024-06-03,user74@example.com,France,Bank Transfer,222.75,GBP,success,2024-06,260.6175
+T00076,2024-08-28,,UK,Bank Transfer,203.94,EUR,success,2024-08,203.94
+T00077,2024-08-12,user76@example.com,France,Bank Transfer,222.8,GBP,refunded,2024-08,260.676
+T00078,2024-08-22,user77@example.com,Ireland,Card,128.29,EUR,success,2024-08,128.29
+T00079,2024-07-30,user78@example.com,France,Card,71.88,EUR,success,2024-07,71.88
+T00080,2024-06-18,user79@example.com,France,PayPal,434.92,USD,failed,2024-06,400.12640000000005
+T00081,2024-10-30,user80@example.com,Spain,PayPal,264.9,EUR,success,2024-10,264.9
+T00082,2024-10-16,user81@example.com,Ireland,Bank Transfer,325.56,EUR,failed,2024-10,325.56
+T00083,2024-07-07,user82@example.com,UK,Bank Transfer,291.13,USD,success,2024-07,267.8396
+T00084,2024-10-07,user83@example.com,Ireland,PayPal,104.08,GBP,success,2024-10,121.77359999999999
+T00085,2024-05-10,user84@example.com,Ireland,Card,445.8,EUR,success,2024-05,445.8
+T00086,2024-09-01,user85@example.com,Germany,Bank Transfer,224.03,EUR,failed,2024-09,224.03
+T00087,2024-04-13,user86@example.com,Spain,Apple Pay,61.24,USD,success,2024-04,56.3408
+T00088,2024-07-22,,Germany,PayPal,104.9,USD,refunded,2024-07,96.50800000000001
+T00089,2024-01-26,user88@example.com,Germany,PayPal,131.5,EUR,success,2024-01,131.5
+T00090,2024-03-09,user89@example.com,France,Card,279.2,EUR,success,2024-03,279.2
+T00091,2024-01-27,user90@example.com,Germany,Apple Pay,324.54,EUR,success,2024-01,324.54
+T00092,2024-02-28,user91@example.com,UK,PayPal,177.92,USD,success,2024-02,163.6864
+T00093,2024-08-21,user92@example.com,Germany,Apple Pay,400.49,EUR,success,2024-08,400.49
+T00094,2024-11-08,user93@example.com,France,Card,73.19,EUR,success,2024-11,73.19
+T00095,2024-02-23,user94@example.com,UK,PayPal,193.48,EUR,success,2024-02,193.48
+T00096,2024-09-23,user95@example.com,Germany,Card,43.38,EUR,refunded,2024-09,43.38
+T00097,2024-08-16,user96@example.com,Germany,Card,60.64,EUR,success,2024-08,60.64
+T00098,2024-05-14,user97@example.com,Spain,Card,58.56,EUR,success,2024-05,58.56
+T00099,2024-08-30,user98@example.com,UK,Apple Pay,60.35,EUR,success,2024-08,60.35
+T00100,2024-11-15,user99@example.com,Ireland,Card,101.08,EUR,success,2024-11,101.08
+T00101,2024-02-27,user100@example.com,Ireland,Bank Transfer,121.66,EUR,refunded,2024-02,121.66
+T00102,2024-04-10,user101@example.com,Spain,Apple Pay,441.74,USD,refunded,2024-04,406.4008
+T00103,2024-01-26,user102@example.com,Ireland,Card,21.37,EUR,success,2024-01,21.37
+T00104,2024-08-31,user103@example.com,Ireland,PayPal,330.81,EUR,refunded,2024-08,330.81
+T00105,2024-08-25,user104@example.com,Spain,Apple Pay,205.84,USD,failed,2024-08,189.3728
+T00106,2024-08-30,user105@example.com,Ireland,PayPal,85.62,EUR,refunded,2024-08,85.62
+T00107,2024-08-27,user106@example.com,Ireland,Bank Transfer,121.17,EUR,success,2024-08,121.17
+T00109,2024-07-09,user108@example.com,UK,Bank Transfer,117.87,EUR,refunded,2024-07,117.87
+T00111,2024-04-27,user110@example.com,Ireland,Apple Pay,122.12,USD,success,2024-04,112.35040000000001
+T00112,2024-06-03,user111@example.com,Spain,Apple Pay,57.09,GBP,refunded,2024-06,66.7953
+T00113,2024-06-29,,Germany,Card,317.12,GBP,success,2024-06,371.0304
+T00114,2024-06-30,,UK,Card,421.88,USD,success,2024-06,388.12960000000004
+T00115,2024-03-23,user114@example.com,Ireland,Apple Pay,231.6,EUR,success,2024-03,231.6
+T00116,2024-09-13,user115@example.com,Ireland,Card,316.82,GBP,failed,2024-09,370.6794
+T00118,2024-11-26,user117@example.com,Ireland,Bank Transfer,90.67,GBP,failed,2024-11,106.0839
+T00119,2024-12-26,user118@example.com,Germany,Card,156.93,EUR,success,2024-12,156.93
+T00120,2024-08-13,user119@example.com,Ireland,Bank Transfer,421.42,EUR,success,2024-08,421.42
+T00121,2024-12-02,user120@example.com,UK,PayPal,411.54,EUR,success,2024-12,411.54
+T00122,2024-07-03,user121@example.com,France,Card,354.86,EUR,success,2024-07,354.86
+T00123,2024-03-14,user122@example.com,France,Bank Transfer,355.61,EUR,success,2024-03,355.61
+T00124,2024-08-03,user123@example.com,Germany,PayPal,320.86,EUR,success,2024-08,320.86
+T00125,2024-05-18,user124@example.com,France,Card,136.9,EUR,success,2024-05,136.9
+T00126,2024-06-13,user125@example.com,Ireland,Apple Pay,52.28,GBP,success,2024-06,61.1676
+T00127,2024-03-06,user126@example.com,Germany,Bank Transfer,237.21,EUR,refunded,2024-03,237.21
+T00128,2024-03-06,user127@example.com,France,Card,368.99,EUR,failed,2024-03,368.99
+T00129,2024-11-30,user128@example.com,Germany,PayPal,22.55,GBP,success,2024-11,26.383499999999998
+T00130,2024-11-05,user129@example.com,Germany,Bank Transfer,130.92,USD,success,2024-11,120.4464
+T00131,2024-02-09,user130@example.com,Spain,Bank Transfer,118.27,GBP,failed,2024-02,138.37589999999997
+T00132,2024-07-02,user131@example.com,Ireland,PayPal,247.66,USD,success,2024-07,227.84720000000002
+T00133,2024-12-09,user132@example.com,Ireland,Bank Transfer,226.32,EUR,refunded,2024-12,226.32
+T00134,2024-09-20,user133@example.com,UK,Card,406.35,EUR,success,2024-09,406.35
+T00135,2024-08-25,user134@example.com,UK,Bank Transfer,134.33,EUR,success,2024-08,134.33
+T00136,2024-12-14,user135@example.com,UK,Apple Pay,325.44,GBP,success,2024-12,380.7648
+T00137,2024-10-06,user136@example.com,Germany,PayPal,275.78,EUR,refunded,2024-10,275.78
+T00138,2024-02-08,user137@example.com,UK,Bank Transfer,293.21,USD,failed,2024-02,269.7532
+T00140,2024-07-08,user139@example.com,UK,Bank Transfer,333.75,EUR,refunded,2024-07,333.75
+T00141,2024-12-08,user140@example.com,Spain,PayPal,212.8,EUR,success,2024-12,212.8
+T00142,2024-05-28,user141@example.com,France,Card,149.82,EUR,success,2024-05,149.82
+T00143,2024-03-30,user142@example.com,Germany,Apple Pay,211.02,EUR,success,2024-03,211.02
+T00144,2024-08-23,user143@example.com,Spain,Bank Transfer,242.15,USD,failed,2024-08,222.77800000000002
+T00145,2024-02-13,user144@example.com,France,Apple Pay,449.83,EUR,success,2024-02,449.83
+T00146,2024-12-26,user145@example.com,Ireland,PayPal,186.51,EUR,refunded,2024-12,186.51
+T00147,2024-08-02,user146@example.com,Germany,Apple Pay,192.58,USD,success,2024-08,177.17360000000002
+T00148,2024-10-07,user147@example.com,Germany,PayPal,32.24,EUR,success,2024-10,32.24
+T00149,2024-06-02,user148@example.com,France,PayPal,159.39,EUR,refunded,2024-06,159.39
+T00150,2024-07-29,user149@example.com,Germany,Bank Transfer,242.37,EUR,failed,2024-07,242.37
+T00151,2024-08-07,user150@example.com,France,Card,264.81,EUR,success,2024-08,264.81
+T00152,2024-12-04,user151@example.com,Germany,PayPal,219.37,EUR,success,2024-12,219.37
+T00153,2024-10-23,user152@example.com,Germany,Card,376.32,EUR,failed,2024-10,376.32
+T00154,2024-08-13,user153@example.com,Ireland,Bank Transfer,195.76,GBP,success,2024-08,229.03919999999997
+T00155,2024-02-02,user154@example.com,Germany,Bank Transfer,57.05,EUR,refunded,2024-02,57.05
+T00157,2024-03-07,,UK,Bank Transfer,425.32,EUR,refunded,2024-03,425.32
+T00158,2024-10-24,user157@example.com,UK,Apple Pay,124.7,EUR,success,2024-10,124.7
+T00159,2024-05-30,user158@example.com,Spain,Bank Transfer,59.24,EUR,success,2024-05,59.24
+T00160,2024-06-15,user159@example.com,Ireland,Card,98.01,EUR,failed,2024-06,98.01
+T00161,2024-07-11,user160@example.com,UK,Bank Transfer,420.61,EUR,success,2024-07,420.61
+T00162,2024-02-12,user161@example.com,Spain,Apple Pay,108.31,EUR,success,2024-02,108.31
+T00163,2024-12-26,user162@example.com,Spain,Card,233.86,GBP,refunded,2024-12,273.6162
+T00164,2024-06-26,user163@example.com,Ireland,Bank Transfer,250.29,EUR,failed,2024-06,250.29
+T00165,2024-10-03,user164@example.com,Ireland,PayPal,418.9,EUR,refunded,2024-10,418.9
+T00166,2024-04-23,user165@example.com,Spain,Card,229.83,USD,failed,2024-04,211.44360000000003
+T00168,2024-10-24,user167@example.com,France,PayPal,101.47,EUR,failed,2024-10,101.47
+T00169,2024-12-30,user168@example.com,France,Bank Transfer,82.29,GBP,success,2024-12,96.2793
+T00170,2024-10-11,user169@example.com,Spain,PayPal,181.78,EUR,failed,2024-10,181.78
+T00171,2024-06-22,user170@example.com,Spain,Card,409.01,GBP,refunded,2024-06,478.54169999999993
+T00172,2024-08-09,user171@example.com,Spain,PayPal,361.94,EUR,success,2024-08,361.94
+T00173,2024-03-06,user172@example.com,Ireland,Card,112.12,USD,success,2024-03,103.1504
+T00174,2024-07-29,user173@example.com,Spain,Card,46.11,USD,success,2024-07,42.4212
+T00175,2024-08-24,user174@example.com,UK,Apple Pay,427.12,EUR,success,2024-08,427.12
+T00176,2024-02-17,user175@example.com,Spain,Apple Pay,351.9,EUR,success,2024-02,351.9
+T00177,2024-12-20,user176@example.com,Spain,PayPal,48.46,EUR,failed,2024-12,48.46
+T00178,2024-04-05,user177@example.com,UK,Bank Transfer,364.19,USD,refunded,2024-04,335.0548
+T00179,2024-09-11,user178@example.com,France,Card,440.79,GBP,failed,2024-09,515.7243
+T00180,2024-07-04,user179@example.com,France,Card,104.51,EUR,success,2024-07,104.51
+T00181,2024-04-15,user180@example.com,Ireland,Card,133.19,EUR,success,2024-04,133.19
+T00182,2024-01-22,user181@example.com,Germany,Bank Transfer,73.07,EUR,success,2024-01,73.07
+T00183,2024-11-01,user182@example.com,Ireland,Card,88.71,USD,success,2024-11,81.61319999999999
+T00184,2024-06-07,user183@example.com,Spain,PayPal,293.3,USD,refunded,2024-06,269.836
+T00185,2024-03-18,user184@example.com,Ireland,Apple Pay,86.44,EUR,success,2024-03,86.44
+T00186,2024-01-11,user185@example.com,Spain,Bank Transfer,440.55,EUR,refunded,2024-01,440.55
+T00187,2024-12-28,user186@example.com,UK,PayPal,364.13,GBP,success,2024-12,426.03209999999996
+T00188,2024-11-20,user187@example.com,Germany,Card,9.99,EUR,success,2024-11,9.99
+T00189,2024-04-09,user188@example.com,Germany,Card,37.71,EUR,success,2024-04,37.71
+T00190,2024-06-26,user189@example.com,France,Card,164.11,GBP,refunded,2024-06,192.0087
+T00191,2024-04-30,user190@example.com,Spain,PayPal,380.37,EUR,success,2024-04,380.37
+T00192,2024-11-10,user191@example.com,Ireland,Bank Transfer,147.83,EUR,success,2024-11,147.83
+T00193,2024-05-26,user192@example.com,Spain,Bank Transfer,260.07,EUR,failed,2024-05,260.07
+T00194,2024-04-25,user193@example.com,Germany,Card,268.67,EUR,refunded,2024-04,268.67
+T00195,2024-09-20,,France,Card,123.76,USD,success,2024-09,113.85920000000002
+T00196,2024-04-15,user195@example.com,UK,PayPal,120.52,GBP,refunded,2024-04,141.0084
+T00197,2024-05-17,user196@example.com,Germany,Card,166.79,EUR,refunded,2024-05,166.79
+T00198,2024-09-17,user197@example.com,Spain,Apple Pay,432.56,EUR,success,2024-09,432.56
+T00199,2024-12-30,user198@example.com,Ireland,Apple Pay,369.34,EUR,success,2024-12,369.34
+T00200,2024-10-03,user199@example.com,UK,Apple Pay,363.07,GBP,success,2024-10,424.79189999999994
+T00201,2024-07-23,user200@example.com,Spain,Apple Pay,260.1,USD,refunded,2024-07,239.29200000000003
+T00202,2024-03-22,user201@example.com,Germany,Bank Transfer,244.6,EUR,refunded,2024-03,244.6
+T00203,2024-08-15,user202@example.com,Germany,Apple Pay,289.0,EUR,success,2024-08,289.0
+T00204,2024-03-17,user203@example.com,Ireland,Bank Transfer,213.03,USD,failed,2024-03,195.98760000000001
+T00205,2024-07-09,user204@example.com,Spain,Apple Pay,391.31,USD,success,2024-07,360.0052
+T00206,2024-05-15,,France,Card,307.99,EUR,success,2024-05,307.99
+T00207,2024-12-29,user206@example.com,Germany,Card,253.93,EUR,success,2024-12,253.93
+T00208,2024-03-06,user207@example.com,Germany,Apple Pay,263.49,USD,success,2024-03,242.41080000000002
+T00209,2024-01-08,user208@example.com,Spain,Card,64.93,EUR,failed,2024-01,64.93
+T00210,2024-06-25,user209@example.com,Germany,Card,301.89,USD,refunded,2024-06,277.7388
+T00211,2024-06-07,user210@example.com,France,Bank Transfer,177.28,EUR,success,2024-06,177.28
+T00212,2024-02-24,user211@example.com,Germany,Bank Transfer,310.67,EUR,success,2024-02,310.67
+T00213,2024-07-22,user212@example.com,Germany,Apple Pay,52.17,EUR,refunded,2024-07,52.17
+T00214,2024-05-24,user213@example.com,Germany,PayPal,366.21,EUR,refunded,2024-05,366.21
+T00215,2024-07-03,user214@example.com,Ireland,Bank Transfer,382.97,EUR,success,2024-07,382.97
+T00216,2024-01-08,user215@example.com,Spain,Bank Transfer,227.44,GBP,refunded,2024-01,266.10479999999995
+T00217,2024-06-18,user216@example.com,Ireland,PayPal,308.35,EUR,success,2024-06,308.35
+T00218,2024-11-01,user217@example.com,France,PayPal,392.77,USD,success,2024-11,361.3484
+T00219,2024-03-02,user218@example.com,Germany,PayPal,54.08,EUR,success,2024-03,54.08
+T00220,2024-12-07,user219@example.com,Germany,Apple Pay,265.32,EUR,failed,2024-12,265.32
+T00221,2024-11-18,user220@example.com,Spain,PayPal,217.08,EUR,success,2024-11,217.08
+T00222,2024-10-29,user221@example.com,Spain,Apple Pay,399.31,USD,refunded,2024-10,367.3652
+T00223,2024-08-22,user222@example.com,Ireland,Apple Pay,122.9,USD,success,2024-08,113.06800000000001
+T00224,2024-10-23,user223@example.com,Ireland,Apple Pay,98.07,USD,failed,2024-10,90.2244
+T00225,2024-12-14,user224@example.com,France,Card,397.11,EUR,failed,2024-12,397.11
+T00226,2024-05-30,user225@example.com,France,PayPal,144.55,EUR,success,2024-05,144.55
+T00227,2024-11-18,user226@example.com,Germany,Apple Pay,243.15,USD,success,2024-11,223.698
+T00228,2024-11-03,user227@example.com,France,Apple Pay,362.66,EUR,success,2024-11,362.66
+T00229,2024-09-14,user228@example.com,Germany,PayPal,211.39,EUR,success,2024-09,211.39
+T00230,2024-03-31,user229@example.com,France,Apple Pay,8.07,EUR,failed,2024-03,8.07
+T00231,2024-05-21,,Ireland,PayPal,105.36,EUR,success,2024-05,105.36
+T00232,2024-11-30,,Ireland,PayPal,116.18,EUR,success,2024-11,116.18
+T00233,2024-03-15,user232@example.com,Spain,Card,131.06,EUR,success,2024-03,131.06
+T00234,2024-10-09,user233@example.com,Ireland,PayPal,84.97,EUR,success,2024-10,84.97
+T00235,2024-03-19,user234@example.com,Ireland,PayPal,21.94,EUR,success,2024-03,21.94
+T00236,2024-01-01,user235@example.com,Spain,Bank Transfer,174.67,EUR,success,2024-01,174.67
+T00237,2024-04-11,user236@example.com,France,Bank Transfer,21.82,EUR,success,2024-04,21.82
+T00238,2024-08-26,user237@example.com,Germany,PayPal,73.91,USD,success,2024-08,67.9972
+T00239,2024-12-21,user238@example.com,France,Card,92.79,EUR,refunded,2024-12,92.79
+T00240,2024-11-28,user239@example.com,Spain,Apple Pay,165.78,GBP,success,2024-11,193.96259999999998
+T00241,2024-07-20,user240@example.com,Ireland,PayPal,88.71,EUR,success,2024-07,88.71
+T00242,2024-03-05,user241@example.com,Ireland,PayPal,399.04,EUR,failed,2024-03,399.04
+T00243,2024-09-11,user242@example.com,Ireland,Bank Transfer,206.35,EUR,success,2024-09,206.35
+T00244,2024-12-05,user243@example.com,UK,PayPal,258.83,EUR,refunded,2024-12,258.83
+T00245,2024-05-15,user244@example.com,Spain,Bank Transfer,259.49,GBP,success,2024-05,303.6033
+T00246,2024-01-29,user245@example.com,Ireland,Bank Transfer,290.07,USD,success,2024-01,266.8644
+T00247,2024-02-09,user246@example.com,Spain,Card,130.48,USD,success,2024-02,120.0416
+T00248,2024-08-02,user247@example.com,UK,Bank Transfer,239.46,USD,success,2024-08,220.3032
+T00249,2024-01-01,user248@example.com,Ireland,Apple Pay,429.16,EUR,success,2024-01,429.16
+T00250,2024-06-02,user249@example.com,Spain,Bank Transfer,56.48,USD,success,2024-06,51.9616
+T00251,2024-07-26,user250@example.com,Ireland,Card,18.56,USD,failed,2024-07,17.0752
+T00252,2024-11-04,user251@example.com,UK,Card,322.69,EUR,refunded,2024-11,322.69
+T00253,2024-02-27,user252@example.com,UK,Bank Transfer,250.31,EUR,success,2024-02,250.31
+T00254,2024-09-26,user253@example.com,Spain,Apple Pay,273.84,EUR,refunded,2024-09,273.84
+T00255,2024-02-24,user254@example.com,France,Bank Transfer,180.29,GBP,success,2024-02,210.93929999999997
+T00256,2024-11-11,user255@example.com,UK,Card,174.65,USD,success,2024-11,160.67800000000003
+T00257,2024-03-01,user256@example.com,Ireland,Card,433.1,EUR,success,2024-03,433.1
+T00258,2024-11-05,user257@example.com,France,Card,427.31,EUR,success,2024-11,427.31
+T00259,2024-03-17,user258@example.com,Ireland,Card,352.48,EUR,refunded,2024-03,352.48
+T00260,2024-10-17,user259@example.com,Germany,PayPal,181.42,EUR,success,2024-10,181.42
+T00261,2024-08-13,user260@example.com,France,Apple Pay,369.78,USD,success,2024-08,340.19759999999997
+T00262,2024-09-01,user261@example.com,Germany,Apple Pay,109.29,USD,failed,2024-09,100.5468
+T00264,2024-09-26,user263@example.com,Germany,Apple Pay,191.95,USD,success,2024-09,176.594
+T00265,2024-09-05,user264@example.com,Germany,Apple Pay,239.12,USD,success,2024-09,219.99040000000002
+T00266,2024-08-23,user265@example.com,Ireland,Card,314.3,EUR,failed,2024-08,314.3
+T00267,2024-11-06,user266@example.com,Germany,PayPal,323.02,USD,success,2024-11,297.1784
+T00268,2024-10-06,user267@example.com,Spain,Card,109.32,GBP,failed,2024-10,127.90439999999998
+T00269,2024-09-07,user268@example.com,Germany,PayPal,153.17,EUR,success,2024-09,153.17
+T00270,2024-09-12,user269@example.com,Ireland,Apple Pay,365.71,EUR,success,2024-09,365.71
+T00271,2024-11-02,user270@example.com,France,Apple Pay,307.5,EUR,success,2024-11,307.5
+T00272,2024-11-10,user271@example.com,Ireland,Apple Pay,315.08,EUR,success,2024-11,315.08
+T00273,2024-05-16,user272@example.com,Germany,Bank Transfer,217.36,USD,success,2024-05,199.9712
+T00274,2024-06-16,user273@example.com,Ireland,PayPal,13.39,USD,success,2024-06,12.318800000000001
+T00275,2024-04-21,user274@example.com,UK,Card,363.67,GBP,success,2024-04,425.4939
+T00276,2024-02-18,user275@example.com,Germany,PayPal,191.65,EUR,failed,2024-02,191.65
+T00277,2024-12-22,user276@example.com,Germany,PayPal,15.96,EUR,failed,2024-12,15.96
+T00278,2024-09-28,user277@example.com,Ireland,Bank Transfer,269.77,EUR,success,2024-09,269.77
+T00279,2024-03-31,user278@example.com,France,Card,398.35,EUR,success,2024-03,398.35
+T00280,2024-06-22,user279@example.com,Germany,Card,431.85,EUR,success,2024-06,431.85
+T00281,2024-12-04,user280@example.com,Spain,PayPal,33.34,EUR,refunded,2024-12,33.34
+T00282,2024-05-28,user281@example.com,France,Apple Pay,164.1,EUR,success,2024-05,164.1
+T00283,2024-07-02,user282@example.com,Spain,Apple Pay,253.78,EUR,failed,2024-07,253.78
+T00284,2024-02-01,user283@example.com,France,Bank Transfer,321.17,EUR,success,2024-02,321.17
+T00285,2024-06-17,user284@example.com,France,Card,8.5,EUR,success,2024-06,8.5
+T00286,2024-11-29,user285@example.com,France,PayPal,222.87,USD,refunded,2024-11,205.0404
+T00287,2024-12-21,user286@example.com,Ireland,Apple Pay,135.98,GBP,success,2024-12,159.09659999999997
+T00288,2024-05-18,user287@example.com,Spain,PayPal,67.68,EUR,refunded,2024-05,67.68
+T00289,2024-11-07,user288@example.com,Ireland,Apple Pay,216.05,USD,refunded,2024-11,198.76600000000002
+T00290,2024-03-14,user289@example.com,France,Card,153.64,EUR,success,2024-03,153.64
+T00291,2024-12-22,user290@example.com,France,Card,147.21,USD,success,2024-12,135.4332
+T00292,2024-10-17,user291@example.com,Ireland,Bank Transfer,353.24,USD,refunded,2024-10,324.98080000000004
+T00293,2024-12-18,user292@example.com,Ireland,Bank Transfer,319.05,EUR,refunded,2024-12,319.05
+T00294,2024-05-26,user293@example.com,France,Apple Pay,289.01,USD,failed,2024-05,265.8892
+T00295,2024-03-18,user294@example.com,France,Card,73.73,EUR,failed,2024-03,73.73
+T00296,2024-04-15,user295@example.com,Spain,Apple Pay,288.32,EUR,success,2024-04,288.32
+T00297,2024-03-16,user296@example.com,UK,PayPal,35.8,GBP,success,2024-03,41.885999999999996
+T00298,2024-09-22,user297@example.com,UK,Bank Transfer,125.47,USD,success,2024-09,115.4324
+T00299,2024-06-07,user298@example.com,France,Bank Transfer,190.74,EUR,success,2024-06,190.74
+T00300,2024-03-25,user299@example.com,France,Apple Pay,223.63,GBP,success,2024-03,261.64709999999997
+T00301,2024-06-18,user300@example.com,Ireland,Bank Transfer,54.25,EUR,failed,2024-06,54.25
+T00302,2024-10-22,user301@example.com,Ireland,Bank Transfer,419.58,USD,success,2024-10,386.0136
+T00303,2024-03-28,user302@example.com,Spain,Apple Pay,442.3,EUR,refunded,2024-03,442.3
+T00304,2024-01-14,user303@example.com,Ireland,Card,305.1,GBP,success,2024-01,356.967
+T00305,2024-08-25,user304@example.com,Ireland,Apple Pay,220.22,EUR,failed,2024-08,220.22
+T00306,2024-03-12,user305@example.com,UK,PayPal,276.67,EUR,success,2024-03,276.67
+T00307,2024-06-02,user306@example.com,Germany,Bank Transfer,334.3,EUR,success,2024-06,334.3
+T00308,2024-07-06,user307@example.com,Spain,Bank Transfer,331.15,EUR,failed,2024-07,331.15
+T00309,2024-08-06,user308@example.com,Spain,Apple Pay,167.44,GBP,success,2024-08,195.9048
+T00310,2024-04-23,user309@example.com,Ireland,Apple Pay,364.19,EUR,failed,2024-04,364.19
+T00311,2024-07-10,user310@example.com,UK,Apple Pay,325.31,EUR,success,2024-07,325.31
+T00312,2024-03-20,user311@example.com,Ireland,Bank Transfer,157.38,GBP,success,2024-03,184.13459999999998
+T00313,2024-12-10,user312@example.com,Germany,Apple Pay,12.0,EUR,success,2024-12,12.0
+T00314,2024-10-14,user313@example.com,UK,Apple Pay,374.93,GBP,success,2024-10,438.6681
+T00315,2024-09-02,user314@example.com,Germany,PayPal,216.62,GBP,failed,2024-09,253.44539999999998
+T00316,2024-02-24,user315@example.com,France,Bank Transfer,7.56,GBP,refunded,2024-02,8.845199999999998
+T00317,2024-09-22,user316@example.com,Ireland,PayPal,258.89,EUR,failed,2024-09,258.89
+T00318,2024-03-01,user317@example.com,UK,PayPal,324.88,EUR,refunded,2024-03,324.88
+T00319,2024-09-07,user318@example.com,France,Apple Pay,227.23,GBP,success,2024-09,265.85909999999996
+T00320,2024-01-22,user319@example.com,France,Bank Transfer,439.47,EUR,refunded,2024-01,439.47
+T00321,2024-09-09,user320@example.com,Spain,Card,306.66,EUR,success,2024-09,306.66
+T00322,2024-11-26,user321@example.com,UK,Apple Pay,7.13,GBP,failed,2024-11,8.342099999999999
+T00323,2024-07-04,user322@example.com,France,Bank Transfer,178.75,EUR,success,2024-07,178.75
+T00324,2024-04-03,user323@example.com,Ireland,Bank Transfer,73.44,EUR,failed,2024-04,73.44
+T00325,2024-03-04,user324@example.com,Spain,Apple Pay,406.96,EUR,success,2024-03,406.96
+T00326,2024-01-25,user325@example.com,Spain,Card,342.03,EUR,success,2024-01,342.03
+T00327,2024-04-07,user326@example.com,France,PayPal,272.79,EUR,refunded,2024-04,272.79
+T00328,2024-12-16,user327@example.com,Spain,Apple Pay,380.06,EUR,refunded,2024-12,380.06
+T00329,2024-05-01,user328@example.com,France,PayPal,436.0,EUR,refunded,2024-05,436.0
+T00330,2024-03-08,user329@example.com,France,PayPal,75.88,EUR,success,2024-03,75.88
+T00331,2024-05-17,user330@example.com,Germany,PayPal,116.83,GBP,success,2024-05,136.69109999999998
+T00332,2024-12-08,user331@example.com,Spain,PayPal,33.34,EUR,success,2024-12,33.34
+T00333,2024-01-25,user332@example.com,Germany,Bank Transfer,193.82,EUR,success,2024-01,193.82
+T00334,2024-07-28,user333@example.com,Ireland,Card,416.92,EUR,success,2024-07,416.92
+T00335,2024-10-26,user334@example.com,Germany,Apple Pay,409.78,GBP,success,2024-10,479.4425999999999
+T00336,2024-06-25,user335@example.com,Germany,Bank Transfer,401.86,GBP,failed,2024-06,470.1762
+T00337,2024-04-06,user336@example.com,France,PayPal,406.14,EUR,success,2024-04,406.14
+T00338,2024-09-06,user337@example.com,UK,PayPal,262.29,EUR,failed,2024-09,262.29
+T00339,2024-05-23,user338@example.com,France,Apple Pay,107.61,EUR,failed,2024-05,107.61
+T00340,2024-09-27,user339@example.com,UK,Bank Transfer,283.23,USD,failed,2024-09,260.57160000000005
+T00341,2024-07-22,user340@example.com,France,Bank Transfer,262.74,GBP,success,2024-07,307.4058
+T00342,2024-05-07,user341@example.com,France,Bank Transfer,131.49,EUR,refunded,2024-05,131.49
+T00343,2024-12-17,user342@example.com,France,Apple Pay,395.87,GBP,success,2024-12,463.1679
+T00344,2024-10-27,user343@example.com,Ireland,Apple Pay,393.32,EUR,success,2024-10,393.32
+T00345,2024-01-09,user344@example.com,UK,PayPal,204.3,GBP,success,2024-01,239.031
+T00346,2024-02-29,user345@example.com,UK,Card,45.18,EUR,success,2024-02,45.18
+T00347,2024-01-15,user346@example.com,Ireland,PayPal,414.08,EUR,refunded,2024-01,414.08
+T00348,2024-09-27,user347@example.com,Germany,Bank Transfer,145.44,EUR,success,2024-09,145.44
+T00349,2024-08-25,user348@example.com,UK,Card,7.09,USD,success,2024-08,6.5228
+T00350,2024-03-12,user349@example.com,France,PayPal,282.22,USD,refunded,2024-03,259.6424
+T00351,2024-08-11,user350@example.com,Ireland,Apple Pay,408.65,EUR,failed,2024-08,408.65
+T00352,2024-09-20,user351@example.com,UK,PayPal,27.47,EUR,success,2024-09,27.47
+T00353,2024-08-10,user352@example.com,Spain,Card,161.83,EUR,success,2024-08,161.83
+T00354,2024-09-14,user353@example.com,Germany,Card,134.46,EUR,success,2024-09,134.46
+T00355,2024-07-05,user354@example.com,France,Card,310.93,EUR,refunded,2024-07,310.93
+T00356,2024-10-11,user355@example.com,Ireland,Apple Pay,130.61,EUR,failed,2024-10,130.61
+T00357,2024-02-04,user356@example.com,Germany,Card,343.97,EUR,failed,2024-02,343.97
+T00358,2024-08-07,user357@example.com,Ireland,PayPal,189.81,GBP,refunded,2024-08,222.0777
+T00359,2024-01-24,user358@example.com,Ireland,Bank Transfer,252.54,EUR,success,2024-01,252.54
+T00360,2024-12-25,user359@example.com,Ireland,Bank Transfer,283.34,EUR,success,2024-12,283.34
+T00361,2024-09-05,user360@example.com,Spain,Apple Pay,141.2,EUR,success,2024-09,141.2
+T00362,2024-06-01,user361@example.com,UK,Card,360.32,EUR,success,2024-06,360.32
+T00363,2024-06-26,user362@example.com,UK,Apple Pay,294.58,EUR,failed,2024-06,294.58
+T00364,2024-10-01,user363@example.com,Ireland,Card,379.13,USD,success,2024-10,348.7996
+T00365,2024-08-21,user364@example.com,Ireland,PayPal,331.85,EUR,success,2024-08,331.85
+T00366,2024-12-22,user365@example.com,Ireland,Bank Transfer,215.55,GBP,success,2024-12,252.1935
+T00367,2024-03-13,user366@example.com,Spain,Apple Pay,167.82,USD,success,2024-03,154.3944
+T00368,2024-02-24,user367@example.com,UK,PayPal,153.49,EUR,refunded,2024-02,153.49
+T00369,2024-09-01,user368@example.com,France,PayPal,249.39,EUR,failed,2024-09,249.39
+T00370,2024-09-19,user369@example.com,France,Card,396.24,EUR,refunded,2024-09,396.24
+T00371,2024-08-19,user370@example.com,France,Card,379.72,GBP,success,2024-08,444.2724
+T00372,2024-06-11,user371@example.com,UK,Card,401.64,EUR,success,2024-06,401.64
+T00373,2024-04-09,user372@example.com,Germany,Card,159.66,USD,success,2024-04,146.8872
+T00374,2024-01-28,user373@example.com,Spain,Card,317.05,EUR,failed,2024-01,317.05
+T00375,2024-01-07,user374@example.com,Germany,Card,88.38,EUR,failed,2024-01,88.38
+T00376,2024-04-02,user375@example.com,France,Bank Transfer,333.33,EUR,success,2024-04,333.33
+T00377,2024-01-13,user376@example.com,Germany,Apple Pay,160.26,EUR,refunded,2024-01,160.26
+T00378,2024-08-06,user377@example.com,Germany,Apple Pay,414.99,USD,failed,2024-08,381.79080000000005
+T00379,2024-12-24,user378@example.com,Spain,PayPal,190.03,USD,success,2024-12,174.82760000000002
+T00380,2024-05-16,user379@example.com,Germany,Card,113.8,EUR,success,2024-05,113.8
+T00381,2024-08-01,user380@example.com,UK,PayPal,208.91,EUR,failed,2024-08,208.91
+T00382,2024-05-28,user381@example.com,Ireland,Card,236.77,USD,refunded,2024-05,217.82840000000002
+T00383,2024-12-16,user382@example.com,Ireland,Apple Pay,221.16,EUR,success,2024-12,221.16
+T00384,2024-02-25,user383@example.com,Spain,PayPal,349.54,GBP,success,2024-02,408.9618
+T00385,2024-10-16,user384@example.com,UK,Apple Pay,304.29,EUR,failed,2024-10,304.29
+T00386,2024-09-25,user385@example.com,Spain,Bank Transfer,344.37,EUR,success,2024-09,344.37
+T00387,2024-07-27,user386@example.com,France,Apple Pay,401.57,GBP,failed,2024-07,469.83689999999996
+T00388,2024-01-10,user387@example.com,Germany,Bank Transfer,48.97,EUR,success,2024-01,48.97
+T00389,2024-01-07,user388@example.com,UK,Apple Pay,367.29,EUR,refunded,2024-01,367.29
+T00390,2024-04-19,user389@example.com,Germany,Apple Pay,442.48,GBP,success,2024-04,517.7016
+T00391,2024-06-30,user390@example.com,France,PayPal,190.35,GBP,success,2024-06,222.7095
+T00392,2024-06-27,user391@example.com,Spain,Card,337.75,EUR,failed,2024-06,337.75
+T00393,2024-12-26,user392@example.com,UK,Card,213.7,EUR,success,2024-12,213.7
+T00394,2024-07-28,user393@example.com,UK,Bank Transfer,47.27,EUR,success,2024-07,47.27
+T00395,2024-06-27,user394@example.com,France,Apple Pay,93.94,EUR,refunded,2024-06,93.94
+T00396,2024-03-23,user395@example.com,France,Bank Transfer,312.1,GBP,refunded,2024-03,365.157
+T00397,2024-06-17,user396@example.com,France,Card,355.47,EUR,failed,2024-06,355.47
+T00398,2024-12-30,user397@example.com,France,Apple Pay,88.16,GBP,success,2024-12,103.14719999999998
+T00399,2024-08-12,user398@example.com,France,Apple Pay,157.65,GBP,success,2024-08,184.4505
+T00401,2024-03-19,user400@example.com,UK,Card,257.56,USD,success,2024-03,236.95520000000002
+T00402,2024-08-13,user401@example.com,UK,Apple Pay,235.55,EUR,success,2024-08,235.55
+T00403,2024-05-24,user402@example.com,Ireland,Bank Transfer,438.01,GBP,success,2024-05,512.4716999999999
+T00404,2024-05-11,user403@example.com,Spain,Bank Transfer,50.01,EUR,failed,2024-05,50.01
+T00405,2024-05-16,user404@example.com,Ireland,PayPal,172.21,EUR,success,2024-05,172.21
+T00406,2024-11-23,user405@example.com,Ireland,Card,368.45,EUR,success,2024-11,368.45
+T00407,2024-01-22,user406@example.com,Spain,Bank Transfer,98.81,EUR,refunded,2024-01,98.81
+T00408,2024-11-13,user407@example.com,France,Bank Transfer,187.4,EUR,failed,2024-11,187.4
+T00409,2024-12-11,user408@example.com,UK,Apple Pay,229.02,USD,failed,2024-12,210.69840000000002
+T00410,2024-03-25,user409@example.com,Spain,Apple Pay,125.01,EUR,success,2024-03,125.01
+T00411,2024-04-24,user410@example.com,Spain,Apple Pay,250.2,USD,success,2024-04,230.184
+T00412,2024-11-27,user411@example.com,Ireland,Bank Transfer,67.28,GBP,success,2024-11,78.71759999999999
+T00413,2024-12-13,user412@example.com,Ireland,Card,239.59,GBP,success,2024-12,280.3203
+T00414,2024-08-10,user413@example.com,Spain,Bank Transfer,430.14,EUR,success,2024-08,430.14
+T00415,2024-08-26,user414@example.com,France,PayPal,400.65,EUR,failed,2024-08,400.65
+T00416,2024-06-30,user415@example.com,Germany,Apple Pay,183.11,GBP,success,2024-06,214.2387
+T00418,2024-09-07,user417@example.com,Germany,Apple Pay,323.9,EUR,refunded,2024-09,323.9
+T00419,2024-05-01,user418@example.com,France,Card,234.62,EUR,success,2024-05,234.62
+T00420,2024-12-11,user419@example.com,Germany,Bank Transfer,198.77,GBP,success,2024-12,232.5609
+T00422,2024-08-29,user421@example.com,Spain,PayPal,242.46,EUR,failed,2024-08,242.46
+T00425,2024-06-18,user424@example.com,UK,Apple Pay,326.69,EUR,success,2024-06,326.69
+T00426,2024-08-12,user425@example.com,Ireland,Apple Pay,315.73,EUR,success,2024-08,315.73
+T00427,2024-04-23,user426@example.com,UK,Bank Transfer,330.69,EUR,refunded,2024-04,330.69
+T00428,2024-12-24,user427@example.com,Ireland,PayPal,200.16,EUR,success,2024-12,200.16
+T00429,2024-05-16,user428@example.com,Spain,Apple Pay,59.35,EUR,failed,2024-05,59.35
+T00430,2024-05-28,user429@example.com,Spain,Card,296.59,GBP,refunded,2024-05,347.0103
+T00431,2024-01-23,user430@example.com,UK,Bank Transfer,53.78,USD,failed,2024-01,49.4776
+T00432,2024-07-17,user431@example.com,Germany,Bank Transfer,234.59,GBP,success,2024-07,274.4703
+T00433,2024-06-06,user432@example.com,Germany,Apple Pay,97.57,EUR,failed,2024-06,97.57
+T00434,2024-07-09,user433@example.com,Germany,PayPal,437.33,GBP,success,2024-07,511.67609999999996
+T00435,2024-09-27,user434@example.com,UK,Bank Transfer,302.09,USD,failed,2024-09,277.9228
+T00436,2024-06-26,user435@example.com,Germany,PayPal,111.43,USD,failed,2024-06,102.5156
+T00437,2024-08-09,user436@example.com,Germany,PayPal,403.73,EUR,refunded,2024-08,403.73
+T00438,2024-06-01,user437@example.com,France,Card,191.15,EUR,refunded,2024-06,191.15
+T00439,2024-11-18,user438@example.com,Germany,Apple Pay,245.13,EUR,refunded,2024-11,245.13
+T00440,2024-07-18,user439@example.com,UK,PayPal,174.68,EUR,success,2024-07,174.68
+T00441,2024-08-25,user440@example.com,Spain,Apple Pay,203.89,EUR,success,2024-08,203.89
+T00442,2024-01-21,user441@example.com,France,Apple Pay,34.59,EUR,success,2024-01,34.59
+T00443,2024-04-21,user442@example.com,France,Card,186.59,EUR,refunded,2024-04,186.59
+T00444,2024-04-28,user443@example.com,France,Apple Pay,163.98,USD,refunded,2024-04,150.8616
+T00445,2024-05-04,user444@example.com,UK,Bank Transfer,237.66,EUR,success,2024-05,237.66
+T00446,2024-05-04,user445@example.com,Spain,PayPal,270.02,EUR,success,2024-05,270.02
+T00447,2024-07-29,user446@example.com,Ireland,PayPal,371.37,EUR,success,2024-07,371.37
+T00448,2024-07-07,user447@example.com,Spain,PayPal,184.36,EUR,failed,2024-07,184.36
+T00449,2024-12-07,user448@example.com,UK,PayPal,276.17,EUR,refunded,2024-12,276.17
+T00450,2024-04-19,user449@example.com,UK,PayPal,248.78,USD,failed,2024-04,228.8776
+T00451,2024-12-04,user450@example.com,UK,Bank Transfer,51.25,GBP,success,2024-12,59.9625
+T00452,2024-04-07,user451@example.com,Spain,PayPal,417.4,EUR,failed,2024-04,417.4
+T00453,2024-12-24,,Ireland,Apple Pay,201.73,USD,success,2024-12,185.5916
+T00454,2024-09-01,user453@example.com,France,PayPal,186.51,EUR,success,2024-09,186.51
+T00455,2024-08-06,user454@example.com,Germany,Apple Pay,50.35,USD,success,2024-08,46.322
+T00456,2024-05-20,user455@example.com,France,PayPal,67.56,EUR,success,2024-05,67.56
+T00457,2024-09-28,user456@example.com,Germany,PayPal,105.5,EUR,success,2024-09,105.5
+T00458,2024-11-22,user457@example.com,UK,PayPal,243.79,EUR,refunded,2024-11,243.79
+T00459,2024-03-12,user458@example.com,Germany,Apple Pay,199.43,EUR,success,2024-03,199.43
+T00460,2024-03-24,user459@example.com,Ireland,Apple Pay,255.43,GBP,success,2024-03,298.8531
+T00461,2024-05-05,user460@example.com,UK,Apple Pay,18.69,EUR,success,2024-05,18.69
+T00462,2024-08-11,user461@example.com,France,Apple Pay,87.78,EUR,success,2024-08,87.78
+T00463,2024-05-22,user462@example.com,Ireland,PayPal,80.4,GBP,success,2024-05,94.068
+T00464,2024-01-11,user463@example.com,Spain,Card,375.96,EUR,failed,2024-01,375.96
+T00465,2024-08-28,user464@example.com,Germany,Apple Pay,120.26,EUR,failed,2024-08,120.26
+T00466,2024-12-29,user465@example.com,Spain,Apple Pay,258.97,EUR,failed,2024-12,258.97
+T00467,2024-06-29,user466@example.com,Spain,PayPal,115.01,GBP,refunded,2024-06,134.5617
+T00468,2024-01-23,user467@example.com,Ireland,Apple Pay,22.78,GBP,success,2024-01,26.6526
+T00469,2024-05-29,user468@example.com,Germany,Apple Pay,324.19,EUR,success,2024-05,324.19
+T00470,2024-05-14,user469@example.com,Spain,Bank Transfer,393.47,GBP,success,2024-05,460.3599
+T00471,2024-08-02,user470@example.com,Spain,Bank Transfer,273.26,EUR,success,2024-08,273.26
+T00472,2024-04-29,user471@example.com,Spain,Card,256.76,GBP,refunded,2024-04,300.4092
+T00473,2024-03-10,user472@example.com,Germany,PayPal,90.09,GBP,success,2024-03,105.4053
+T00474,2024-07-13,user473@example.com,Spain,PayPal,191.25,EUR,success,2024-07,191.25
+T00475,2024-10-29,user474@example.com,France,Bank Transfer,158.41,EUR,refunded,2024-10,158.41
+T00476,2024-09-08,user475@example.com,Germany,Apple Pay,312.97,EUR,success,2024-09,312.97
+T00477,2024-07-05,user476@example.com,Ireland,Card,90.71,USD,refunded,2024-07,83.4532
+T00478,2024-01-01,user477@example.com,Ireland,Card,155.14,EUR,success,2024-01,155.14
+T00479,2024-08-06,user478@example.com,France,Card,391.22,EUR,failed,2024-08,391.22
+T00480,2024-11-04,user479@example.com,France,Bank Transfer,45.43,EUR,success,2024-11,45.43
+T00481,2024-11-11,user480@example.com,UK,Apple Pay,430.05,GBP,refunded,2024-11,503.1585
+T00482,2024-05-18,user481@example.com,UK,Bank Transfer,157.47,EUR,refunded,2024-05,157.47
+T00483,2024-02-07,user482@example.com,Spain,Apple Pay,394.29,EUR,success,2024-02,394.29
+T00484,2024-05-27,user483@example.com,Ireland,Bank Transfer,5.65,USD,failed,2024-05,5.198
+T00485,2024-12-13,user484@example.com,Germany,Bank Transfer,236.81,EUR,success,2024-12,236.81
+T00486,2024-10-19,user485@example.com,France,Bank Transfer,86.39,EUR,success,2024-10,86.39
+T00487,2024-01-16,user486@example.com,UK,Apple Pay,246.53,EUR,success,2024-01,246.53
+T00488,2024-04-20,user487@example.com,France,Apple Pay,213.86,EUR,success,2024-04,213.86
+T00489,2024-10-05,user488@example.com,UK,Apple Pay,419.73,EUR,success,2024-10,419.73
+T00490,2024-04-07,user489@example.com,Germany,Bank Transfer,308.87,EUR,failed,2024-04,308.87
+T00491,2024-04-18,user490@example.com,Spain,Bank Transfer,358.07,EUR,refunded,2024-04,358.07
+T00492,2024-10-16,user491@example.com,France,Bank Transfer,275.25,EUR,success,2024-10,275.25
+T00493,2024-08-04,user492@example.com,Germany,Bank Transfer,307.7,EUR,refunded,2024-08,307.7
+T00494,2024-05-24,user493@example.com,Germany,Bank Transfer,49.44,EUR,success,2024-05,49.44
+T00495,2024-10-08,user494@example.com,Spain,Apple Pay,241.88,EUR,refunded,2024-10,241.88
+T00496,2024-11-06,user495@example.com,Germany,Card,219.17,EUR,success,2024-11,219.17
+T00497,2024-10-06,user496@example.com,France,Card,64.06,USD,success,2024-10,58.9352
+T00498,2024-01-12,user497@example.com,France,Bank Transfer,112.42,USD,success,2024-01,103.4264
+T00499,2024-07-17,user498@example.com,Germany,PayPal,398.14,EUR,success,2024-07,398.14
+T00500,2024-12-06,user499@example.com,France,Card,300.67,GBP,success,2024-12,351.7839
+T00501,2024-09-04,user500@example.com,Germany,Card,197.62,EUR,success,2024-09,197.62
+T00502,2024-03-15,user501@example.com,UK,Card,150.71,EUR,success,2024-03,150.71
+T00503,2024-10-12,user502@example.com,Ireland,PayPal,158.34,EUR,success,2024-10,158.34
+T00504,2024-10-29,user503@example.com,Spain,Card,366.63,EUR,success,2024-10,366.63
+T00505,2024-12-13,user504@example.com,France,Apple Pay,15.98,EUR,success,2024-12,15.98
+T00506,2024-10-09,user505@example.com,Spain,Card,45.45,USD,failed,2024-10,41.81400000000001
+T00507,2024-12-05,user506@example.com,Spain,PayPal,301.34,EUR,success,2024-12,301.34
+T00508,2024-10-10,user507@example.com,Germany,Bank Transfer,225.01,EUR,failed,2024-10,225.01
+T00509,2024-09-03,user508@example.com,Spain,Card,417.74,EUR,success,2024-09,417.74
+T00510,2024-01-20,user509@example.com,Spain,Apple Pay,345.44,EUR,refunded,2024-01,345.44
+T00511,2024-09-16,user510@example.com,Spain,Bank Transfer,36.79,USD,failed,2024-09,33.8468
+T00512,2024-12-19,user511@example.com,Spain,Apple Pay,315.71,EUR,success,2024-12,315.71
+T00513,2024-01-03,user512@example.com,France,PayPal,152.74,EUR,failed,2024-01,152.74
+T00514,2024-09-29,user513@example.com,UK,Card,79.23,GBP,success,2024-09,92.6991
+T00515,2024-01-22,user514@example.com,UK,Apple Pay,368.06,EUR,success,2024-01,368.06
+T00516,2024-10-01,user515@example.com,Spain,Card,19.02,EUR,success,2024-10,19.02
+T00517,2024-06-30,user516@example.com,Ireland,PayPal,109.39,EUR,success,2024-06,109.39
+T00518,2024-01-06,user517@example.com,Ireland,PayPal,117.87,EUR,success,2024-01,117.87
+T00519,2024-06-28,user518@example.com,France,Apple Pay,175.37,USD,refunded,2024-06,161.34040000000002
+T00520,2024-05-25,user519@example.com,Spain,Bank Transfer,409.02,EUR,success,2024-05,409.02
+T00521,2024-05-30,user520@example.com,Spain,Bank Transfer,118.9,USD,success,2024-05,109.388
+T00522,2024-09-23,user521@example.com,Spain,PayPal,337.01,EUR,success,2024-09,337.01
+T00523,2024-06-08,user522@example.com,UK,PayPal,435.85,EUR,failed,2024-06,435.85
+T00524,2024-09-22,user523@example.com,UK,PayPal,394.18,GBP,success,2024-09,461.19059999999996
+T00525,2024-10-28,user524@example.com,Ireland,PayPal,363.82,GBP,refunded,2024-10,425.66939999999994
+T00526,2024-06-26,user525@example.com,UK,Card,203.97,EUR,failed,2024-06,203.97
+T00527,2024-08-31,user526@example.com,Germany,PayPal,348.79,EUR,success,2024-08,348.79
+T00528,2024-12-24,user527@example.com,Ireland,Card,424.18,EUR,success,2024-12,424.18
+T00529,2024-12-15,user528@example.com,Germany,Bank Transfer,112.39,GBP,success,2024-12,131.4963
+T00530,2024-06-02,user529@example.com,Spain,Bank Transfer,359.38,GBP,refunded,2024-06,420.47459999999995
+T00531,2024-05-26,user530@example.com,UK,Bank Transfer,211.42,USD,success,2024-05,194.50639999999999
+T00532,2024-07-21,user531@example.com,UK,Card,434.52,EUR,failed,2024-07,434.52
+T00533,2024-06-18,user532@example.com,France,Card,285.5,GBP,success,2024-06,334.03499999999997
+T00534,2024-05-21,user533@example.com,Ireland,Bank Transfer,28.51,GBP,refunded,2024-05,33.3567
+T00535,2024-10-05,user534@example.com,Spain,Apple Pay,76.88,EUR,success,2024-10,76.88
+T00536,2024-11-28,user535@example.com,France,PayPal,408.22,EUR,success,2024-11,408.22
+T00537,2024-04-19,user536@example.com,France,PayPal,377.37,GBP,refunded,2024-04,441.5229
+T00538,2024-08-25,user537@example.com,UK,Bank Transfer,389.41,EUR,success,2024-08,389.41
+T00539,2024-05-09,user538@example.com,France,Apple Pay,107.99,USD,failed,2024-05,99.3508
+T00540,2024-07-22,user539@example.com,UK,PayPal,298.46,EUR,failed,2024-07,298.46
+T00541,2024-08-31,user540@example.com,Ireland,PayPal,215.2,USD,refunded,2024-08,197.984
+T00542,2024-11-10,user541@example.com,France,Bank Transfer,228.99,GBP,refunded,2024-11,267.9183
+T00543,2024-11-18,user542@example.com,UK,Apple Pay,40.08,GBP,success,2024-11,46.89359999999999
+T00544,2024-12-08,user543@example.com,Germany,Apple Pay,193.75,GBP,refunded,2024-12,226.6875
+T00545,2024-08-28,user544@example.com,France,Bank Transfer,199.44,USD,success,2024-08,183.4848
+T00546,2024-09-12,user545@example.com,France,Apple Pay,40.08,EUR,success,2024-09,40.08
+T00547,2024-07-14,user546@example.com,Germany,Apple Pay,8.68,GBP,success,2024-07,10.1556
+T00548,2024-01-21,user547@example.com,Germany,Apple Pay,114.17,USD,failed,2024-01,105.0364
+T00549,2024-09-29,user548@example.com,Germany,Bank Transfer,209.55,GBP,success,2024-09,245.1735
+T00550,2024-12-17,user549@example.com,Spain,PayPal,158.01,GBP,success,2024-12,184.87169999999998
+T00551,2024-09-20,user550@example.com,UK,Apple Pay,28.94,USD,success,2024-09,26.624800000000004
+T00552,2024-09-23,user551@example.com,Germany,PayPal,66.67,EUR,success,2024-09,66.67
+T00553,2024-05-30,user552@example.com,France,Card,160.85,USD,success,2024-05,147.982
+T00554,2024-08-15,user553@example.com,Germany,PayPal,430.99,EUR,success,2024-08,430.99
+T00555,2024-01-31,user554@example.com,Ireland,Bank Transfer,173.0,EUR,success,2024-01,173.0
+T00557,2024-01-26,user556@example.com,UK,Apple Pay,445.32,EUR,success,2024-01,445.32
+T00558,2024-05-30,user557@example.com,France,Apple Pay,108.96,GBP,success,2024-05,127.48319999999998
+T00560,2024-02-13,user559@example.com,UK,Card,384.71,EUR,refunded,2024-02,384.71
+T00561,2024-09-20,user560@example.com,Germany,Bank Transfer,262.59,EUR,refunded,2024-09,262.59
+T00562,2024-04-17,user561@example.com,France,Bank Transfer,193.63,EUR,refunded,2024-04,193.63
+T00563,2024-03-04,user562@example.com,Spain,Card,202.8,GBP,refunded,2024-03,237.276
+T00564,2024-07-30,user563@example.com,Ireland,Apple Pay,197.27,EUR,success,2024-07,197.27
+T00565,2024-09-11,user564@example.com,Germany,PayPal,270.96,GBP,success,2024-09,317.0232
+T00566,2024-07-22,user565@example.com,Ireland,Card,384.7,USD,success,2024-07,353.924
+T00567,2024-08-06,user566@example.com,Spain,PayPal,156.6,EUR,refunded,2024-08,156.6
+T00568,2024-10-28,user567@example.com,UK,PayPal,442.17,GBP,success,2024-10,517.3389
+T00569,2024-02-22,user568@example.com,Spain,Card,231.59,EUR,success,2024-02,231.59
+T00570,2024-12-23,user569@example.com,Spain,Bank Transfer,77.52,GBP,success,2024-12,90.69839999999999
+T00571,2024-10-11,user570@example.com,France,PayPal,426.07,EUR,success,2024-10,426.07
+T00572,2024-07-10,user571@example.com,Ireland,PayPal,413.2,GBP,success,2024-07,483.44399999999996
+T00573,2024-03-12,user572@example.com,Germany,Card,105.9,EUR,success,2024-03,105.9
+T00574,2024-03-07,user573@example.com,France,PayPal,156.76,EUR,success,2024-03,156.76
+T00575,2024-11-14,user574@example.com,Spain,PayPal,311.08,EUR,failed,2024-11,311.08
+T00576,2024-09-27,user575@example.com,Spain,PayPal,82.25,EUR,refunded,2024-09,82.25
+T00577,2024-01-05,user576@example.com,Ireland,Card,117.06,EUR,success,2024-01,117.06
+T00578,2024-04-04,user577@example.com,Ireland,Bank Transfer,265.19,EUR,success,2024-04,265.19
+T00579,2024-03-08,user578@example.com,Spain,PayPal,430.66,EUR,failed,2024-03,430.66
+T00580,2024-09-05,user579@example.com,Spain,Bank Transfer,245.37,GBP,success,2024-09,287.0829
+T00581,2024-03-02,user580@example.com,Germany,Apple Pay,93.69,GBP,success,2024-03,109.61729999999999
+T00582,2024-05-01,user581@example.com,France,Card,375.0,EUR,failed,2024-05,375.0
+T00583,2024-01-09,user582@example.com,UK,Apple Pay,223.03,EUR,failed,2024-01,223.03
+T00584,2024-11-13,user583@example.com,UK,Bank Transfer,117.92,EUR,failed,2024-11,117.92
+T00585,2024-04-21,user584@example.com,France,Apple Pay,127.4,EUR,refunded,2024-04,127.4
+T00586,2024-09-13,user585@example.com,Germany,Card,50.03,EUR,success,2024-09,50.03
+T00587,2024-07-11,,France,PayPal,261.64,USD,failed,2024-07,240.7088
+T00588,2024-09-28,,France,PayPal,41.85,EUR,success,2024-09,41.85
+T00589,2024-04-21,user588@example.com,UK,Apple Pay,287.46,EUR,refunded,2024-04,287.46
+T00590,2024-02-09,user589@example.com,Ireland,PayPal,34.17,GBP,success,2024-02,39.9789
+T00591,2024-06-15,user590@example.com,Ireland,Card,86.64,EUR,failed,2024-06,86.64
+T00592,2024-07-19,user591@example.com,UK,PayPal,426.61,EUR,failed,2024-07,426.61
+T00593,2024-12-29,user592@example.com,Spain,Bank Transfer,364.17,EUR,success,2024-12,364.17
+T00594,2024-05-21,user593@example.com,France,PayPal,297.68,USD,success,2024-05,273.86560000000003
+T00595,2024-06-08,user594@example.com,Spain,Card,31.93,EUR,success,2024-06,31.93
+T00596,2024-07-16,user595@example.com,Ireland,PayPal,410.6,GBP,success,2024-07,480.402
+T00597,2024-04-13,user596@example.com,UK,Apple Pay,379.36,GBP,success,2024-04,443.8512
+T00598,2024-10-27,user597@example.com,France,Apple Pay,386.66,EUR,failed,2024-10,386.66
+T00600,2024-04-23,user599@example.com,Spain,PayPal,445.15,USD,refunded,2024-04,409.538
+T00602,2024-10-22,user601@example.com,Germany,PayPal,382.41,EUR,failed,2024-10,382.41
+T00603,2024-12-05,user602@example.com,Germany,Card,297.51,EUR,refunded,2024-12,297.51
+T00604,2024-05-12,user603@example.com,Germany,Card,356.4,EUR,success,2024-05,356.4
+T00605,2024-09-02,user604@example.com,France,PayPal,31.99,EUR,success,2024-09,31.99
+T00606,2024-08-08,user605@example.com,Ireland,PayPal,60.78,EUR,success,2024-08,60.78
+T00607,2024-10-16,user606@example.com,Germany,Card,250.54,USD,failed,2024-10,230.4968
+T00608,2024-12-05,user607@example.com,Ireland,Bank Transfer,174.47,EUR,success,2024-12,174.47
+T00609,2024-05-25,user608@example.com,Ireland,PayPal,402.39,EUR,refunded,2024-05,402.39
+T00610,2024-12-04,user609@example.com,UK,Apple Pay,124.04,USD,success,2024-12,114.11680000000001
+T00611,2024-09-28,user610@example.com,Spain,PayPal,67.25,EUR,success,2024-09,67.25
+T00612,2024-10-13,user611@example.com,Germany,Card,106.61,EUR,success,2024-10,106.61
+T00613,2024-12-18,user612@example.com,France,PayPal,211.69,GBP,success,2024-12,247.67729999999997
+T00614,2024-12-23,user613@example.com,Spain,PayPal,290.18,EUR,refunded,2024-12,290.18
+T00615,2024-07-28,user614@example.com,France,Card,410.01,EUR,success,2024-07,410.01
+T00616,2024-08-19,user615@example.com,Ireland,PayPal,62.42,EUR,success,2024-08,62.42
+T00617,2024-02-06,user616@example.com,Germany,PayPal,218.98,EUR,success,2024-02,218.98
+T00618,2024-02-23,user617@example.com,UK,PayPal,326.74,EUR,refunded,2024-02,326.74
+T00619,2024-02-17,user618@example.com,UK,Apple Pay,346.45,EUR,success,2024-02,346.45
+T00620,2024-06-19,user619@example.com,UK,Apple Pay,256.98,GBP,success,2024-06,300.6666
+T00621,2024-07-23,user620@example.com,Ireland,Card,309.37,EUR,success,2024-07,309.37
+T00622,2024-12-06,user621@example.com,Germany,PayPal,371.01,EUR,success,2024-12,371.01
+T00623,2024-10-18,user622@example.com,Germany,Apple Pay,273.46,EUR,success,2024-10,273.46
+T00624,2024-10-28,user623@example.com,Ireland,PayPal,368.78,GBP,success,2024-10,431.47259999999994
+T00625,2024-09-11,user624@example.com,Ireland,Bank Transfer,127.71,EUR,success,2024-09,127.71
+T00626,2024-06-25,user625@example.com,Ireland,PayPal,15.47,USD,success,2024-06,14.232400000000002
+T00627,2024-12-30,user626@example.com,UK,Card,151.56,EUR,success,2024-12,151.56
+T00628,2024-06-15,user627@example.com,Spain,Apple Pay,279.69,EUR,success,2024-06,279.69
+T00629,2024-10-07,user628@example.com,Spain,Bank Transfer,314.18,EUR,success,2024-10,314.18
+T00630,2024-09-04,user629@example.com,Spain,Apple Pay,352.72,USD,success,2024-09,324.5024
+T00631,2024-09-14,user630@example.com,Germany,Apple Pay,280.79,EUR,failed,2024-09,280.79
+T00632,2024-07-19,user631@example.com,Spain,Bank Transfer,83.43,GBP,failed,2024-07,97.6131
+T00633,2024-03-04,user632@example.com,France,Apple Pay,428.72,EUR,success,2024-03,428.72
+T00634,2024-08-05,user633@example.com,UK,Bank Transfer,219.16,GBP,success,2024-08,256.4172
+T00635,2024-06-27,user634@example.com,UK,Bank Transfer,141.14,EUR,success,2024-06,141.14
+T00636,2024-01-01,user635@example.com,Spain,PayPal,430.55,EUR,refunded,2024-01,430.55
+T00637,2024-12-29,user636@example.com,UK,Apple Pay,11.33,EUR,success,2024-12,11.33
+T00639,2024-02-18,user638@example.com,Ireland,Card,149.97,USD,success,2024-02,137.9724
+T00640,2024-05-05,user639@example.com,UK,PayPal,223.52,EUR,success,2024-05,223.52
+T00641,2024-10-19,user640@example.com,Germany,PayPal,66.01,GBP,success,2024-10,77.2317
+T00642,2024-07-07,user641@example.com,UK,Card,85.74,EUR,refunded,2024-07,85.74
+T00643,2024-09-29,user642@example.com,France,Apple Pay,233.41,EUR,success,2024-09,233.41
+T00644,2024-01-02,user643@example.com,Ireland,Card,172.74,EUR,success,2024-01,172.74
+T00645,2024-11-25,user644@example.com,France,Apple Pay,109.18,EUR,success,2024-11,109.18
+T00646,2024-09-28,user645@example.com,France,Bank Transfer,6.04,EUR,refunded,2024-09,6.04
+T00647,2024-05-05,user646@example.com,Ireland,Bank Transfer,326.42,EUR,failed,2024-05,326.42
+T00648,2024-08-10,user647@example.com,UK,Apple Pay,398.08,EUR,success,2024-08,398.08
+T00649,2024-08-01,user648@example.com,Spain,Apple Pay,79.03,GBP,success,2024-08,92.46509999999999
+T00650,2024-08-14,user649@example.com,France,Apple Pay,370.91,GBP,failed,2024-08,433.9647
+T00651,2024-07-05,user650@example.com,Germany,Bank Transfer,271.09,EUR,failed,2024-07,271.09
+T00652,2024-03-06,user651@example.com,Spain,PayPal,342.75,USD,success,2024-03,315.33000000000004
+T00653,2024-06-13,user652@example.com,France,Bank Transfer,406.46,EUR,failed,2024-06,406.46
+T00654,2024-03-13,user653@example.com,Ireland,Card,206.97,USD,failed,2024-03,190.41240000000002
+T00655,2024-10-05,user654@example.com,Germany,Card,47.47,EUR,failed,2024-10,47.47
+T00656,2024-09-28,user655@example.com,Germany,PayPal,358.18,EUR,failed,2024-09,358.18
+T00657,2024-09-30,user656@example.com,UK,PayPal,289.78,EUR,refunded,2024-09,289.78
+T00658,2024-03-14,user657@example.com,UK,PayPal,417.98,EUR,failed,2024-03,417.98
+T00659,2024-09-02,user658@example.com,Germany,Apple Pay,20.89,GBP,success,2024-09,24.4413
+T00660,2024-01-03,user659@example.com,UK,Bank Transfer,80.33,EUR,success,2024-01,80.33
+T00661,2024-06-05,user660@example.com,France,Apple Pay,218.39,USD,success,2024-06,200.9188
+T00662,2024-09-24,user661@example.com,UK,Apple Pay,238.36,EUR,failed,2024-09,238.36
+T00663,2024-09-18,user662@example.com,France,Apple Pay,50.7,USD,success,2024-09,46.644000000000005
+T00664,2024-12-20,user663@example.com,Germany,Bank Transfer,204.2,EUR,success,2024-12,204.2
+T00665,2024-08-29,user664@example.com,UK,Card,42.22,GBP,success,2024-08,49.3974
+T00666,2024-01-18,user665@example.com,Spain,Apple Pay,84.02,EUR,failed,2024-01,84.02
+T00667,2024-12-01,user666@example.com,Germany,PayPal,44.57,EUR,failed,2024-12,44.57
+T00668,2024-03-12,user667@example.com,UK,Apple Pay,14.61,EUR,success,2024-03,14.61
+T00669,2024-06-29,user668@example.com,France,Apple Pay,271.4,EUR,failed,2024-06,271.4
+T00670,2024-09-19,user669@example.com,Spain,PayPal,404.39,USD,failed,2024-09,372.0388
+T00671,2024-04-24,user670@example.com,Spain,Bank Transfer,393.03,EUR,success,2024-04,393.03
+T00672,2024-08-13,user671@example.com,Spain,Apple Pay,202.0,EUR,success,2024-08,202.0
+T00673,2024-12-19,user672@example.com,UK,Apple Pay,320.45,GBP,failed,2024-12,374.9265
+T00674,2024-01-04,user673@example.com,Germany,Card,119.0,EUR,refunded,2024-01,119.0
+T00675,2024-07-12,user674@example.com,Spain,Apple Pay,120.55,USD,success,2024-07,110.906
+T00676,2024-04-28,user675@example.com,France,Apple Pay,196.51,USD,refunded,2024-04,180.7892
+T00677,2024-01-05,user676@example.com,France,PayPal,422.3,EUR,success,2024-01,422.3
+T00678,2024-09-07,user677@example.com,Spain,PayPal,49.13,GBP,success,2024-09,57.4821
+T00679,2024-03-29,user678@example.com,Germany,Apple Pay,422.38,EUR,success,2024-03,422.38
+T00680,2024-05-30,user679@example.com,UK,Card,50.57,EUR,success,2024-05,50.57
+T00681,2024-12-11,user680@example.com,Germany,Bank Transfer,87.41,GBP,failed,2024-12,102.26969999999999
+T00682,2024-09-29,user681@example.com,UK,Bank Transfer,336.41,EUR,success,2024-09,336.41
+T00683,2024-06-05,user682@example.com,Germany,Card,98.21,EUR,success,2024-06,98.21
+T00684,2024-02-03,user683@example.com,Spain,Card,441.94,EUR,success,2024-02,441.94
+T00685,2024-08-16,user684@example.com,Spain,Apple Pay,344.99,USD,success,2024-08,317.3908
+T00686,2024-01-16,user685@example.com,Spain,Card,79.08,GBP,success,2024-01,92.52359999999999
+T00687,2024-04-15,user686@example.com,Ireland,PayPal,376.11,USD,success,2024-04,346.0212
+T00688,2024-04-11,user687@example.com,Ireland,PayPal,139.0,GBP,success,2024-04,162.63
+T00689,2024-12-29,user688@example.com,France,PayPal,250.37,EUR,success,2024-12,250.37
+T00690,2024-10-24,user689@example.com,Ireland,Bank Transfer,79.17,EUR,success,2024-10,79.17
+T00691,2024-08-17,user690@example.com,Spain,PayPal,209.4,EUR,success,2024-08,209.4
+T00692,2024-01-19,user691@example.com,Germany,PayPal,333.13,USD,success,2024-01,306.4796
+T00693,2024-01-08,user692@example.com,Ireland,Apple Pay,52.94,EUR,success,2024-01,52.94
+T00694,2024-08-28,user693@example.com,Germany,PayPal,143.43,EUR,success,2024-08,143.43
+T00695,2024-03-16,user694@example.com,Spain,Card,83.89,EUR,success,2024-03,83.89
+T00696,2024-09-01,user695@example.com,UK,Apple Pay,54.6,EUR,refunded,2024-09,54.6
+T00697,2024-05-06,user696@example.com,Ireland,Apple Pay,117.27,EUR,success,2024-05,117.27
+T00698,2024-07-29,user697@example.com,UK,PayPal,360.53,USD,refunded,2024-07,331.6876
+T00699,2024-07-27,user698@example.com,Germany,Apple Pay,306.11,EUR,failed,2024-07,306.11
+T00700,2024-08-21,user699@example.com,Germany,PayPal,261.87,USD,success,2024-08,240.9204
+T00701,2024-11-20,user700@example.com,France,Card,226.1,EUR,success,2024-11,226.1
+T00702,2024-01-21,user701@example.com,Ireland,Bank Transfer,76.57,EUR,success,2024-01,76.57
+T00703,2024-04-09,user702@example.com,Spain,Bank Transfer,396.02,EUR,success,2024-04,396.02
+T00704,2024-07-24,user703@example.com,UK,PayPal,368.39,USD,failed,2024-07,338.9188
+T00705,2024-01-25,user704@example.com,UK,Bank Transfer,341.35,USD,refunded,2024-01,314.04200000000003
+T00706,2024-01-19,,Ireland,PayPal,79.39,GBP,failed,2024-01,92.88629999999999
+T00707,2024-05-24,user706@example.com,Germany,Apple Pay,271.93,GBP,success,2024-05,318.1581
+T00708,2024-10-20,user707@example.com,Spain,Bank Transfer,114.9,USD,success,2024-10,105.70800000000001
+T00709,2024-01-24,user708@example.com,UK,Bank Transfer,278.05,USD,failed,2024-01,255.806
+T00710,2024-10-25,user709@example.com,France,Bank Transfer,360.85,GBP,success,2024-10,422.1945
+T00711,2024-11-27,user710@example.com,Germany,Apple Pay,160.7,USD,refunded,2024-11,147.844
+T00712,2024-01-09,user711@example.com,Germany,Apple Pay,56.41,EUR,success,2024-01,56.41
+T00713,2024-03-05,user712@example.com,Spain,PayPal,14.38,EUR,refunded,2024-03,14.38
+T00715,2024-06-19,user714@example.com,UK,Card,94.56,EUR,refunded,2024-06,94.56
+T00716,2024-06-18,user715@example.com,UK,Bank Transfer,304.48,EUR,failed,2024-06,304.48
+T00717,2024-12-08,user716@example.com,Germany,PayPal,181.19,GBP,success,2024-12,211.99229999999997
+T00718,2024-05-25,user717@example.com,Ireland,Apple Pay,341.12,USD,success,2024-05,313.8304
+T00719,2024-11-21,user718@example.com,France,PayPal,262.96,EUR,success,2024-11,262.96
+T00720,2024-10-07,user719@example.com,France,Bank Transfer,272.06,EUR,success,2024-10,272.06
+T00721,2024-03-28,user720@example.com,Spain,Bank Transfer,233.55,EUR,success,2024-03,233.55
+T00722,2024-03-28,user721@example.com,UK,Apple Pay,233.31,EUR,failed,2024-03,233.31
+T00723,2024-02-28,,Spain,PayPal,329.37,EUR,success,2024-02,329.37
+T00724,2024-10-14,user723@example.com,Germany,Card,329.11,USD,success,2024-10,302.7812
+T00725,2024-06-28,user724@example.com,Spain,Card,55.52,EUR,refunded,2024-06,55.52
+T00726,2024-09-25,user725@example.com,Germany,PayPal,203.71,GBP,failed,2024-09,238.3407
+T00727,2024-09-02,user726@example.com,Germany,Card,240.39,EUR,success,2024-09,240.39
+T00728,2024-05-16,user727@example.com,Ireland,Card,424.33,GBP,failed,2024-05,496.4660999999999
+T00729,2024-12-29,user728@example.com,Germany,Apple Pay,148.7,EUR,success,2024-12,148.7
+T00730,2024-08-08,user729@example.com,Ireland,Bank Transfer,96.18,EUR,refunded,2024-08,96.18
+T00732,2024-02-24,user731@example.com,Spain,Apple Pay,273.18,EUR,refunded,2024-02,273.18
+T00733,2024-06-19,user732@example.com,Germany,PayPal,436.49,USD,success,2024-06,401.5708
+T00734,2024-02-21,user733@example.com,Ireland,Bank Transfer,148.42,EUR,success,2024-02,148.42
+T00735,2024-03-04,user734@example.com,France,Card,238.73,EUR,success,2024-03,238.73
+T00737,2024-08-09,user736@example.com,Ireland,Apple Pay,379.4,USD,refunded,2024-08,349.048
+T00738,2024-09-11,user737@example.com,Germany,Apple Pay,176.21,EUR,refunded,2024-09,176.21
+T00739,2024-04-06,user738@example.com,France,PayPal,38.9,EUR,success,2024-04,38.9
+T00741,2024-04-13,user740@example.com,Germany,Bank Transfer,62.23,EUR,success,2024-04,62.23
+T00742,2024-06-27,user741@example.com,France,Apple Pay,21.45,EUR,success,2024-06,21.45
+T00744,2024-04-27,user743@example.com,Spain,Apple Pay,191.06,EUR,success,2024-04,191.06
+T00745,2024-01-28,user744@example.com,Ireland,Card,316.78,EUR,refunded,2024-01,316.78
+T00746,2024-10-02,user745@example.com,UK,Bank Transfer,98.29,USD,success,2024-10,90.42680000000001
+T00748,2024-10-08,user747@example.com,Spain,Card,359.28,GBP,failed,2024-10,420.35759999999993
+T00749,2024-10-26,user748@example.com,Ireland,Apple Pay,353.35,EUR,success,2024-10,353.35
+T00750,2024-09-14,user749@example.com,Ireland,PayPal,137.93,USD,failed,2024-09,126.89560000000002
+T00751,2024-03-19,user750@example.com,France,Bank Transfer,333.49,EUR,refunded,2024-03,333.49
+T00752,2024-08-05,user751@example.com,Ireland,Apple Pay,194.71,GBP,success,2024-08,227.8107
+T00753,2024-12-27,user752@example.com,Spain,Apple Pay,319.52,EUR,success,2024-12,319.52
+T00754,2024-07-12,user753@example.com,Germany,Bank Transfer,296.6,EUR,success,2024-07,296.6
+T00755,2024-12-30,user754@example.com,Spain,Apple Pay,59.41,EUR,success,2024-12,59.41
+T00756,2024-12-02,user755@example.com,UK,Bank Transfer,284.91,EUR,refunded,2024-12,284.91
+T00757,2024-08-20,user756@example.com,France,Bank Transfer,62.65,USD,refunded,2024-08,57.638
+T00758,2024-10-31,user757@example.com,Germany,PayPal,448.08,EUR,success,2024-10,448.08
+T00759,2024-09-07,user758@example.com,Germany,PayPal,404.92,EUR,success,2024-09,404.92
+T00760,2024-07-03,user759@example.com,UK,Card,333.85,USD,success,2024-07,307.14200000000005
+T00761,2024-10-09,user760@example.com,UK,Bank Transfer,401.0,GBP,failed,2024-10,469.16999999999996
+T00762,2024-10-04,user761@example.com,UK,PayPal,211.41,EUR,success,2024-10,211.41
+T00763,2024-10-21,user762@example.com,UK,Bank Transfer,363.96,EUR,success,2024-10,363.96
+T00764,2024-01-24,,Germany,Card,302.41,EUR,refunded,2024-01,302.41
+T00765,2024-12-06,user764@example.com,UK,Apple Pay,352.46,EUR,success,2024-12,352.46
+T00766,2024-03-24,user765@example.com,UK,PayPal,364.96,USD,success,2024-03,335.7632
+T00767,2024-12-26,user766@example.com,France,Card,321.44,EUR,failed,2024-12,321.44
+T00768,2024-03-30,user767@example.com,Spain,PayPal,43.99,GBP,failed,2024-03,51.4683
+T00769,2024-10-28,user768@example.com,Germany,Bank Transfer,220.94,EUR,success,2024-10,220.94
+T00771,2024-06-13,user770@example.com,UK,PayPal,421.9,EUR,failed,2024-06,421.9
+T00772,2024-11-01,user771@example.com,Ireland,PayPal,368.66,EUR,success,2024-11,368.66
+T00773,2024-10-11,user772@example.com,Germany,Card,151.03,GBP,success,2024-10,176.7051
+T00774,2024-06-02,user773@example.com,UK,Bank Transfer,78.41,EUR,refunded,2024-06,78.41
+T00775,2024-02-07,user774@example.com,Spain,Apple Pay,243.48,GBP,success,2024-02,284.87159999999994
+T00776,2024-06-05,user775@example.com,France,Card,384.14,EUR,success,2024-06,384.14
+T00777,2024-10-13,user776@example.com,France,Bank Transfer,346.75,USD,success,2024-10,319.01
+T00778,2024-08-06,user777@example.com,Spain,Bank Transfer,225.33,GBP,success,2024-08,263.6361
+T00779,2024-01-25,user778@example.com,UK,Bank Transfer,429.14,EUR,success,2024-01,429.14
+T00780,2024-01-02,user779@example.com,UK,PayPal,336.82,EUR,refunded,2024-01,336.82
+T00781,2024-05-16,user780@example.com,Ireland,Bank Transfer,146.73,GBP,failed,2024-05,171.67409999999998
+T00782,2024-06-21,user781@example.com,France,Card,396.77,EUR,success,2024-06,396.77
+T00783,2024-11-20,user782@example.com,UK,PayPal,297.25,EUR,failed,2024-11,297.25
+T00784,2024-06-27,user783@example.com,Ireland,Bank Transfer,28.44,EUR,refunded,2024-06,28.44
+T00785,2024-12-19,user784@example.com,Ireland,Apple Pay,382.31,EUR,success,2024-12,382.31
+T00786,2024-07-29,user785@example.com,Ireland,Apple Pay,391.4,EUR,refunded,2024-07,391.4
+T00787,2024-08-10,user786@example.com,UK,Card,229.43,GBP,success,2024-08,268.43309999999997
+T00788,2024-03-31,user787@example.com,Ireland,Card,185.33,EUR,failed,2024-03,185.33
+T00789,2024-12-18,user788@example.com,Spain,Bank Transfer,192.66,EUR,success,2024-12,192.66
+T00790,2024-08-04,user789@example.com,France,PayPal,218.0,EUR,failed,2024-08,218.0
+T00791,2024-11-01,user790@example.com,UK,Apple Pay,28.37,USD,success,2024-11,26.1004
+T00792,2024-08-29,user791@example.com,UK,Bank Transfer,364.99,GBP,refunded,2024-08,427.0383
+T00793,2024-03-01,user792@example.com,UK,Card,154.22,EUR,success,2024-03,154.22
+T00794,2024-06-23,user793@example.com,Germany,Apple Pay,245.55,EUR,success,2024-06,245.55
+T00795,2024-08-13,user794@example.com,Germany,PayPal,422.45,USD,refunded,2024-08,388.654
+T00796,2024-10-08,user795@example.com,Spain,PayPal,148.94,EUR,success,2024-10,148.94
+T00797,2024-04-29,user796@example.com,France,Card,366.56,GBP,success,2024-04,428.87519999999995
+T00798,2024-04-17,user797@example.com,Germany,PayPal,170.27,EUR,refunded,2024-04,170.27
+T00799,2024-06-03,user798@example.com,Spain,Apple Pay,168.85,EUR,success,2024-06,168.85
+T00800,2024-05-30,user799@example.com,France,Bank Transfer,252.15,GBP,success,2024-05,295.0155
