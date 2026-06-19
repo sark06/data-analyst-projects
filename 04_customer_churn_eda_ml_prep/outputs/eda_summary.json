@@ -1,0 +1,16 @@
+{
+  "rows":700,
+  "columns":7,
+  "missing_values":{
+    "customer_id":0,
+    "tenure_months":0,
+    "monthly_charge":0,
+    "support_tickets":0,
+    "contract_type":0,
+    "auto_pay":0,
+    "churn":0
+  },
+  "churn_rate":0.3071,
+  "avg_tenure":36.7,
+  "avg_monthly_charge":70.27
+}
